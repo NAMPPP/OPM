@@ -1,0 +1,764 @@
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Crash type: 'java'
+Start time: '2026-11-08T10:56:32.858+0700'
+Crash time: '2026-11-08T10:56:32.858+0700'
+App ID: 'com.onepunchman.sea.x7sy'
+App version: '8.58.16.58'
+Rooted: 'No'
+API level: '33'
+OS version: '13'
+ABI list: 'arm64-v8a,armeabi-v7a,armeabi'
+Manufacturer: 'realme'
+Brand: 'realme'
+Model: 'RMX3370'
+Build fingerprint: 'realme/RMX3370/RE5473:13/TP1A.220905.001/R.d6d490_2_1:user/release-keys'
+pid: 21295, tid: 29327, name: 
+
+java stacktrace:
+org.litepal.exceptions.InvalidAttributesException: the version in litepal.xml is earlier than the current version
+	at org.litepal.parser.LitePalAttr.checkSelfValid(LitePalAttr.java:15)
+	at org.litepal.tablemanager.Connector.buildConnection(Connector.java:2)
+	at org.litepal.tablemanager.Connector.getWritableDatabase(Connector.java:1)
+	at org.litepal.tablemanager.Connector.getDatabase(Connector.java:1)
+	at org.litepal.Operator.deleteAll(Operator.java:2)
+	at org.litepal.LitePal.deleteAll(LitePal.kt:1)
+	at com.netease.nim.uikit.x7.manager.IMTranslateMessageCacheManager.lambda$clearExpiredMessage$1(IMTranslateMessageCacheManager.java:2)
+	at com.netease.nim.uikit.x7.manager.IMTranslateMessageCacheManager.aasm(Unknown Source:0)
+	at smwl.mr.run(Unknown Source:0)
+	at com.smwl.base.x7http.asm$asm.run(CatchErrorThreadPoolExecutor.java:1)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:463)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+
+logcat:
+--------- tail end of log main (/system/bin/logcat -b main -d -v threadtime -t 200 --pid 21295 *:D)
+--------- beginning of main
+11-08 10:56:31.525 21295 28932 D AudioPlayerProvider: Android API level: 33
+11-08 10:56:31.526 21295 28932 D nchman.sea.x7sy: PlayerBase::PlayerBase()
+11-08 10:56:31.526 21295 28932 D nchman.sea.x7sy: TrackPlayerBase::TrackPlayerBase()
+11-08 10:56:31.526 21295 28932 I libOpenSLES: android_audioPlayer_realize, channel mask 0x3
+11-08 10:56:31.526 21295 28932 I libOpenSLES: android_audioPlayer_realize, create default channel mask 0x3, channels 2
+11-08 10:56:31.526 21295 28932 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-08 10:56:31.526 21295 28932 D AudioTrackExtImpl: AudioTrackExtImpl init
+11-08 10:56:31.526 21295 28932 D AudioTrack: set(): streamType 3, sampleRate 48000, format 0x1, channelMask 0x3, frameCount 0, flags #104, notificationFrames -2, sessionId 57185, transferType 0, uid -1, pid -1
+11-08 10:56:31.526 21295 28932 I AudioTrack: set(): 0xb4000070ee39aa00, Create AudioTrackThread, tid = 29252
+11-08 10:56:31.542 21295 28932 E AudioSystem: invalid attributes { Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_UNKNOWN Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } when converting to stream
+11-08 10:56:31.543 21295 28932 I AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 0 -> 384
+11-08 10:56:31.543 21295 28932 I AudioTrack: createTrack_l(7108) on outputId(13) : 0xb4000070ee39aa00, mCblk = 0x725a1ff000,  mLatency = 56, mAfLatency = 48, frameCount = 384, mSampleRate = 48000, mFlags = 0x4, mReqFrameCount = 384, mNotificationFramesAct = 192
+11-08 10:56:31.546 21295 28932 D ListServiceUtils: mListServiceUtils::init CallingPid 21295
+11-08 10:56:31.546 21295 28932 D ListServiceUtils: mListServiceUtils::init this 0xb4000070ee3c78c0
+11-08 10:56:31.551 21295 28932 D AudioTrack: start(7108): prior state:STATE_STOPPED output 13 stream 3 session 57185
+11-08 10:56:31.576 21295 28932 D AudioTrackExtImpl: setAudioBoostTid
+11-08 10:56:31.577 21295 28932 D AudioTrackExtImpl: oplusDumpValue PID is 21295  Tid is 28932
+11-08 10:56:31.578 21295 28932 D nchman.sea.x7sy: PlayerBase::PlayerBase()
+11-08 10:56:31.579 21295 28932 D nchman.sea.x7sy: TrackPlayerBase::TrackPlayerBase()
+11-08 10:56:31.605 21295 28932 D luajc   : LuaJavaBridge::callJavaStaticMethod(lua_State *L)
+11-08 10:56:31.605 21295 28932 D JniHelper: JniHelper::getJavaVM(), pthread_self() = 485792718000
+11-08 10:56:31.605 21295 28932 D JniHelper: JniHelper::getJavaVM(), pthread_self() = 485792718000
+11-08 10:56:31.605 21295 28932 D luajc   : LuaJavaBridge::callJavaStaticMethod("com.sdk.util.SDKUtils", "isNotNeedCheckStoragePermission", args, "(Ljava/util/HashMap;)Ljava/lang/String;") SUCCESS
+11-08 10:56:31.606 21295 28932 I CrashReport: [cocos2d-x] remove user data: KosViewInfo
+11-08 10:56:31.606 21295 28932 D JniHelper: JniHelper::getJavaVM(), pthread_self() = 485792718000
+11-08 10:56:31.606 21295 28932 I CrashReport: [cocos2d-x] trying to call method: removeUserData
+11-08 10:56:31.606 21295 28932 I CrashReport: [cocos2d-x] put user data: KosViewInfo:loginScene,loginView
+11-08 10:56:31.606 21295 28932 D JniHelper: JniHelper::getJavaVM(), pthread_self() = 485792718000
+11-08 10:56:31.606 21295 28932 I CrashReport: [cocos2d-x] trying to call method: putUserData
+11-08 10:56:32.334 21295 28932 D luajc   : LuaJavaBridge::callJavaStaticMethod(lua_State *L)
+11-08 10:56:32.334 21295 28932 D JniHelper: JniHelper::getJavaVM(), pthread_self() = 485792718000
+11-08 10:56:32.334 21295 28932 D luajc   : key-logKey
+11-08 10:56:32.334 21295 28932 D luajc   : key-jsonStr
+11-08 10:56:32.334 21295 28932 D JniHelper: JniHelper::getJavaVM(), pthread_self() = 485792718000
+11-08 10:56:32.334 21295 28932 D luajc   : LuaJavaBridge::callJavaStaticMethod("com.sdk.util.SDKUtils", "sendAnalyticsInfoLog", args, "(Ljava/util/HashMap;)V") SUCCESS
+11-08 10:56:32.346 21295 29262 D TrafficStats: tagSocket(3) with statsTag=0xffffffff, statsUid=-1
+11-08 10:56:32.348 21295 28932 D luajc   : LuaJavaBridge::callJavaStaticMethod(lua_State *L)
+11-08 10:56:32.348 21295 28932 D JniHelper: JniHelper::getJavaVM(), pthread_self() = 485792718000
+11-08 10:56:32.349 21295 28932 D luajc   : LuaJavaBridge::callJavaStaticMethod("com.sdk.util.SDKUtils", "login", args, "()V") SUCCESS
+11-08 10:56:32.350 21295 21295 I msg     : loginUUID == 760f58c0-575d-41db-bd1e-6cc72348618b
+11-08 10:56:32.353 21295 21295 D [x7_shadow_log]: invokeAfterInit: name = login, pluginState = 5
+11-08 10:56:32.353 21295 21295 I [x7_shadow_log]: invokePluginMethod: name = login
+11-08 10:56:32.354 21295 29266 D TrafficStats: tagSocket(122) with statsTag=0xffffffff, statsUid=-1
+11-08 10:56:32.355 21295 21295 D [x7_log]: 调用login方法
+11-08 10:56:32.433 21295 21295 D [x7_log]: smsdk permissionDeclareIsRead: true
+11-08 10:56:32.445 21295 21295 E ActivityHooker: uninstall: mHomeActivityLifecycleCallback is not initialized!
+11-08 10:56:32.445 21295 21295 E ActivityHooker: uninstall: mHomeActivityLifecycleCallback is not initialized!
+11-08 10:56:32.478 21295 21295 D hao     : jenkinsReleasePack:false
+11-08 10:56:32.479 21295 21295 I XIM[21295]: XIM static initializer
+11-08 10:56:32.479 21295 21295 I XIM[21295]: initBaseAndNIM NEED_INIT_BASE
+11-08 10:56:32.479 21295 21295 I MMKV    : Disable checkProcessMode()
+11-08 10:56:32.479 21295 21295 I MMKV    : <MMKV.cpp:207::initializeMMKV> root dir: /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPlugin_appPlugin/mmkv
+11-08 10:56:32.480 21295 21295 D hao     : jenkinsReleasePack:false
+11-08 10:56:32.480 21295 21295 I NIMClient: NIMClient initSDK
+11-08 10:56:32.494 21295 29279 D [ui]AppDir: 2/DATA /data/user/0/com.onepunchman.sea.x7sy/ShadowPlugin_appPlugin/874b601f1575fe162cc53f2a83c2db6c
+11-08 10:56:32.494 21295 29279 D [ui]AppDir: 2/CACHE /data/user/0/com.onepunchman.sea.x7sy/cache/ShadowPlugin_appPlugin/874b601f1575fe162cc53f2a83c2db6c
+11-08 10:56:32.495 21295 21295 D NIMUtil : get processName from Cache = com.onepunchman.sea.x7sy
+11-08 10:56:32.501 21295 29279 I [ui]DeviceIdStore: 2/get file succeed, path=/data/user/0/com.onepunchman.sea.x7sy/ShadowPlugin_appPlugin/874b601f1575fe162cc53f2a83c2db6c/nim_device2
+11-08 10:56:32.502 21295 29279 I [ui]DeviceIdStore: 2/read device id from nim_device2: 6b1333da-e144-4987-904f-926c8e2ad9bd
+11-08 10:56:32.502 21295 29279 I [ui]DeviceIdStore: 1788255317129
+11-08 10:56:32.502 21295 29281 I db      : ready to open db, path=/data/user/0/com.onepunchman.sea.x7sy/ShadowPlugin_appPlugin/event.db
+11-08 10:56:32.502 21295 29279 I [ui]db  : 32704/open plain database: event.db
+11-08 10:56:32.504 21295 29279 W [ui]NetworkUtil: 2/getNetworkOperatorName without permission to READ_PHONE_STATE
+11-08 10:56:32.504 21295 29279 I [ui]ui  : 2/********** SDK UI Process Start **** Version: 9.12.0/91200/1/3c707a4082 **** APPKEY: 874b601f1575fe162cc53f2a83c2db6c/null **** BUILD Version:33/30/realme/RMX3370 **** reduced IM:false **********
+11-08 10:56:32.505 21295 29279 I [ui]PluginLoader: 2/plugin [com.netease.nimlib.chatroom.plugin.Plugin] found
+11-08 10:56:32.505 21295 29279 I [ui]PluginLoader: 2/plugin [com.netease.nimlib.lucene.plugin.Plugin] found
+11-08 10:56:32.506 21295 29279 I [ui]PluginLoader: 2/plugin [com.netease.nimlib.mixpush.plugin.Plugin] found
+11-08 10:56:32.506 21295 29279 I [ui]PluginLoader: 2/plugin [com.netease.nimlib.superteam.plugin.Plugin] found
+11-08 10:56:32.506 21295 29279 I [ui]db  : 32704/event db count = 0
+11-08 10:56:32.513 21295 29283 D NIMUtil : get processName from Cache = com.onepunchman.sea.x7sy
+11-08 10:56:32.515 21295 29279 I [ui]framework: 2/PluginInteractManager add ChatRoomInteract
+11-08 10:56:32.516 21295 29279 I [ui]framework: 2/PluginInteractManager add MixPushInteract
+11-08 10:56:32.519 21295 29279 I [ui]db  : 32706/open plain database: abtest.db
+11-08 10:56:32.521 21295 29283 I db      : ready to open db, path=/data/user/0/com.onepunchman.sea.x7sy/ShadowPlugin_appPlugin/abtest.db
+11-08 10:56:32.524 21295 29279 I [ui]ABTestManager: 32706/processEidOpen isEidOpen = false
+11-08 10:56:32.526 21295 29279 I [ui]AGCHelper: 32706/setGrowDeviceEnable = false
+11-08 10:56:32.528 21295 29279 I [ui]ABTestManager: 32706/processApiTraceOpen apiTraceOpen = false
+11-08 10:56:32.530 21295 29279 I [ui]ABTestManager: 32706/processDatabaseFunctionTransformationOpen SCHEME_DATABON_TRANSFORMATION_OPEN = true
+11-08 10:56:32.530 21295 29279 I [ui]AGCHelper: 32706/setDatabaseFunctionTransformationEnable = true
+11-08 10:56:32.534 21295 29279 I [ui]AGCHelper: 32706/isDatabaseFunctionTransformationEnable = true
+11-08 10:56:32.534 21295 29279 I [ui]AGCHelper: 32706/isDatabaseMessageParameterizedEnable = true
+11-08 10:56:32.534 21295 29279 I [ui]ABTestManager: 32706/processDatabaseMessageParameterizedEnable SCHEME_DATABASE_MESSAGE_PARAMETERIZED_OPEN_KEY = true
+11-08 10:56:32.534 21295 29279 I [ui]AGCHelper: 32706/setDatabaseMessageParameterizedEnable = true
+11-08 10:56:32.536 21295 29279 I [ui]DeviceIdStore: 32706/read device id from ram: 6b1333da-e144-4987-904f-926c8e2ad9bd
+11-08 10:56:32.536 21295 29279 I [ui]DeviceIdStore: 1788255317129
+11-08 10:56:32.538 21295 29283 D NIMUtil : get processName from Cache = com.onepunchman.sea.x7sy
+11-08 10:56:32.538 21295 29279 D [ui]ArtemisHelper: 32706/onLoginDone code: RES_SUCCESS, try to start Artemis.
+11-08 10:56:32.538 21295 29279 D [ui]ArtemisHelper: 32706/Artemis is enable in ABTest: false
+11-08 10:56:32.539 21295 29279 D [ui]nim_http: 32710/http post url=https://abt-online.netease.im/v1/api/abt/client/getExperimentInfo
+11-08 10:56:32.553 21295 29279 I [ui]core: 32710/start NimService from 1
+11-08 10:56:32.553 21295 29287 I NimService: start NimService context = com.tencent.shadow.core.runtime.ShadowApplication@672dc4
+11-08 10:56:32.553 21295 29287 E [x7_shadow_log]: sureProcessAlive start 
+11-08 10:56:32.553 21295 29287 E [x7_shadow_log]: mRemote.isBinderAlive(): true
+11-08 10:56:32.553 21295 29287 E [x7_shadow_log]: startService start
+11-08 10:56:32.553 21295 29287 E [x7_shadow_log] ????: startPluginService 1
+11-08 10:56:32.553 21295 29287 E [x7_shadow_log] ????: startPluginService 2
+11-08 10:56:32.553 21295 29287 E [x7_shadow_log] ????: startPluginService 3
+11-08 10:56:32.553 21295 29287 E [x7_shadow_log] ????: startPluginService 4-mRemote:android.os.BinderProxy@5bfa766
+11-08 10:56:32.553 21295 29287 E [x7_shadow_log] ????: startPluginService 4: com.netease.nimlib.service.NimService
+11-08 10:56:32.561 21295 29279 I [ui]TransExec: 2/register service completed, total size=20
+11-08 10:56:32.562 21295 29279 D [ui]AppForegroundWatcher: 2/app register activity lifecycle callbacks success
+11-08 10:56:32.568 21295 29279 D [ui]NetworkListenerHelper: 32712/onAvailable#network=227
+11-08 10:56:32.570 21295 29279 I [ui]NetworkUtil: 32712/getNetWorkState result = WIFI
+11-08 10:56:32.570 21295 29279 D [ui]NetworkListenerHelper: 32712/onAvailable#netWorkState=WIFI
+11-08 10:56:32.576 21295 29279 D [ui]NetworkListenerHelper: 32712/onCapabilitiesChanged#network=227, capabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=10192Kbps LinkDnBandwidth>=72528Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /192.168.1.174, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 6, RSSI: -45, Link speed: 960Mbps, Tx Link speed: 960Mbps, Max Supported Tx Link speed: 1200Mbps, Rx Link speed: 720Mbps, Max Supported Rx Link speed: 1200Mbps, Frequency: 5600MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>> SignalStrength: -45 UnderlyingNetworks: Null]
+11-08 10:56:32.576 21295 29279 D [ui]NetworkListenerHelper: 32712/onCapabilitiesChanged#网络类型为wifi
+11-08 10:56:32.576 21295 29279 W [ui]NetworkUtil: 32712/getNetworkOperatorName without permission to READ_PHONE_STATE
+11-08 10:56:32.674 21295 29205 I hao     : 头条TgData:{"errorno":"2","tips_type":1,"tips_title":"","errormsg":"数据没有变动\/IDFA有误，无需更新！","tgid":"20490","language":"5","isNeedReportToutiao":"-1","isNewInstall":"-1","installInfo":{"new_uuid":"49c85dbc636923e99b8a4b683476b2b1","imei":"","oaid":"A05F967F014C42C3A261B143702F2A91c334ca4a581e23a6f0d15aa7b105f32e"},"installId":"55261216","iosInstallPackageArea":"1","lastLoginMemberTgid":"20490","isChannelPackage":"-1","channelAppId":"","channelPackageType":"-1","channelShowMode":"1","x7install":{"tgid":"","gid":"","toutiao_wechat_token":"","toutiao_wechat_req_id":"","open_id":"","toutiao_loading_page_click_id":"","gdtClickId":"","bdVid":"","ksCallback":"","bookmarkId":""},"devHeader":{"oaid":"","imei":"","new_uuid":"49c85dbc636923e99b8a4b683476b2b1","uuid":"43b9dd5f2d694032cf32fc98d3c0cc5c","idfa":"49c85dbc636923e99b8a4b683476b2b1","meid":"","is_simulator":"-1","tgid":"102165","ua":"Mozilla\/5.0 (Linux; Android 13; RMX3370 Build\/TP1A.220905.001; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/156.0.8078.47 Mobile Safari\/537.36","temp_idfa":"","simulator_name":"","packtask_id":"189301","customization_system_type":"ColorOS","customization_system_version":"","widthPixels":"2290","heightPixels":"1039","sdkLoginType":"1","teamId":"","teamId_exp":"","network":"wifi","packageName":"com.onepunchman.sea.x7sy","hostPackageName":"com.onepunchman.sea.x7sy","isDiscountPromotion":"-1","subcontractParam":"-1","firstStartTime":"0","game_version_code":"193"}}
+11-08 10:56:32.688 21295 29205 D hao     : Uuid- resetEmpty
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log] ????: startPluginService 5
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log] ????: startPluginService 6
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log] ????: startPluginService 7
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log] ????: startPluginService 8
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log]????: startPluginService 9
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log] ????: startPluginService 10
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log]: startService end
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log]: startService end with not null, componentName: com.netease.nimlib.service.NimService
+11-08 10:56:32.692 21295 29287 I NIMClient: bindService context = com.tencent.shadow.core.runtime.ShadowApplication@672dc4
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log]: sureProcessAlive start 
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log]: mRemote.isBinderAlive(): true
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log]: startService start
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log] ????: startPluginService 1
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log] ????: startPluginService 2
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log] ????: startPluginService 3
+11-08 10:56:32.692 21295 29279 I [ui]main_conn: 32710/doConnect: tag#main_conn count#0
+11-08 10:56:32.692 21295 29287 E [x7_shadow_log] ????: startPluginService 4-mRemote:android.os.BinderProxy@5bfa766
+11-08 10:56:32.693 21295 29287 E [x7_shadow_log] ????: startPluginService 4: com.netease.nimlib.service.NimService
+11-08 10:56:32.693 21295 29279 I [ui]main_conn: 32710/doConnect: start & bind service#Intent { cmp=com.onepunchman.sea.x7sy/com.netease.nimlib.service.NimService (has extras) }
+11-08 10:56:32.694 21295 29287 E [x7_shadow_log] ????: startPluginService 5
+11-08 10:56:32.694 21295 29287 E [x7_shadow_log] ????: startPluginService 6
+11-08 10:56:32.694 21295 29287 E [x7_shadow_log] ????: startPluginService 7
+11-08 10:56:32.694 21295 29287 E [x7_shadow_log] ????: startPluginService 8
+11-08 10:56:32.694 21295 29287 E [x7_shadow_log]????: startPluginService 9
+11-08 10:56:32.694 21295 29287 E [x7_shadow_log] ????: startPluginService 10
+11-08 10:56:32.694 21295 29287 E [x7_shadow_log]: startService end
+11-08 10:56:32.694 21295 29287 E [x7_shadow_log]: startService end with not null, componentName: com.netease.nimlib.service.NimService
+11-08 10:56:32.695 21295 29287 E [x7_shadow_log]: sureProcessAlive start 
+11-08 10:56:32.695 21295 29287 E [x7_shadow_log]: mRemote.isBinderAlive(): true
+11-08 10:56:32.695 21295 29287 E [x7_shadow_log]: bindPluginService start
+11-08 10:56:32.697 21295 29287 E [x7_shadow_log]: bindPluginService end
+11-08 10:56:32.699 21295 29279 I [ui]NtpDaemon: 32710/NtpDaemon NtpConfig{rttMin=30, rttMax=3000, rttCount=10}
+11-08 10:56:32.700 21295 29287 I System.out: [okhttp]:check permission begin!
+11-08 10:56:32.700 21295 29287 I System.out: [okhttp]:not MMS!
+11-08 10:56:32.700 21295 29287 I System.out: [okhttp]:not Email!
+11-08 10:56:32.728 21295 29279 D [ui]AppForegroundWatcher: 2/add AppForegroundObserver
+11-08 10:56:32.742 21295 29279 D [ui]AppForegroundWatcher: 2/add AppForegroundObserver
+11-08 10:56:32.744 21295 29279 I [ui]ui  : 2/ObserverManager add AuthServiceObserver/observeOnlineStatus
+11-08 10:56:32.744 21295 29279 D [ui]set status: 2/SDKState.getStatus():UNLOGIN
+11-08 10:56:32.744 21295 29279 D [ui]room: 2/chat room startup
+11-08 10:56:32.749 21295 29279 I [ui]ui  : 32713/ResponseFactoryUI register handlers done
+11-08 10:56:32.751 21295 29279 I [ui]mix_push: 2/mix push init config = null
+11-08 10:56:32.753 21295 29279 I [ui]InvocationMgr: 2/on notify: Transaction: [id: 2, sync: false, priority: 0,   method: SdkLifecycleObserver/observeMainProcessInitCompleteResult]
+11-08 10:56:32.753 21295 29279 I [ui]ui  : 2/main process init done!
+11-08 10:56:32.753 21295 29279 I [ui]ui  : 2/SDK check PreferenceContentProvider
+11-08 10:56:32.754 21295 29279 I [ui]ui  : 2/ComponentName = ComponentInfo{com.onepunchman.sea.x7sy/com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider}
+11-08 10:56:32.754 21295 29279 I [ui]ui  : 2/class com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider is ContentProvider
+11-08 10:56:32.760 21295 21295 D NIMUtil : get processName from Cache = com.onepunchman.sea.x7sy
+11-08 10:56:32.760 21295 29279 I [ui]ui  : 2/ComponentInfo = ContentProviderInfo{name=com.smwl.smsdk.plugin.ipc.provider.preference className=com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider}
+11-08 10:56:32.760 21295 29279 E [ui]SDKManifestCheck: 2/PreferenceContentProvider config of authority in AndroidManifest.xml is invalid, please check it !
+11-08 10:56:32.760 21295 21295 D NIMUtil : get processName from Cache = com.onepunchman.sea.x7sy
+11-08 10:56:32.760 21295 29279 E [ui]SDKManifestCheck: 2/PreferenceContentProvider config of authority in AndroidManifest.xml is invalid, please check it !
+11-08 10:56:32.760 21295 29279 E [ui]SDKManifestCheck: 2/PreferenceContentProvider config of authority in AndroidManifest.xml is invalid, please check it !
+11-08 10:56:32.760 21295 29279 E [ui]SDKManifestCheck: 2/PreferenceContentProvider config of processName in AndroidManifest.xml should be empty, please check it !
+11-08 10:56:32.760 21295 29279 E [ui]SDKManifestCheck: 2/PreferenceContentProvider config of processName in AndroidManifest.xml should be empty, please check it !
+11-08 10:56:32.760 21295 29279 E [ui]SDKManifestCheck: 2/PreferenceContentProvider config of processName in AndroidManifest.xml should be empty, please check it !
+11-08 10:56:32.761 21295 29279 I [ui]ui  : 2/SDK AndroidManifest.xml mustCheck success !
+11-08 10:56:32.780 21295 21295 D Demo.ScreenUtil: screenWidth=2290 screenHeight=1039 density=2.55
+11-08 10:56:32.784 21295 21295 I StickerManager: Sticker Manager init...
+11-08 10:56:32.788 21295 29321 I Log     : 32715/shrink log success
+11-08 10:56:32.791 21295 29321 I LoginSyncDataStatusObserver: 2/observe login sync data completed event on Application create
+11-08 10:56:32.792 21295 29279 I [ui]ui  : 2/ObserverManager add AuthServiceObserver/observeLoginSyncDataStatus
+11-08 10:56:32.793 21295 29279 I [ui]ui  : 2/ObserverManager add FriendServiceObserve/observeFriendChangedNotify
+11-08 10:56:32.793 21295 29279 I [ui]ui  : 2/ObserverManager add FriendServiceObserve/observeBlackListChangedNotify
+11-08 10:56:32.794 21295 29279 I [ui]ui  : 2/ObserverManager add UserServiceObserve/observeUserInfoUpdate
+11-08 10:56:32.796 21295 29279 I [ui]ui  : 2/ObserverManager add TeamServiceObserver/observeTeamUpdate
+11-08 10:56:32.796 21295 29279 I [ui]ui  : 2/ObserverManager add TeamServiceObserver/observeTeamRemove
+11-08 10:56:32.797 21295 29279 I [ui]ui  : 2/ObserverManager add TeamServiceObserver/observeMemberUpdate
+11-08 10:56:32.797 21295 29279 I [ui]ui  : 2/ObserverManager add TeamServiceObserver/observeMemberRemove
+11-08 10:56:32.801 21295 29279 I [ui]ui  : 2/ObserverManager add SuperTeamServiceObserver/observeTeamUpdate
+11-08 10:56:32.801 21295 29279 I [ui]ui  : 2/ObserverManager add SuperTeamServiceObserver/observeTeamRemove
+11-08 10:56:32.801 21295 29279 I [ui]ui  : 2/ObserverManager add SuperTeamServiceObserver/observeMemberUpdate
+11-08 10:56:32.802 21295 29279 I [ui]ui  : 2/ObserverManager add SuperTeamServiceObserver/observeMemberRemove
+11-08 10:56:32.802 21295 29279 I [ui]ui  : 2/ObserverManager add RobotServiceObserve/observeRobotChangedNotify
+11-08 10:56:32.804 21295 29279 I [ui]ui  : 2/ObserverManager add ChatRoomServiceObserver/observeReceiveMessage
+11-08 10:56:32.818 21295 29279 I [ui]TransExec: 32707/execute Transaction: [id: 17, sync: false, priority: 0,   method: MsgService/registerCustomAttachmentParser]
+11-08 10:56:32.821 21295 29279 I [ui]ui  : 2/ObserverManager add MsgServiceObserve/observeRevokeMessage
+11-08 10:56:32.823 21295 29279 I [ui]TransExec: 32707/execute Transaction: [id: 19, sync: false, priority: 0,   method: MsgService/registerIMMessageFilter]
+11-08 10:56:32.826 21295 29279 I [ui]ui  : 32707/register IMMessageFilter
+11-08 10:56:32.826 21295 29279 I [ui]ui  : 2/ObserverManager add MsgServiceObserve/observeBroadcastMessage
+11-08 10:56:32.828 21295 29279 I [ui]ui  : 2/ObserverManager add MsgServiceObserve/observeRecentContact
+11-08 10:56:32.829 21295 29279 I [ui]ui  : 2/ObserverManager add MsgServiceObserve/observeReceiveMessage
+11-08 10:56:32.834 21295 21295 I XIM[21295]: initBaseAndNIM DONE.
+11-08 10:56:32.835 21295 21295 D NIMUtil : get processName from Cache = com.onepunchman.sea.x7sy
+11-08 10:56:32.837 21295 21295 I XIM[21295]: initOnActivity DONE.
+11-08 10:56:32.840 21295 29279 I [ui]TransExec: 32707/execute Transaction: [id: 23, sync: false, priority: 0,   method: TeamService/searchTeam]
+11-08 10:56:32.841 21295 29279 I [ui]core: 32707/add send task: Request [SID 8 , CID 9]
+11-08 10:56:32.842 21295 29279 I [ui]core: 32707/pend task: Request [SID 8 , CID 9]
+11-08 10:56:32.842 21295 29323 E hao     : org.litepal.exceptions.InvalidAttributesException: the version in litepal.xml is earlier than the current version
+11-08 10:56:32.842 21295 29323 E hao     : 	at org.litepal.parser.LitePalAttr.checkSelfValid(LitePalAttr.java:15)
+11-08 10:56:32.842 21295 29323 E hao     : 	at org.litepal.tablemanager.Connector.buildConnection(Connector.java:2)
+11-08 10:56:32.842 21295 29323 E hao     : 	at org.litepal.tablemanager.Connector.getWritableDatabase(Connector.java:1)
+11-08 10:56:32.842 21295 29323 E hao     : 	at org.litepal.tablemanager.Connector.getDatabase(Connector.java:1)
+11-08 10:56:32.842 21295 29323 E hao     : 	at org.litepal.Operator.deleteAll(Operator.java:2)
+11-08 10:56:32.842 21295 29323 E hao     : 	at org.litepal.LitePal.deleteAll(LitePal.kt:1)
+11-08 10:56:32.842 21295 29323 E hao     : 	at com.netease.nim.uikit.x7.manager.IMTranslateMessageCacheManager.lambda$clearExpiredMessage$1(IMTranslateMessageCacheManager.java:2)
+11-08 10:56:32.842 21295 29323 E hao     : 	at com.netease.nim.uikit.x7.manager.IMTranslateMessageCacheManager.aasm(Unknown Source:0)
+11-08 10:56:32.842 21295 29323 E hao     : 	at smwl.mr.run(Unknown Source:0)
+11-08 10:56:32.842 21295 29323 E hao     : 	at com.smwl.base.x7http.asm$asm.run(CatchErrorThreadPoolExecutor.java:1)
+11-08 10:56:32.842 21295 29323 E hao     : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:463)
+11-08 10:56:32.842 21295 29323 E hao     : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-08 10:56:32.842 21295 29323 E hao     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+11-08 10:56:32.842 21295 29323 E hao     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+11-08 10:56:32.842 21295 29323 E hao     : 	at java.lang.Thread.run(Thread.java:1012)
+11-08 10:56:32.843 21295 29279 I [ui]TransExec: 32707/execute Transaction: [id: 24, sync: false, priority: 0,   method: SuperTeamService/searchTeam]
+11-08 10:56:32.843 21295 29279 I [ui]core: 32707/add send task: Request [SID 21 , CID 9]
+11-08 10:56:32.843 21295 29279 I [ui]core: 32707/pend task: Request [SID 21 , CID 9]
+11-08 10:56:32.867 21295 21295 D WindowManager: Add to mViews: DecorView@2570e56[AppActivity],pkg= com.onepunchman.sea.x7sy
+--------- tail end of log system (/system/bin/logcat -b system -d -v threadtime -t 50 --pid 21295 *:W)
+--------- beginning of system
+11-08 10:56:21.160 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.161 21295 29134 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.179 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.194 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.254 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.261 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.394 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.400 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.420 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.469 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.479 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.538 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.718 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.729 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:21.766 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:22.221 21295 29205 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:22.231 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.442 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.450 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.456 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.462 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.469 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.476 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.669 21295 29275 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.671 21295 29205 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.758 21295 21295 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.849 21295 29323 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.855 21295 29323 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.916 21295 29345 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.917 21295 29341 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+11-08 10:56:32.922 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=<empty> and /system/framework/framework-res.apk}
+11-08 10:56:32.922 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=/my_bigball/overlay/GmsConfigOverlayCommonCN/GmsConfigOverlayCommonCN.apk}
+11-08 10:56:32.922 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=/system_ext/overlay/framework_res_overlay.domestic.realme.apk}
+11-08 10:56:32.922 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=/product/overlay/FrameworksResCommon_Sys.apk}
+11-08 10:56:32.922 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=/vendor/overlay/FrameworksResTarget.apk}
+11-08 10:56:32.922 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=/system_ext/overlay/framework_res_overlay_Network.apk}
+11-08 10:56:32.922 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=/my_bigball/overlay/DefaultMmsOverlayConfig.apk}
+11-08 10:56:32.922 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=/product/overlay/android_framework_res_overlay.display.product.21619.apk}
+11-08 10:56:32.922 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=/system_ext/overlay/OplusFrameworkBluetoothResource.apk}
+11-08 10:56:32.923 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=<empty> and /system_ext/framework/oplus-framework-res.apk}
+11-08 10:56:32.923 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=/product/overlay/oplus_framework_res_overlay.display.product.21619.apk}
+11-08 10:56:32.923 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=/product/overlay/oplus_framework_res_rro_realme.apk}
+11-08 10:56:32.923 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=<empty> and /data/app/~~Q9EdxouhWlT5uYohMoPpVA==/com.onepunchman.sea.x7sy-xVwRBAzVXQw7MLE19rWrvw==/base.apk}
+11-08 10:56:32.923 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=<empty> and /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk}
+11-08 10:56:32.923 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=<empty> and /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk}
+11-08 10:56:32.923 21295 29347 E ResourcesImplExt: the AssetManager's apkAsset: ApkAssets{path=<empty> and /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk}
+11-08 10:56:32.929 21295 29324 W PackageParser: Unknown element under <manifest>: queries at /data/user/0/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk Binary XML file line #82
+--------- tail end of log events (/system/bin/logcat -b events -d -v threadtime -t 50 --pid 21295 *:I)
+--------- beginning of events
+11-08 10:56:15.990 21295 21295 I wm_on_create_called: [187108832,ourpalm.android.channels.x7game.Ourpalm_X7Game_Splash,performCreate]
+11-08 10:56:15.990 21295 21295 I wm_on_start_called: [187108832,ourpalm.android.channels.x7game.Ourpalm_X7Game_Splash,handleStartActivity]
+11-08 10:56:15.991 21295 21295 I wm_on_resume_called: [187108832,ourpalm.android.channels.x7game.Ourpalm_X7Game_Splash,RESUME_ACTIVITY]
+11-08 10:56:16.018 21295 21295 I wm_on_top_resumed_gained_called: [187108832,ourpalm.android.channels.x7game.Ourpalm_X7Game_Splash,topStateChangedWhenResumed]
+11-08 10:56:18.009 21295 21295 I wm_on_top_resumed_lost_called: [187108832,ourpalm.android.channels.x7game.Ourpalm_X7Game_Splash,topStateChangedWhenResumed]
+11-08 10:56:18.010 21295 21295 I wm_on_paused_called: [187108832,ourpalm.android.channels.x7game.Ourpalm_X7Game_Splash,performPause]
+11-08 10:56:18.186 21295 21295 I wm_on_create_called: [233017375,org.cocos2dx.lua.AppActivity,performCreate]
+11-08 10:56:18.187 21295 21295 I wm_on_start_called: [233017375,org.cocos2dx.lua.AppActivity,handleStartActivity]
+11-08 10:56:18.190 21295 21295 I wm_on_resume_called: [233017375,org.cocos2dx.lua.AppActivity,RESUME_ACTIVITY]
+11-08 10:56:18.203 21295 21295 I wm_on_top_resumed_gained_called: [233017375,org.cocos2dx.lua.AppActivity,topStateChangedWhenResumed]
+11-08 10:56:18.514 21295 21295 I wm_on_stop_called: [187108832,ourpalm.android.channels.x7game.Ourpalm_X7Game_Splash,LIFECYCLER_STOP_ACTIVITY]
+11-08 10:56:18.515 21295 21295 I wm_on_destroy_called: [187108832,ourpalm.android.channels.x7game.Ourpalm_X7Game_Splash,performDestroy]
+
+open files:
+    fd 0: /dev/null
+    fd 1: /dev/null
+    fd 2: /dev/null
+    fd 3: anon_inode:[eventfd]
+    fd 4: /sys/kernel/tracing/trace_marker
+    fd 5: anon_inode:[eventfd]
+    fd 6: socket:[31180523]
+    fd 7: /apex/com.android.art/javalib/core-oj.jar
+    fd 8: /apex/com.android.art/javalib/core-libart.jar
+    fd 9: /apex/com.android.art/javalib/okhttp.jar
+    fd 10: /apex/com.android.art/javalib/bouncycastle.jar
+    fd 11: /apex/com.android.art/javalib/apache-xml.jar
+    fd 12: /system/framework/framework.jar
+    fd 13: /system/framework/framework-graphics.jar
+    fd 14: /system/framework/ext.jar
+    fd 15: /system/framework/telephony-common.jar
+    fd 16: /system/framework/voip-common.jar
+    fd 17: /system/framework/ims-common.jar
+    fd 18: /system/framework/tcmiface.jar
+    fd 19: /system/framework/telephony-ext.jar
+    fd 20: /system/framework/qcom.fmradio.jar
+    fd 21: /system/framework/QPerformance.jar
+    fd 22: /system/framework/UxPerformance.jar
+    fd 23: /dev/null
+    fd 24: pipe:[31204916]
+    fd 25: /system/framework/WfdCommon.jar
+    fd 26: /system/framework/oplus-framework.jar
+    fd 27: /system/framework/oplus-support-wrapper.jar
+    fd 28: /system/framework/subsystem-framework.jar
+    fd 29: /apex/com.android.i18n/javalib/core-icu4j.jar
+    fd 30: /apex/com.android.adservices/javalib/framework-adservices.jar
+    fd 31: /apex/com.android.adservices/javalib/framework-sdksandbox.jar
+    fd 32: /apex/com.android.appsearch/javalib/framework-appsearch.jar
+    fd 33: /apex/com.android.conscrypt/javalib/conscrypt.jar
+    fd 34: /apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar
+    fd 35: /apex/com.android.media/javalib/updatable-media.jar
+    fd 36: /apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar
+    fd 37: /apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar
+    fd 38: /apex/com.android.os.statsd/javalib/framework-statsd.jar
+    fd 39: /apex/com.android.permission/javalib/framework-permission.jar
+    fd 40: /apex/com.android.permission/javalib/framework-permission-s.jar
+    fd 41: /apex/com.android.scheduling/javalib/framework-scheduling.jar
+    fd 42: /apex/com.android.sdkext/javalib/framework-sdkextensions.jar
+    fd 43: /apex/com.android.tethering/javalib/framework-connectivity.jar
+    fd 44: /apex/com.android.tethering/javalib/framework-connectivity-t.jar
+    fd 45: /apex/com.android.tethering/javalib/framework-tethering.jar
+    fd 46: /apex/com.android.uwb/javalib/framework-uwb.jar
+    fd 47: /apex/com.android.wifi/javalib/framework-wifi.jar
+    fd 48: /dev/null
+    fd 49: /dev/urandom
+    fd 50: /system/framework/framework-res.apk
+    fd 51: /my_bigball/overlay/GmsConfigOverlayCommonCN/GmsConfigOverlayCommonCN.apk
+    fd 52: /system_ext/overlay/framework_res_overlay.domestic.realme.apk
+    fd 53: /product/overlay/FrameworksResCommon_Sys.apk
+    fd 54: /vendor/overlay/FrameworksResTarget.apk
+    fd 55: /system_ext/overlay/framework_res_overlay_Network.apk
+    fd 56: /my_bigball/overlay/DefaultMmsOverlayConfig.apk
+    fd 57: /product/overlay/android_framework_res_overlay.display.product.21619.apk
+    fd 58: /system_ext/overlay/OplusFrameworkBluetoothResource.apk
+    fd 59: /system_ext/framework/oplus-framework-res.apk
+    fd 60: /product/overlay/oplus_framework_res_overlay.display.product.21619.apk
+    fd 61: /product/overlay/oplus_framework_res_rro_realme.apk
+    fd 62: /dev/null
+    fd 63: /dev/null
+    fd 64: /dev/null
+    fd 65: /dev/null
+    fd 66: pipe:[31204916]
+    fd 67: /dev/binderfs/binder
+    fd 68: anon_inode:[eventfd]
+    fd 69: anon_inode:[eventpoll]
+    fd 70: socket:[31180534]
+    fd 71: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 72: /data/app/~~Q9EdxouhWlT5uYohMoPpVA==/com.onepunchman.sea.x7sy-xVwRBAzVXQw7MLE19rWrvw==/base.apk
+    fd 73: /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+    fd 74: socket:[31206294]
+    fd 75: anon_inode:[eventfd]
+    fd 76: anon_inode:[eventpoll]
+    fd 77: anon_inode:[eventfd]
+    fd 78: anon_inode:[eventpoll]
+    fd 79: anon_inode:[eventpoll]
+    fd 80: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 81: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 82: /data/data/com.onepunchman.sea.x7sy/databases/aliclound_httpdns_v3_156640.db
+    fd 83: socket:[31204927]
+    fd 84: socket:[31204921]
+    fd 85: socket:[31216792]
+    fd 86: anon_inode:sync_file
+    fd 87: pipe:[31204934]
+    fd 88: pipe:[31204934]
+    fd 89: anon_inode:[eventfd]
+    fd 90: anon_inode:[eventpoll]
+    fd 91: /data/data/com.onepunchman.sea.x7sy/databases/shadow_installed_plugin_dbx7-plugin-manager
+    fd 92: anon_inode:[eventfd]
+    fd 93: anon_inode:[eventfd]
+    fd 94: anon_inode:[eventpoll]
+    fd 95: socket:[31204935]
+    fd 96: pipe:[31211778]
+    fd 97: pipe:[31211778]
+    fd 98: anon_inode:[eventfd]
+    fd 99: anon_inode:[eventfd]
+    fd 100: anon_inode:[eventpoll]
+    fd 101: anon_inode:[eventfd]
+    fd 102: anon_inode:[eventpoll]
+    fd 103: /data/data/com.onepunchman.sea.x7sy/files/kos_config.db
+    fd 104: anon_inode:[eventfd]
+    fd 105: anon_inode:[eventpoll]
+    fd 106: anon_inode:sync_file
+    fd 107: socket:[31211024]
+    fd 108: socket:[31206277]
+    fd 109: socket:[31206278]
+    fd 110: socket:[31211025]
+    fd 111: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 112: anon_inode:sync_file
+    fd 113: /dev/binderfs/hwbinder
+    fd 114: pipe:[31212973]
+    fd 115: /sys/kernel/tracing/trace_marker
+    fd 116: /dev/ion
+    fd 117: /dev/kgsl-3d0
+    fd 118: /dev/ion
+    fd 119: /dev/binderfs/hwbinder
+    fd 120: pipe:[31212973]
+    fd 121: pipe:[31205269]
+    fd 122: anon_inode:[eventpoll]
+    fd 123: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 124: pipe:[31204965]
+    fd 125: anon_inode:[eventfd]
+    fd 126: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 127: pipe:[31204965]
+    fd 128: anon_inode:[eventfd]
+    fd 129: anon_inode:[eventpoll]
+    fd 130: pipe:[31205269]
+    fd 131: pipe:[31205270]
+    fd 132: anon_inode:[eventpoll]
+    fd 133: socket:[31204961]
+    fd 134: anon_inode:sync_file
+    fd 135: socket:[31180582]
+    fd 136: socket:[31204962]
+    fd 137: pipe:[31205270]
+    fd 138: anon_inode:sync_file
+    fd 139: /data/data/com.onepunchman.sea.x7sy/files/local_db.db
+    fd 140: /data/data/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk
+    fd 141: /data/data/com.onepunchman.sea.x7sy/databases/shadow_installed_plugin_dbx7-plugin-manager
+    fd 142: anon_inode:sync_file
+    fd 143: pipe:[31180792]
+    fd 144: /dmabuf:dmabuf509762
+    fd 145: /dmabuf:dmabuf509763
+    fd 146: socket:[31180786]
+    fd 147: pipe:[31213076]
+    fd 148: socket:[31180702]
+    fd 149: anon_inode:sync_file
+    fd 150: socket:[31180705]
+    fd 151: /data/data/com.onepunchman.sea.x7sy/app_bugly/sys_log_1794110178260.txt
+    fd 152: /dmabuf:dmabuf509760
+    fd 153: /dmabuf:dmabuf509761
+    fd 154: /data/data/com.onepunchman.sea.x7sy/app_bugly/jni_log_1794110178260.txt
+    fd 155: anon_inode:inotify
+    fd 156: socket:[31212922]
+    fd 157: socket:[31214676]
+    fd 158: /data/data/com.onepunchman.sea.x7sy/databases/bugly_db_
+    fd 159: ???
+    fd 160: anon_inode:[eventpoll]
+    fd 161: anon_inode:sync_file
+    fd 162: anon_inode:sync_file
+    fd 163: /data/data/com.onepunchman.sea.x7sy/files/game.conf
+    fd 164: socket:[31208352]
+    fd 165: /dmabuf:dmabuf509764
+    fd 166: /data/data/com.onepunchman.sea.x7sy/files/setting
+    fd 167: /dmabuf:dmabuf509765
+    fd 168: /data/data/com.onepunchman.sea.x7sy/files/reslib
+    fd 169: /data/data/com.onepunchman.sea.x7sy/ShadowPlugin_appPlugin/event.db
+    fd 170: /dmabuf:dmabuf509768
+    fd 171: /dmabuf:dmabuf509769
+    fd 172: anon_inode:[eventpoll]
+    fd 173: anon_inode:[eventfd]
+    fd 174: /dmabuf:dmabuf509770
+    fd 175: /dmabuf:dmabuf509771
+    fd 176: pipe:[31213076]
+    fd 177: /dmabuf:dmabuf509774
+    fd 178: /dmabuf:dmabuf509775
+    fd 179: anon_inode:[eventfd]
+    fd 180: /dmabuf:dmabuf509778
+    fd 181: /dmabuf:dmabuf509779
+    fd 182: anon_inode:sync_file
+    fd 183: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 184: anon_inode:sync_file
+    fd 185: anon_inode:sync_file
+    fd 186: anon_inode:sync_file
+    fd 187: /dmabuf:dmabuf509780
+    fd 188: /dmabuf:dmabuf509781
+    fd 189: anon_inode:sync_file
+    fd 190: anon_inode:sync_file
+    fd 191: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 192: pipe:[31180792]
+    fd 193: /system/framework/android.test.base.jar
+    fd 194: anon_inode:sync_file
+    fd 195: anon_inode:sync_file
+    fd 196: anon_inode:[eventpoll]
+    fd 197: /system_ext/framework/androidx.window.extensions.jar
+    fd 198: anon_inode:sync_file
+    fd 199: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 200: /dev/urandom
+    fd 201: anon_inode:sync_file
+    fd 202: anon_inode:sync_file
+    fd 203: anon_inode:sync_file
+    fd 204: anon_inode:sync_file
+    fd 205: anon_inode:sync_file
+    fd 206: anon_inode:[eventfd]
+    fd 207: anon_inode:sync_file
+    fd 208: anon_inode:sync_file
+    fd 209: anon_inode:sync_file
+    fd 210: anon_inode:sync_file
+    fd 211: socket:[31213063]
+    fd 212: anon_inode:sync_file
+    fd 213: anon_inode:sync_file
+    fd 214: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 215: anon_inode:sync_file
+    fd 216: anon_inode:sync_file
+    fd 217: anon_inode:sync_file
+    fd 218: anon_inode:sync_file
+    fd 219: anon_inode:sync_file
+    fd 220: anon_inode:sync_file
+    fd 221: anon_inode:sync_file
+    fd 222: anon_inode:sync_file
+    fd 223: /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+    fd 224: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 225: anon_inode:sync_file
+    fd 226: anon_inode:sync_file
+    fd 227: anon_inode:sync_file
+    fd 228: anon_inode:sync_file
+    fd 229: anon_inode:sync_file
+    fd 230: anon_inode:[eventpoll]
+    fd 231: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/webview_data.lock
+    fd 232: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 233: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 234: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 235: anon_inode:[eventfd]
+    fd 236: anon_inode:[timerfd]
+    fd 237: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 238: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 239: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 240: /data/app/~~TFoFj7C-e4iTAq37TLSi6w==/com.google.android.webview-WT-xgi36D8HXKdWIQrYGVA==/base.apk
+    fd 241: /data/data/com.onepunchman.sea.x7sy/no_backup/.webview_com.onepunchman.sea.x7sy/BrowserMetrics/BrowserMetrics-6AEFF2E4-532F.pma (deleted)
+    fd 242: anon_inode:[eventpoll]
+    fd 243: anon_inode:[eventfd]
+    fd 244: socket:[31216382]
+    fd 245: anon_inode:[eventpoll]
+    fd 246: anon_inode:[eventfd]
+    fd 247: anon_inode:[eventpoll]
+    fd 248: anon_inode:[eventfd]
+    fd 249: socket:[31214931]
+    fd 250: socket:[31214932]
+    fd 251: anon_inode:[eventfd]
+    fd 252: anon_inode:[eventpoll]
+    fd 253: anon_inode:[eventfd]
+    fd 254: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 255: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/shared_proto_db/metadata/LOG
+    fd 256: anon_inode:[eventpoll]
+    fd 257: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/declarative_performance_observer.db
+    fd 258: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/Local Storage/leveldb/LOG
+    fd 259: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/Local Storage/leveldb/LOCK
+    fd 260: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 261: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/Local Storage/leveldb/MANIFEST-000001
+    fd 262: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 263: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/Local Storage/leveldb/000003.log
+    fd 264: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 265: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/Shared Dictionary/db
+    fd 266: /data/data/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk
+    fd 267: /dev/ashmeme454c8d0-1ad1-4442-a8f7-e60aa902c952
+    fd 268: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/shared_proto_db/metadata/LOCK
+    fd 269: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/shared_proto_db/metadata/MANIFEST-000001
+    fd 270: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/shared_proto_db/metadata/000003.log
+    fd 271: anon_inode:[eventpoll]
+    fd 272: anon_inode:[eventfd]
+    fd 273: anon_inode:[eventfd]
+    fd 274: anon_inode:[eventpoll]
+    fd 275: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/shared_proto_db/LOG
+    fd 276: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/shared_proto_db/LOCK
+    fd 277: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/shared_proto_db/MANIFEST-000001
+    fd 278: /data/data/com.onepunchman.sea.x7sy/app_webview_com.onepunchman.sea.x7sy/Default/shared_proto_db/000003.log
+    fd 279: anon_inode:sync_file
+    fd 280: anon_inode:[eventfd]
+    fd 281: anon_inode:[eventpoll]
+    fd 282: anon_inode:[eventfd]
+    fd 283: anon_inode:[eventpoll]
+    fd 284: /data/data/com.onepunchman.sea.x7sy/files/ShadowPlugin_appPlugin/mmkv/mmkv.default
+    fd 285: /data/data/com.onepunchman.sea.x7sy/files/ShadowPlugin_appPlugin/mmkv/mmkv.default.crc
+    fd 286: anon_inode:sync_file
+    fd 287: /data/data/com.onepunchman.sea.x7sy/ShadowPlugin_appPlugin/abtest.db
+    fd 288: anon_inode:sync_file
+    fd 289: socket:[31215062]
+    fd 290: anon_inode:[eventpoll]
+    fd 291: anon_inode:sync_file
+    fd 292: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/ShadowPlugin_appPlugin/crashLogs/loge/catchLogs_2026-11-08 at 10-56-32_8.58.1__.java.txt
+    fd 293: anon_inode:[eventfd]
+    fd 294: anon_inode:[eventpoll]
+    fd 295: anon_inode:[eventfd]
+    fd 298: socket:[31215024]
+    fd 299: anon_inode:[eventpoll]
+    fd 300: pipe:[31217782]
+    fd 301: pipe:[31217782]
+    fd 303: anon_inode:[eventfd]
+    fd 304: anon_inode:[eventfd]
+    fd 305: anon_inode:[eventpoll]
+    fd 306: anon_inode:[eventpoll]
+    fd 308: anon_inode:[eventfd]
+    fd 309: anon_inode:[eventpoll]
+    fd 310: anon_inode:[eventfd]
+    fd 311: anon_inode:[eventfd]
+    fd 312: anon_inode:[eventpoll]
+    fd 313: /data/data/com.onepunchman.sea.x7sy/ShadowPlugin_appPlugin/shared_prefs/itconfig.sp
+    fd 314: anon_inode:[eventpoll]
+    fd 315: /data/data/com.onepunchman.sea.x7sy/files/ShadowPluginManager/UnpackedPlugin/x7-plugin-manager/2af84f60f40cb1cc2a97a8cd1d12a63c/plugin-release.zip/appPlugin-plugin-release.apk
+    fd 316: anon_inode:[eventfd]
+    fd 317: anon_inode:[eventpoll]
+    (number of FDs: 314)
+
+network info:
+Not supported on Android Q (API level 29) and later.
+
+memory info:
+ System Summary (From: /proc/meminfo)
+  MemTotal:        7679476 kB
+  MemFree:          103384 kB
+  MemAvailable:    2048920 kB
+  Buffers:            2036 kB
+  Cached:          1874884 kB
+  SwapCached:        78180 kB
+  Active:          1879596 kB
+  Inactive:        1915868 kB
+  Active(anon):    1089360 kB
+  Inactive(anon):   977424 kB
+  Active(file):     790236 kB
+  Inactive(file):   938444 kB
+  Unevictable:      145188 kB
+  Mlocked:          145188 kB
+  SwapTotal:       7864316 kB
+  SwapFree:        4958388 kB
+  Dirty:              8692 kB
+  Writeback:             4 kB
+  AnonPages:       2022472 kB
+  Mapped:          1205056 kB
+  Shmem:             41840 kB
+  KReclaimable:     515424 kB
+  Slab:             539908 kB
+  SReclaimable:     145356 kB
+  SUnreclaim:       394552 kB
+  KernelStack:      120560 kB
+  PageTables:       169540 kB
+  NFS_Unstable:          0 kB
+  Bounce:                0 kB
+  WritebackTmp:          0 kB
+  CommitLimit:    11704052 kB
+  Committed_AS:   197291336 kB
+  VmallocTotal:   263061440 kB
+  VmallocUsed:      234320 kB
+  VmallocChunk:          0 kB
+  Percpu:            11392 kB
+  CmaTotal:         335872 kB
+  CmaFree:               0 kB
+  IonTotalCache:     207924 kB
+  IonTotalUsed:     617172 kB
+  GPUTotalUsed:     649536 kB
+-
+ Process Status (From: /proc/PID/status)
+  Name:	nchman.sea.x7sy
+  Umask:	0077
+  State:	S (sleeping)
+  Tgid:	21295
+  Ngid:	0
+  Pid:	21295
+  PPid:	970
+  TracerPid:	0
+  Uid:	10681	10681	10681	10681
+  Gid:	10681	10681	10681	10681
+  FDSize:	512
+  Groups:	3002 3003 9997 20681 50681
+  VmPeak:	58483620 kB
+  VmSize:	34848944 kB
+  VmLck:	       0 kB
+  VmPin:	       0 kB
+  VmHWM:	  476908 kB
+  VmRSS:	  296456 kB
+  RssAnon:	  147432 kB
+  RssFile:	  147868 kB
+  RssShmem:	    1156 kB
+  VmData:	 2125188 kB
+  VmStk:	    8192 kB
+  VmExe:	      16 kB
+  VmLib:	  341976 kB
+  VmPTE:	    2568 kB
+  VmSwap:	   27220 kB
+  CoreDumping:	0
+  Threads:	167
+  SigQ:	0/28554
+  SigPnd:	0000000000000000
+  ShdPnd:	0000000000000000
+  SigBlk:	0000000080001200
+  SigIgn:	0000000000001001
+  SigCgt:	0000126e400084fc
+  CapInh:	0000000000000000
+  CapPrm:	0000000000000000
+  CapEff:	0000000000000000
+  CapBnd:	0000000000000000
+  CapAmb:	0000000000000000
+  NoNewPrivs:	0
+  Seccomp:	2
+  Speculation_Store_Bypass:	thread vulnerable
+  Cpus_allowed:	ff
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	1
+  Mems_allowed_list:	0
+  voluntary_ctxt_switches:	1419
+  nonvoluntary_ctxt_switches:	207
+-
+ Process Limits (From: /proc/PID/limits)
+  Limit                     Soft Limit           Hard Limit           Units
+  Max cpu time              unlimited            unlimited            seconds
+  Max file size             unlimited            unlimited            bytes
+  Max data size             unlimited            unlimited            bytes
+  Max stack size            8388608              unlimited            bytes
+  Max core file size        0                    unlimited            bytes
+  Max resident set          unlimited            unlimited            bytes
+  Max processes             28554                28554                processes
+  Max open files            32768                32768                files
+  Max locked memory         67108864             67108864             bytes
+  Max address space         unlimited            unlimited            bytes
+  Max file locks            unlimited            unlimited            locks
+  Max pending signals       28554                28554                signals
+  Max msgqueue size         819200               819200               bytes
+  Max nice priority         40                   40
+  Max realtime priority     0                    0
+  Max realtime timeout      unlimited            unlimited            us
+-
+ Process Summary (From: android.os.Debug.MemoryInfo)
+                       Pss(KB)
+                        ------
+           Java Heap:    15420
+         Native Heap:    55048
+                Code:    70072
+               Stack:     4200
+            Graphics:   126392
+       Private Other:    63632
+              System:    24786
+               TOTAL:   359550           TOTAL SWAP:    22976
+

@@ -1,0 +1,620 @@
+DeviceInfo{buildInfo=BuildInfo{brand='realme', systemVersion='13', sdkVersion=33, language='en', timezone='Asia/Ho_Chi_Minh'}, screenInfo=ScreenInfo{width=2290, height=1039}}
+11.04_08:46:33_735 8446 2 INFO [Mqtt-TPush - IMqttServiceImpl] init IMqttServiceImpl encryptLevel: 0, compressLevel: 0
+11.04_08:46:33_761 8446 2 INFO [XGVipPushService] Service onCreate() : com.onepunchman.sea.x7sy
+11.04_08:46:33_766 8446 2 INFO [XGPushProvider] name:com.tencent.android.tpush.XGPushProvider, authority:com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH, AUTH_PRIX:.XGVIP_PUSH_AUTH
+11.04_08:46:33_771 8446 2 DEBUG [Base-TPush - Util] It is release
+11.04_08:46:33_771 8446 2 DEBUG [XGVipPushService] action - initCheckMessageHandler, on 60s later
+11.04_08:46:33_772 8446 2 INFO [XGVipPushService] Service onBind()
+11.04_08:46:33_772 8446 2 DEBUG [XGVipPushService] initServiceHandler with method : onBind
+11.04_08:46:33_773 8446 2 DEBUG [PushServiceManager] send WHAT_SERVICE_START msg at 100ms later on serviceStartHandler
+11.04_08:46:33_773 8446 19052 DEBUG [Util] load sdk config data
+11.04_08:46:33_774 8446 2 INFO [XGVipPushService] Service onStartCommand() : com.onepunchman.sea.x7sy
+11.04_08:46:33_774 8446 2 INFO [XGVipPushService] Service onStart() : com.onepunchman.sea.x7sy
+11.04_08:46:33_775 8446 2 DEBUG [XGVipPushService] initServiceHandler with method : onStartCommand
+11.04_08:46:33_775 8446 2 DEBUG [PushServiceManager] send WHAT_SERVICE_START msg at 100ms later on serviceStartHandler
+11.04_08:46:33_777 8446 19052 INFO [filter components] deviceType: realme
+11.04_08:46:33_779 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] GuidInfo gapSeconds = 1793756793, compare to 21600
+11.04_08:46:33_781 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Guid expired, request for new one.
+11.04_08:46:33_783 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] action - refreshConnectInfoSynchronized
+11.04_08:46:33_783 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] RefreshTime: 1793756793783
+11.04_08:46:33_784 8446 19052 INFO [filter components] disable device huawei
+11.04_08:46:33_788 8446 19058 INFO [GuidInfoManagerImpl] Send request to GuidServer with token: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.04_08:46:33_788 8446 19058 INFO [GuidInfoManagerImpl] Send request to GuidServer: {"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceType":0,"sdkVersion":"1.3.5.0","seq":1793756793783,"cloudVersion":3,"appVersion":"1.9.3","appPkgName":"com.onepunchman.sea.x7sy","deviceInfo":{"appDeviceInfo":{"appVersion":"1.9.3","os":"android","packageName":"com.onepunchman.sea.x7sy","sdkVersionName":"13"}},"protocolVersion":2,"timestamp":1793756793785,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","tokenList":["03a8e891e59b2a7a42e2611ce0d69647d34f"]}
+11.04_08:46:33_792 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | XGConfig guidServerHostAddr : https://api.tpns.sgp.tencent.com/guid/v4/register_device
+11.04_08:46:33_877 8446 2 DEBUG [PushServiceManager] initHandler, cmd:1
+11.04_08:46:33_878 8446 2 DEBUG [PushServiceManager] Service's running at com.onepunchman.sea.x7sy,version : 1.3.5.0
+11.04_08:46:33_880 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | update lastResolvedGuidServerIP , guidServerIPAddr : ; guidServerIp : 119.28.109.193
+11.04_08:46:33_881 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] setLastResolvedGuidServerIP | lastGuidServerIp : null; newGuidServerIp : 119.28.109.193
+11.04_08:46:33_884 8446 2 INFO [PushServiceBroadcastHandler] handleServiceInited, beforeInitedIntents size:0
+11.04_08:46:33_886 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] replaceHostWithIp | host : api.tpns.sgp.tencent.com; ipAddr : https://119.28.109.193/guid/v4/register_device
+11.04_08:46:33_886 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | result guidServerIPAddress : https://119.28.109.193/guid/v4/register_device
+11.04_08:46:33_886 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Send to GuidServerIpAddr: https://119.28.109.193/guid/v4/register_device
+11.04_08:46:33_887 8446 19058 DEBUG [Base-TPush - HttpRequest] [https://119.28.109.193/guid/v4/register_device]Send request(464bytes), content:{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceType":0,"sdkVersion":"1.3.5.0","seq":1793756793783,"cloudVersion":3,"appVersion":"1.9.3","appPkgName":"com.onepunchman.sea.x7sy","deviceInfo":{"appDeviceInfo":{"appVersion":"1.9.3","os":"android","packageName":"com.onepunchman.sea.x7sy","sdkVersionName":"13"}},"protocolVersion":2,"timestamp":1793756793785,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","tokenList":["03a8e891e59b2a7a42e2611ce0d69647d34f"]}
+11.04_08:46:33_887 8446 19058 DEBUG [Base-TPush - HttpRequest] sendHttpPost | url: https://119.28.109.193/guid/v4/register_device hostName: api.tpns.sgp.tencent.com
+11.04_08:46:33_896 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - startConnect
+11.04_08:46:33_896 8446 2 DEBUG [PushServiceManager] pull up xg services on 8s later
+11.04_08:46:34_135 8446 19058 DEBUG [Base-TPush - HttpRequest] HostnameVerifier : hostName 119.28.109.193
+11.04_08:46:34_267 8446 19052 INFO [RomVersionHelper] get ro.build.version.opporom version is:
+11.04_08:46:34_270 8446 19052 INFO [NotificationsUtils] OS >= 26, return true
+11.04_08:46:34_289 8446 19052 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTING
+11.04_08:46:34_289 8446 19052 WARN [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> Mqtt is connecting, give up
+11.04_08:46:34_370 8446 19058 DEBUG [Base-TPush - HttpRequest] http recv response status code:200, responseMsg:OK,contentLength:490
+11.04_08:46:34_372 8446 19058 DEBUG [Base-TPush - HttpRequest] http get response data:{"retCode":0,"msg":"success","token":"03a8e891e59b2a7a42e2611ce0d69647d34f","data":"xjh0Wz/mmJ9Fyjm9gVX2kxkPvz4/GFOvgdzD1NCsyVLgJJ71j5+x/FuOBuKa3Ow4v8LwfcWVyktl7ncvVl44uzjTK4WgLC4L7d0Bf0v7pBWYThtOne2fIPqhEbvCBPuTLjf3fAZaphLf+AVsPzvlCgeAzEA8ghC4uZwwTH3iHkbLs3B1K2NlnWN90SatC/EpGHGk/jePCIBTr0jQNdEF0p8duCfxn+HqH8eQpBhU5LNd/AGjo2hhAMGSs9PraJlbdiAIKvkXlkkytZkuKHzDhDvOfthhcEgiE/aUwBcgn38uilgpUTr6vN6s9rKp4KgnsWVkhsurW0rh3w61UKje7G106A5TlYCDuAhOWQbnw79lD1/rHw0ofvJypt5xXQ==","seq":1793756793783}
+11.04_08:46:34_373 8446 19058 INFO [GuidInfoManagerImpl] Get response from GuidServer: {"retCode":0,"msg":"success","token":"03a8e891e59b2a7a42e2611ce0d69647d34f","data":"xjh0Wz/mmJ9Fyjm9gVX2kxkPvz4/GFOvgdzD1NCsyVLgJJ71j5+x/FuOBuKa3Ow4v8LwfcWVyktl7ncvVl44uzjTK4WgLC4L7d0Bf0v7pBWYThtOne2fIPqhEbvCBPuTLjf3fAZaphLf+AVsPzvlCgeAzEA8ghC4uZwwTH3iHkbLs3B1K2NlnWN90SatC/EpGHGk/jePCIBTr0jQNdEF0p8duCfxn+HqH8eQpBhU5LNd/AGjo2hhAMGSs9PraJlbdiAIKvkXlkkytZkuKHzDhDvOfthhcEgiE/aUwBcgn38uilgpUTr6vN6s9rKp4KgnsWVkhsurW0rh3w61UKje7G106A5TlYCDuAhOWQbnw79lD1/rHw0ofvJypt5xXQ==","seq":1793756793783}
+11.04_08:46:34_375 8446 19058 DEBUG [GuidInfoManagerImpl] decode response:{"retCode":0,"guid":26885145,"mqttServer":"tcp://129.226.2.109:1883","expiredSeconds":21600,"mqttPortList":["1883"],"httpMessage":3600,"mqttKey":"4b623a118f7ea9cc02127b975737631a","mqttSecret":"cfb2fa8190d853307ab1b4b645358aa6","sslMqttServer":"ssl://access1.tpns.sgp.tencent.com:1884"}
+11.04_08:46:34_375 8446 19058 DEBUG [GuidInfoManagerImpl] Get response from GuidServer: {"retCode":0,"guid":26885145,"mqttServer":"tcp://129.226.2.109:1883","expiredSeconds":21600,"mqttPortList":["1883"],"httpMessage":3600,"mqttKey":"4b623a118f7ea9cc02127b975737631a","mqttSecret":"cfb2fa8190d853307ab1b4b645358aa6","sslMqttServer":"ssl://access1.tpns.sgp.tencent.com:1884"}
+11.04_08:46:34_376 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Update tokenList: ["03a8e891e59b2a7a42e2611ce0d69647d34f"]
+11.04_08:46:34_377 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] GUID -> write token: {"retCode":0,"guid":26885145,"mqttServer":"tcp://129.226.2.109:1883","expiredSeconds":21600,"mqttPortList":["1883"],"httpMessage":3600,"mqttKey":"4b623a118f7ea9cc02127b975737631a","mqttSecret":"cfb2fa8190d853307ab1b4b645358aa6","sslMqttServer":"ssl://access1.tpns.sgp.tencent.com:1884"}
+11.04_08:46:34_386 8446 19058 INFO [Base-TPush - DNSResolver] Get MqttServer address: ssl://access1.tpns.sgp.tencent.com:1884, portList:["1883"]
+11.04_08:46:34_387 8446 19058 INFO [Base-TPush - DNSResolver] Get MqttServer random port: 1883
+11.04_08:46:34_387 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Get MqttServer: ssl://access1.tpns.sgp.tencent.com:1884, save address: ssl://access1.tpns.sgp.tencent.com:1884
+11.04_08:46:34_388 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Save mqttServerIP: ssl://access1.tpns.sgp.tencent.com:1884
+11.04_08:46:34_391 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Last time: 0, this time: 1793756794390
+11.04_08:46:34_391 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Save mqttServerLastRefreshTime: 1793756794390
+11.04_08:46:34_402 8446 19058 DEBUG [CloudManager] shouldRefuse | isCloudRefuse : false
+11.04_08:46:34_402 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt cloudRefuse: false
+11.04_08:46:34_408 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] update encryptLevel: 0, compressLevel: 1
+11.04_08:46:34_409 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Finally get finalMqttServerAddr = ssl://access1.tpns.sgp.tencent.com:1884
+11.04_08:46:34_413 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> connecting host: ssl://access1.tpns.sgp.tencent.com:1884, state: CONNECTING
+11.04_08:46:34_414 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt clientId: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.04_08:46:34_417 8446 19058 DEBUG [MqttAsyncClient] init MqttAsyncClient
+11.04_08:46:34_420 8446 19058 DEBUG [ClientComms] init ClientComms
+11.04_08:46:34_428 8446 19058 INFO [Mqtt-TPush - MqttConfigImpl] isForeignWeakAlarmMode KeepAlive set to : 3600
+11.04_08:46:34_442 8446 19100 DEBUG [ClientComms] ConnectBG mqtt thread
+11.04_08:47:19_342 8446 19052 DEBUG [PushServiceManager] 8s time's over, now pull up xg services
+11.04_08:47:19_345 8446 19052 DEBUG [SysPush] Run in normal app
+11.04_08:47:19_350 8446 19100 DEBUG [ClientComms] ConnectBG mqtt thread
+11.04_08:47:19_394 8446 19052 DEBUG [ServiceUtil]  Not pull up other XGService with cloud
+11.04_08:47:33_786 8446 19052 DEBUG [XGVipPushService] --CheckMessage--interval time:270000
+11.04_08:47:33_798 8446 19052 INFO [Mqtt-TPush - MqttConfigImpl] isForeignWeakAlarmMode KeepAlive set to : 3600
+11.04_08:47:39_657 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:47:39_658 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ENABLE_DEBUG.V4
+11.04_08:47:39_774 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:47:39_774 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.REGISTER.V4
+11.04_08:47:39_777 8446 19052 DEBUG [TpnsSecurity] apkSignature already cached 
+11.04_08:47:39_782 8446 19052 INFO [NotificationsUtils] OS >= 26, return true
+11.04_08:47:39_789 8446 19052 DEBUG [RegReq] Register get tAd error, tAd not found
+11.04_08:47:39_790 8446 19052 TRACE [RegReq] Register(1520010077,0f993f99f2a6d9a586cf17a73896611f,,-1),payload:  channel id-1
+11.04_08:47:39_796 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:47:39_803 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:47:39_804 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:47:39_805 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446001, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793756859}', retryCount=0}
+11.04_08:47:40_724 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:47:40_725 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.TAG.V4
+11.04_08:47:40_726 8446 19052 DEBUG [PushServiceNetworkHandler] Action -> sendTag to server (1520010077,com.onepunchman.sea.x7sy)
+11.04_08:47:40_726 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:47:40_726 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:47:40_726 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:47:40_726 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446002, topic='tag', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","tag":"dnyonline_regplayer:en_US dnyonline_regplayernew:en_US","flag":6,"timestamp":1793756860,"sdkVersion":"1.3.5.0"}', retryCount=0}
+11.04_08:47:49_845 8446 19100 INFO [Mqtt-TPush - IMqttServiceImpl] stopConnect
+11.04_08:47:49_867 8446 19100 WARN [Mqtt-TPush - IMqttServiceImpl] stopConnect error MqttException 
+11.04_08:47:49_868 8446 19100 INFO [Mqtt-TPush - IMqttServiceImpl] destroyMqttClient
+11.04_08:47:50_873 8446 19100 ERROR [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> callback onFailure:
+11.04_08:47:50_873 8446 19100 ERROR (0) - java.net.SocketTimeoutException: failed to connect to access1.tpns.sgp.tencent.com/64:ff9b::771c:7b74 (port 1884) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 38976) after 30000ms
+	at com.tencent.android.tpns.mqtt.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38)
+	at com.tencent.android.tpns.mqtt.internal.ClientComms$ConnectBG.TRun(ClientComms.java:736)
+	at com.tencent.tpns.baseapi.base.util.TTask.run(ProGuard:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:463)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.net.SocketTimeoutException: failed to connect to access1.tpns.sgp.tencent.com/64:ff9b::771c:7b74 (port 1884) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 38976) after 30000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+	at libcore.io.IoBridge.connect(IoBridge.java:179)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.tencent.android.tpns.mqtt.internal.TCPNetworkModule.start(TCPNetworkModule.java:80)
+	at com.tencent.android.tpns.mqtt.internal.SSLNetworkModule.start(SSLNetworkModule.java:104)
+	at com.tencent.android.tpns.mqtt.internal.ClientComms$ConnectBG.TRun(ClientComms.java:722)
+	... 7 more
+
+11.04_08:47:50_874 8446 19100 INFO [GuidInfoManagerImpl] Force expired guidInfo, let its refreshTime 0
+11.04_08:47:50_876 8446 19100 ERROR [Base-TPush - ProviderMessage] myInsert
+11.04_08:47:50_876 8446 19100 ERRORjava.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:442)
+	at java.lang.Thread.join(Thread.java:1531)
+	at com.tencent.tpns.baseapi.crosssp.ProviderMessage$a.a(ProGuard:309)
+	at com.tencent.tpns.baseapi.crosssp.ProviderMessage.insert(ProGuard:40)
+	at com.tencent.tpns.baseapi.crosssp.a$a.a(ProGuard:180)
+	at com.tencent.tpns.baseapi.crosssp.a$a.b(ProGuard:187)
+	at com.tencent.tpns.baseapi.base.PushPreferences.putLong(ProGuard:68)
+	at com.tencent.tpns.baseapi.core.b.a.o(ProGuard:850)
+	at com.tencent.tpns.baseapi.base.device.GuidInfoManager.forceExpired(ProGuard:171)
+	at com.tencent.tpns.mqttchannel.core.services.IMqttServiceImpl$14.onFailure(ProGuard:643)
+	at com.tencent.android.tpns.mqtt.internal.ConnectActionListener.onFailure(ConnectActionListener.java:160)
+	at com.tencent.android.tpns.mqtt.internal.CommsCallback.fireActionEvent(CommsCallback.java:331)
+	at com.tencent.android.tpns.mqtt.internal.CommsCallback.handleActionComplete(CommsCallback.java:264)
+	at com.tencent.android.tpns.mqtt.internal.CommsCallback.asyncOperationComplete(CommsCallback.java:450)
+	at com.tencent.android.tpns.mqtt.internal.ClientComms.shutdownConnection(ClientComms.java:434)
+	at com.tencent.android.tpns.mqtt.internal.ClientComms$ConnectBG.TRun(ClientComms.java:740)
+	at com.tencent.tpns.baseapi.base.util.TTask.run(ProGuard:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:463)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+
+11.04_08:47:50_877 8446 19100 WARN [Mqtt-TPush - IMqttServiceImpl] Set guid to expired
+11.04_08:47:50_881 8446 19100 DEBUG [Mqtt-TPush - IMqttServiceImpl] tryReConnect -> retryCount:1, subRetryCount:0, delay:2000
+11.04_08:47:50_881 8446 19100 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - callAllConnectBackSuccess
+11.04_08:47:52_882 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1
+11.04_08:47:52_886 8446 19052 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:47:52_891 8446 19052 TRACE [TBase - TPush] have writable external storage, write log file!
+11.04_08:47:52_893 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:47:52_893 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:47:52_893 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getFinalMqttServerAddrAndGuidInfo
+11.04_08:47:52_907 8446 19115 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261104_0847.txt
+11.04_08:47:52_912 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] GuidInfo gapSeconds = 1793756872, compare to 21600
+11.04_08:47:52_915 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Guid expired, request for new one.
+11.04_08:47:52_918 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] action - refreshConnectInfoSynchronized
+11.04_08:47:52_918 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] RefreshTime: 1793756872918
+11.04_08:47:52_919 8446 19058 INFO [GuidInfoManagerImpl] Send request to GuidServer with token: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.04_08:47:52_919 8446 19058 INFO [GuidInfoManagerImpl] Send request to GuidServer: {"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceType":0,"sdkVersion":"1.3.5.0","seq":1793756872918,"cloudVersion":3,"appVersion":"1.9.3","appPkgName":"com.onepunchman.sea.x7sy","deviceInfo":{"appDeviceInfo":{"appVersion":"1.9.3","os":"android","packageName":"com.onepunchman.sea.x7sy","sdkVersionName":"13"}},"protocolVersion":2,"timestamp":1793756872918,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","tokenList":["03a8e891e59b2a7a42e2611ce0d69647d34f"]}
+11.04_08:47:52_923 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | XGConfig guidServerHostAddr : https://api.tpns.sgp.tencent.com/guid/v4/register_device
+11.04_08:47:53_117 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | update lastResolvedGuidServerIP , guidServerIPAddr : ; guidServerIp : [64:ff9b::771c:6dc1]
+11.04_08:47:53_118 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] setLastResolvedGuidServerIP | lastGuidServerIp : 119.28.109.193; newGuidServerIp : [64:ff9b::771c:6dc1]
+11.04_08:47:53_122 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] replaceHostWithIp | host : api.tpns.sgp.tencent.com; ipAddr : https://[64:ff9b::771c:6dc1]/guid/v4/register_device
+11.04_08:47:53_122 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | result guidServerIPAddress : https://[64:ff9b::771c:6dc1]/guid/v4/register_device
+11.04_08:47:53_122 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Send to GuidServerIpAddr: https://[64:ff9b::771c:6dc1]/guid/v4/register_device
+11.04_08:47:53_122 8446 19058 DEBUG [Base-TPush - HttpRequest] [https://[64:ff9b::771c:6dc1]/guid/v4/register_device]Send request(464bytes), content:{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceType":0,"sdkVersion":"1.3.5.0","seq":1793756872918,"cloudVersion":3,"appVersion":"1.9.3","appPkgName":"com.onepunchman.sea.x7sy","deviceInfo":{"appDeviceInfo":{"appVersion":"1.9.3","os":"android","packageName":"com.onepunchman.sea.x7sy","sdkVersionName":"13"}},"protocolVersion":2,"timestamp":1793756872918,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","tokenList":["03a8e891e59b2a7a42e2611ce0d69647d34f"]}
+11.04_08:47:53_123 8446 19058 DEBUG [Base-TPush - HttpRequest] sendHttpPost | url: https://[64:ff9b::771c:6dc1]/guid/v4/register_device hostName: api.tpns.sgp.tencent.com
+11.04_08:48:04_591 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:48:04_592 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.TAG.V4
+11.04_08:48:04_593 8446 19052 DEBUG [PushServiceNetworkHandler] Action -> sendTag to server (1520010077,com.onepunchman.sea.x7sy)
+11.04_08:48:04_593 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:48:04_593 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:48:04_593 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:48:04_594 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446003, topic='tag', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","tag":"dnyonline_regplayer:en_US dnyonline_regplayernew:en_US","flag":6,"timestamp":1793756884,"sdkVersion":"1.3.5.0"}', retryCount=0}
+11.04_08:48:04_594 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - startConnect
+11.04_08:48:04_595 8446 19052 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTING
+11.04_08:48:04_595 8446 19052 WARN [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> Mqtt is connecting, give up
+11.04_08:48:08_135 8446 19058 ERROR [Base-TPush - HttpRequest] Http Request Error, Tr: java.net.SocketTimeoutException: failed to connect to /64:ff9b::771c:6dc1 (port 443) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 49472) after 15000ms
+11.04_08:48:08_135 8446 19058 ERRORjava.net.SocketTimeoutException: failed to connect to /64:ff9b::771c:6dc1 (port 443) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 49472) after 15000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+	at libcore.io.IoBridge.connect(IoBridge.java:179)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:306)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:249)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.tencent.tpns.baseapi.core.net.a.a(ProGuard:166)
+	at com.tencent.tpns.baseapi.core.b.a.a(ProGuard:300)
+	at com.tencent.tpns.baseapi.core.b.a.a(ProGuard:95)
+	at com.tencent.tpns.baseapi.core.b.a.a(ProGuard:81)
+	at com.tencent.tpns.baseapi.base.device.GuidInfoManager.getFinalGuidInfo(ProGuard:208)
+	at com.tencent.tpns.mqttchannel.core.services.IMqttServiceImpl.d(ProGuard:560)
+	at com.tencent.tpns.mqttchannel.core.services.IMqttServiceImpl.b(ProGuard:79)
+	at com.tencent.tpns.mqttchannel.core.services.IMqttServiceImpl$b.TRun(ProGuard:507)
+	at com.tencent.tpns.baseapi.base.util.TTask.run(ProGuard:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+
+11.04_08:48:08_141 8446 19058 INFO [StatHelper] action - reportErrCode, errCode:-512, msg:HttpRequest Throw Error:java.net.SocketTimeoutException: failed to connect to /64:ff9b::771c:6dc1 (port 443) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 49472) after 15000ms, req:1793756872918
+11.04_08:48:08_144 8446 19058 DEBUG [ServiceStat] disable reportErrCode
+11.04_08:48:08_145 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Get guidServer error, guid == null;
+11.04_08:48:08_173 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Get mqttServerIP: ssl://access1.tpns.sgp.tencent.com:1884
+11.04_08:48:08_174 8446 19058 DEBUG [CloudManager] shouldRefuse | isCloudRefuse : false
+11.04_08:48:08_174 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt cloudRefuse: false
+11.04_08:48:08_174 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] update encryptLevel: 0, compressLevel: 1
+11.04_08:48:08_174 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Finally get finalMqttServerAddr = ssl://access1.tpns.sgp.tencent.com:1884
+11.04_08:48:08_176 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> connecting host: ssl://access1.tpns.sgp.tencent.com:1884, state: CONNECTING
+11.04_08:48:08_176 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt clientId: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.04_08:48:08_176 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] stopConnect
+11.04_08:48:08_177 8446 19058 WARN [Mqtt-TPush - IMqttServiceImpl] stopConnect error MqttException 
+11.04_08:48:08_177 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] destroyMqttClient
+11.04_08:48:08_177 8446 19058 DEBUG [MqttAsyncClient] init MqttAsyncClient
+11.04_08:48:08_177 8446 19058 DEBUG [ClientComms] init ClientComms
+11.04_08:48:08_180 8446 19058 INFO [Mqtt-TPush - MqttConfigImpl] isForeignWeakAlarmMode KeepAlive set to : 3600
+11.04_08:48:08_181 8446 19142 DEBUG [ClientComms] ConnectBG mqtt thread
+11.04_08:48:09_804 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:48:09_805 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446001, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793756859}', retryCount=0}
+11.04_08:48:09_808 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:48:09_810 8446 19052 ERROR [PushServiceBroadcastHandler] @@ registetr onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:48:09_814 8446 19052 DEBUG [ServiceStat] disable reportErrCode
+11.04_08:48:10_728 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:48:10_728 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446002, topic='tag', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","tag":"dnyonline_regplayer:en_US dnyonline_regplayernew:en_US","flag":6,"timestamp":1793756860,"sdkVersion":"1.3.5.0"}', retryCount=0}
+11.04_08:48:10_729 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:48:10_729 8446 19052 ERROR [PushServiceBroadcastHandler] @@ TagHandler onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:48:10_729 8446 19052 ERROR [PushServiceBroadcastHandler] tagFailHandler failed with (-1103,Mqtt is not connected, timeout,com.onepunchman.sea.x7sy)
+11.04_08:48:34_613 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:48:34_613 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446003, topic='tag', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","tag":"dnyonline_regplayer:en_US dnyonline_regplayernew:en_US","flag":6,"timestamp":1793756884,"sdkVersion":"1.3.5.0"}', retryCount=0}
+11.04_08:48:34_614 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:48:34_614 8446 19052 ERROR [PushServiceBroadcastHandler] @@ TagHandler onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:48:34_614 8446 19052 ERROR [PushServiceBroadcastHandler] tagFailHandler failed with (-1103,Mqtt is not connected, timeout,com.onepunchman.sea.x7sy)
+11.04_08:48:38_373 8446 19142 DEBUG [ClientComms] ConnectBG mqtt thread
+11.04_08:49:05_776 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:49:05_777 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ACCOUNT.V4
+11.04_08:49:05_778 8446 19052 TRACE [PushServiceNetworkHandler] setAccount(1520010077,[{"account_type":0,"account":"15603071_310794"}])
+11.04_08:49:05_778 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:49:05_779 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:49:05_779 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:49:05_779 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:49:05_780 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446004, topic='account', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","operateType":0,"timestamp":1793756945,"sdkVersion":"1.3.5.0","typeAccounts":[{"accountType":0,"account":"15603071_310794"}]}', retryCount=0}
+11.04_08:49:05_780 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ENABLE_DEBUG.V4
+11.04_08:49:05_792 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:49:05_792 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.REGISTER.V4
+11.04_08:49:05_794 8446 19052 DEBUG [TpnsSecurity] apkSignature already cached 
+11.04_08:49:05_795 8446 19052 INFO [NotificationsUtils] OS >= 26, return true
+11.04_08:49:05_803 8446 19052 DEBUG [RegReq] Register get tAd error, tAd not found
+11.04_08:49:05_803 8446 19052 TRACE [RegReq] Register(1520010077,0f993f99f2a6d9a586cf17a73896611f,,-1),payload:  channel id-1
+11.04_08:49:05_807 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:49:05_810 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:49:05_810 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:49:05_811 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446005, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793756945}', retryCount=0}
+11.04_08:49:08_395 8446 19142 INFO [Mqtt-TPush - IMqttServiceImpl] stopConnect
+11.04_08:49:08_395 8446 19142 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt is not conneted
+11.04_08:49:08_397 8446 19142 ERROR [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> callback onFailure:
+11.04_08:49:08_397 8446 19142 ERROR (0) - java.net.SocketTimeoutException: failed to connect to access1.tpns.sgp.tencent.com/64:ff9b::771c:7b74 (port 1884) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 39316) after 30000ms
+	at com.tencent.android.tpns.mqtt.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38)
+	at com.tencent.android.tpns.mqtt.internal.ClientComms$ConnectBG.TRun(ClientComms.java:736)
+	at com.tencent.tpns.baseapi.base.util.TTask.run(ProGuard:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:463)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.net.SocketTimeoutException: failed to connect to access1.tpns.sgp.tencent.com/64:ff9b::771c:7b74 (port 1884) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 39316) after 30000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+	at libcore.io.IoBridge.connect(IoBridge.java:179)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.tencent.android.tpns.mqtt.internal.TCPNetworkModule.start(TCPNetworkModule.java:80)
+	at com.tencent.android.tpns.mqtt.internal.SSLNetworkModule.start(SSLNetworkModule.java:104)
+	at com.tencent.android.tpns.mqtt.internal.ClientComms$ConnectBG.TRun(ClientComms.java:722)
+	... 7 more
+
+11.04_08:49:08_398 8446 19142 INFO [GuidInfoManagerImpl] Force expired guidInfo, let its refreshTime 0
+11.04_08:49:08_401 8446 19142 WARN [Mqtt-TPush - IMqttServiceImpl] Set guid to expired
+11.04_08:49:08_401 8446 19142 DEBUG [Mqtt-TPush - IMqttServiceImpl] tryReConnect -> retryCount:2, subRetryCount:0, delay:8000
+11.04_08:49:08_401 8446 19142 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - callAllConnectBackSuccess
+11.04_08:49:16_409 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1
+11.04_08:49:16_411 8446 19052 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:49:16_412 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:49:16_412 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:49:16_413 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getFinalMqttServerAddrAndGuidInfo
+11.04_08:49:16_434 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] GuidInfo gapSeconds = 1793756956, compare to 21600
+11.04_08:49:16_440 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Guid expired, request for new one.
+11.04_08:49:16_445 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] action - refreshConnectInfoSynchronized
+11.04_08:49:16_446 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] RefreshTime: 1793756956446
+11.04_08:49:16_450 8446 19058 TRACE [TBase - TPush] have writable external storage, write log file!
+11.04_08:49:16_451 8446 19115 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261104_0847.txt
+11.04_08:49:16_452 8446 19058 INFO [GuidInfoManagerImpl] Send request to GuidServer with token: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.04_08:49:16_453 8446 19058 INFO [GuidInfoManagerImpl] Send request to GuidServer: {"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceType":0,"sdkVersion":"1.3.5.0","seq":1793756956446,"cloudVersion":3,"appVersion":"1.9.3","appPkgName":"com.onepunchman.sea.x7sy","deviceInfo":{"appDeviceInfo":{"appVersion":"1.9.3","os":"android","packageName":"com.onepunchman.sea.x7sy","sdkVersionName":"13"}},"protocolVersion":2,"timestamp":1793756956452,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","tokenList":["03a8e891e59b2a7a42e2611ce0d69647d34f"]}
+11.04_08:49:16_464 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | XGConfig guidServerHostAddr : https://api.tpns.sgp.tencent.com/guid/v4/register_device
+11.04_08:49:16_719 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | update lastResolvedGuidServerIP , guidServerIPAddr : ; guidServerIp : [64:ff9b::771c:6dc1]
+11.04_08:49:16_720 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] setLastResolvedGuidServerIP | lastGuidServerIp : [64:ff9b::771c:6dc1]; newGuidServerIp : [64:ff9b::771c:6dc1]
+11.04_08:49:16_721 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] replaceHostWithIp | host : api.tpns.sgp.tencent.com; ipAddr : https://[64:ff9b::771c:6dc1]/guid/v4/register_device
+11.04_08:49:16_721 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | result guidServerIPAddress : https://[64:ff9b::771c:6dc1]/guid/v4/register_device
+11.04_08:49:16_721 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Send to GuidServerIpAddr: https://[64:ff9b::771c:6dc1]/guid/v4/register_device
+11.04_08:49:16_722 8446 19058 DEBUG [Base-TPush - HttpRequest] [https://[64:ff9b::771c:6dc1]/guid/v4/register_device]Send request(464bytes), content:{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceType":0,"sdkVersion":"1.3.5.0","seq":1793756956446,"cloudVersion":3,"appVersion":"1.9.3","appPkgName":"com.onepunchman.sea.x7sy","deviceInfo":{"appDeviceInfo":{"appVersion":"1.9.3","os":"android","packageName":"com.onepunchman.sea.x7sy","sdkVersionName":"13"}},"protocolVersion":2,"timestamp":1793756956452,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","tokenList":["03a8e891e59b2a7a42e2611ce0d69647d34f"]}
+11.04_08:49:16_723 8446 19058 DEBUG [Base-TPush - HttpRequest] sendHttpPost | url: https://[64:ff9b::771c:6dc1]/guid/v4/register_device hostName: api.tpns.sgp.tencent.com
+11.04_08:49:31_739 8446 19058 ERROR [Base-TPush - HttpRequest] Http Request Error, Tr: java.net.SocketTimeoutException: failed to connect to /64:ff9b::771c:6dc1 (port 443) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 49688) after 15000ms
+11.04_08:49:31_739 8446 19058 ERRORjava.net.SocketTimeoutException: failed to connect to /64:ff9b::771c:6dc1 (port 443) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 49688) after 15000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+	at libcore.io.IoBridge.connect(IoBridge.java:179)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:306)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:249)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.tencent.tpns.baseapi.core.net.a.a(ProGuard:166)
+	at com.tencent.tpns.baseapi.core.b.a.a(ProGuard:300)
+	at com.tencent.tpns.baseapi.core.b.a.a(ProGuard:95)
+	at com.tencent.tpns.baseapi.core.b.a.a(ProGuard:81)
+	at com.tencent.tpns.baseapi.base.device.GuidInfoManager.getFinalGuidInfo(ProGuard:208)
+	at com.tencent.tpns.mqttchannel.core.services.IMqttServiceImpl.d(ProGuard:560)
+	at com.tencent.tpns.mqttchannel.core.services.IMqttServiceImpl.b(ProGuard:79)
+	at com.tencent.tpns.mqttchannel.core.services.IMqttServiceImpl$b.TRun(ProGuard:507)
+	at com.tencent.tpns.baseapi.base.util.TTask.run(ProGuard:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+
+11.04_08:49:31_740 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Get guidServer error, guid == null;
+11.04_08:49:31_787 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Get mqttServerIP: ssl://access1.tpns.sgp.tencent.com:1884
+11.04_08:49:31_787 8446 19058 DEBUG [CloudManager] shouldRefuse | isCloudRefuse : false
+11.04_08:49:31_787 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt cloudRefuse: false
+11.04_08:49:31_787 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] update encryptLevel: 0, compressLevel: 1
+11.04_08:49:31_788 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Finally get finalMqttServerAddr = ssl://access1.tpns.sgp.tencent.com:1884
+11.04_08:49:31_791 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> connecting host: ssl://access1.tpns.sgp.tencent.com:1884, state: CONNECTING
+11.04_08:49:31_791 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt clientId: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.04_08:49:31_791 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] stopConnect
+11.04_08:49:31_792 8446 19058 WARN [Mqtt-TPush - IMqttServiceImpl] stopConnect error MqttException 
+11.04_08:49:31_792 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] destroyMqttClient
+11.04_08:49:31_795 8446 19058 DEBUG [MqttAsyncClient] init MqttAsyncClient
+11.04_08:49:31_795 8446 19058 DEBUG [ClientComms] init ClientComms
+11.04_08:49:31_798 8446 19058 INFO [Mqtt-TPush - MqttConfigImpl] isForeignWeakAlarmMode KeepAlive set to : 3600
+11.04_08:49:31_799 8446 19169 DEBUG [ClientComms] ConnectBG mqtt thread
+11.04_08:49:33_801 8446 19052 DEBUG [XGVipPushService] --CheckMessage--interval time:120000
+11.04_08:49:33_828 8446 19052 INFO [Mqtt-TPush - MqttConfigImpl] isForeignWeakAlarmMode KeepAlive set to : 3600
+11.04_08:49:33_832 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:49:33_833 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.REGISTER.V4
+11.04_08:49:33_835 8446 19052 DEBUG [TpnsSecurity] apkSignature already cached 
+11.04_08:49:33_836 8446 19052 INFO [NotificationsUtils] OS >= 26, return true
+11.04_08:49:33_844 8446 19052 DEBUG [RegReq] Register get tAd error, tAd not found
+11.04_08:49:33_844 8446 19052 TRACE [RegReq] Register(1520010077,0f993f99f2a6d9a586cf17a73896611f,,-1),payload:  channel id-1
+11.04_08:49:33_849 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:49:33_856 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:49:33_856 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:49:33_856 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446006, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793756973}', retryCount=0}
+11.04_08:49:35_781 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:49:35_782 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446004, topic='account', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","operateType":0,"timestamp":1793756945,"sdkVersion":"1.3.5.0","typeAccounts":[{"accountType":0,"account":"15603071_310794"}]}', retryCount=0}
+11.04_08:49:35_783 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:49:35_784 8446 19052 ERROR [PushServiceBroadcastHandler] @@ AccountHandler onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:49:35_784 8446 19052 ERROR [PushServiceBroadcastHandler] accountFailHandler failed with (-1103,Mqtt is not connected, timeout,com.onepunchman.sea.x7sy)
+11.04_08:49:35_811 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:49:35_812 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446005, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793756945}', retryCount=0}
+11.04_08:49:35_812 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:49:35_813 8446 19052 ERROR [PushServiceBroadcastHandler] @@ registetr onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:49:35_819 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:49:35_820 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:49:35_820 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ACCOUNT.V4
+11.04_08:49:35_820 8446 19052 TRACE [PushServiceNetworkHandler] setAccount(1520010077,[{"account_type":0,"account":"15603071_310794"}])
+11.04_08:49:35_821 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:49:35_821 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:49:35_821 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:49:35_822 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446007, topic='account', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","operateType":0,"timestamp":1793756975,"sdkVersion":"1.3.5.0","typeAccounts":[{"accountType":0,"account":"15603071_310794"}]}', retryCount=0}
+11.04_08:49:35_823 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ENABLE_DEBUG.V4
+11.04_08:49:35_829 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:49:35_831 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.REGISTER.V4
+11.04_08:49:35_832 8446 19052 DEBUG [TpnsSecurity] apkSignature already cached 
+11.04_08:49:35_833 8446 19052 INFO [NotificationsUtils] OS >= 26, return true
+11.04_08:49:35_841 8446 19052 DEBUG [RegReq] Register get tAd error, tAd not found
+11.04_08:49:35_841 8446 19052 TRACE [RegReq] Register(1520010077,0f993f99f2a6d9a586cf17a73896611f,,-1),payload:  channel id-1
+11.04_08:49:35_844 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:49:35_848 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:49:35_849 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:49:35_849 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446008, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793756975}', retryCount=0}
+11.04_08:50:02_122 8446 19169 DEBUG [ClientComms] ConnectBG mqtt thread
+11.04_08:50:03_868 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:50:03_868 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446006, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793756973}', retryCount=0}
+11.04_08:50:03_869 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:50:03_871 8446 19052 ERROR [PushServiceBroadcastHandler] @@ registetr onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:50:05_824 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:50:05_825 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446007, topic='account', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","operateType":0,"timestamp":1793756975,"sdkVersion":"1.3.5.0","typeAccounts":[{"accountType":0,"account":"15603071_310794"}]}', retryCount=0}
+11.04_08:50:05_825 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:50:05_826 8446 19052 ERROR [PushServiceBroadcastHandler] @@ AccountHandler onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:50:05_826 8446 19052 ERROR [PushServiceBroadcastHandler] accountFailHandler failed with (-1103,Mqtt is not connected, timeout,com.onepunchman.sea.x7sy)
+11.04_08:50:05_848 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:50:05_849 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:50:05_849 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446008, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793756975}', retryCount=0}
+11.04_08:50:05_850 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ACCOUNT.V4
+11.04_08:50:05_851 8446 19052 TRACE [PushServiceNetworkHandler] setAccount(1520010077,[{"account_type":0,"account":"15603071_310794"}])
+11.04_08:50:05_851 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:50:05_852 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:50:05_852 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:50:05_852 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446009, topic='account', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","operateType":0,"timestamp":1793757005,"sdkVersion":"1.3.5.0","typeAccounts":[{"accountType":0,"account":"15603071_310794"}]}', retryCount=0}
+11.04_08:50:05_849 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:50:05_853 8446 19052 ERROR [PushServiceBroadcastHandler] @@ registetr onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:50:05_853 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:50:05_857 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ENABLE_DEBUG.V4
+11.04_08:50:05_858 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:50:05_860 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.REGISTER.V4
+11.04_08:50:05_861 8446 19052 DEBUG [TpnsSecurity] apkSignature already cached 
+11.04_08:50:05_863 8446 19052 INFO [NotificationsUtils] OS >= 26, return true
+11.04_08:50:05_872 8446 19052 DEBUG [RegReq] Register get tAd error, tAd not found
+11.04_08:50:05_872 8446 19052 TRACE [RegReq] Register(1520010077,0f993f99f2a6d9a586cf17a73896611f,,-1),payload:  channel id-1
+11.04_08:50:05_876 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:50:05_879 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:50:05_882 8446 19052 TRACE [TBase - TPush] have writable external storage, write log file!
+11.04_08:50:05_882 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:50:05_883 8446 19115 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261104_0847.txt
+11.04_08:50:05_883 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446010, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793757005}', retryCount=0}
+11.04_08:50:32_136 8446 19169 INFO [Mqtt-TPush - IMqttServiceImpl] stopConnect
+11.04_08:50:32_137 8446 19169 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt is not conneted
+11.04_08:50:32_139 8446 19169 ERROR [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> callback onFailure:
+11.04_08:50:32_139 8446 19169 ERROR (0) - java.net.SocketTimeoutException: failed to connect to access1.tpns.sgp.tencent.com/64:ff9b::81e2:26d (port 1884) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 48030) after 30000ms
+	at com.tencent.android.tpns.mqtt.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38)
+	at com.tencent.android.tpns.mqtt.internal.ClientComms$ConnectBG.TRun(ClientComms.java:736)
+	at com.tencent.tpns.baseapi.base.util.TTask.run(ProGuard:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:463)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.net.SocketTimeoutException: failed to connect to access1.tpns.sgp.tencent.com/64:ff9b::81e2:26d (port 1884) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 48030) after 30000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+	at libcore.io.IoBridge.connect(IoBridge.java:179)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.tencent.android.tpns.mqtt.internal.TCPNetworkModule.start(TCPNetworkModule.java:80)
+	at com.tencent.android.tpns.mqtt.internal.SSLNetworkModule.start(SSLNetworkModule.java:104)
+	at com.tencent.android.tpns.mqtt.internal.ClientComms$ConnectBG.TRun(ClientComms.java:722)
+	... 7 more
+
+11.04_08:50:32_140 8446 19169 INFO [GuidInfoManagerImpl] Force expired guidInfo, let its refreshTime 0
+11.04_08:50:32_148 8446 19169 WARN [Mqtt-TPush - IMqttServiceImpl] Set guid to expired
+11.04_08:50:32_149 8446 19169 DEBUG [Mqtt-TPush - IMqttServiceImpl] tryReConnect -> retryCount:3, subRetryCount:0, delay:16000
+11.04_08:50:32_149 8446 19169 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - callAllConnectBackSuccess
+11.04_08:50:35_855 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:50:35_856 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446009, topic='account', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","operateType":0,"timestamp":1793757005,"sdkVersion":"1.3.5.0","typeAccounts":[{"accountType":0,"account":"15603071_310794"}]}', retryCount=0}
+11.04_08:50:35_856 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:50:35_857 8446 19052 ERROR [PushServiceBroadcastHandler] @@ AccountHandler onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:50:35_857 8446 19052 ERROR [PushServiceBroadcastHandler] accountFailHandler failed with (-1103,Mqtt is not connected, timeout,com.onepunchman.sea.x7sy)
+11.04_08:50:35_884 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:50:35_884 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446010, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793757005}', retryCount=0}
+11.04_08:50:35_885 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:50:35_886 8446 19052 ERROR [PushServiceBroadcastHandler] @@ registetr onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:50:48_153 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1
+11.04_08:50:48_157 8446 19052 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:50:48_157 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:50:48_158 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:50:48_158 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getFinalMqttServerAddrAndGuidInfo
+11.04_08:50:48_177 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] GuidInfo gapSeconds = 1793757048, compare to 21600
+11.04_08:50:48_182 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Guid expired, request for new one.
+11.04_08:50:48_185 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] action - refreshConnectInfoSynchronized
+11.04_08:50:48_185 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] RefreshTime: 1793757048185
+11.04_08:50:48_185 8446 19058 INFO [GuidInfoManagerImpl] Send request to GuidServer with token: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.04_08:50:48_186 8446 19058 INFO [GuidInfoManagerImpl] Send request to GuidServer: {"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceType":0,"sdkVersion":"1.3.5.0","seq":1793757048185,"cloudVersion":3,"appVersion":"1.9.3","appPkgName":"com.onepunchman.sea.x7sy","deviceInfo":{"appDeviceInfo":{"appVersion":"1.9.3","os":"android","packageName":"com.onepunchman.sea.x7sy","sdkVersionName":"13"}},"protocolVersion":2,"timestamp":1793757048185,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","tokenList":["03a8e891e59b2a7a42e2611ce0d69647d34f"]}
+11.04_08:50:48_195 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | XGConfig guidServerHostAddr : https://api.tpns.sgp.tencent.com/guid/v4/register_device
+11.04_08:50:48_399 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | update lastResolvedGuidServerIP , guidServerIPAddr : ; guidServerIp : [64:ff9b::771c:6dc1]
+11.04_08:50:48_401 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] setLastResolvedGuidServerIP | lastGuidServerIp : [64:ff9b::771c:6dc1]; newGuidServerIp : [64:ff9b::771c:6dc1]
+11.04_08:50:48_402 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] replaceHostWithIp | host : api.tpns.sgp.tencent.com; ipAddr : https://[64:ff9b::771c:6dc1]/guid/v4/register_device
+11.04_08:50:48_402 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | result guidServerIPAddress : https://[64:ff9b::771c:6dc1]/guid/v4/register_device
+11.04_08:50:48_403 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Send to GuidServerIpAddr: https://[64:ff9b::771c:6dc1]/guid/v4/register_device
+11.04_08:50:48_404 8446 19058 DEBUG [Base-TPush - HttpRequest] [https://[64:ff9b::771c:6dc1]/guid/v4/register_device]Send request(464bytes), content:{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceType":0,"sdkVersion":"1.3.5.0","seq":1793757048185,"cloudVersion":3,"appVersion":"1.9.3","appPkgName":"com.onepunchman.sea.x7sy","deviceInfo":{"appDeviceInfo":{"appVersion":"1.9.3","os":"android","packageName":"com.onepunchman.sea.x7sy","sdkVersionName":"13"}},"protocolVersion":2,"timestamp":1793757048185,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","tokenList":["03a8e891e59b2a7a42e2611ce0d69647d34f"]}
+11.04_08:50:48_405 8446 19058 DEBUG [Base-TPush - HttpRequest] sendHttpPost | url: https://[64:ff9b::771c:6dc1]/guid/v4/register_device hostName: api.tpns.sgp.tencent.com
+11.04_08:51:03_419 8446 19058 ERROR [Base-TPush - HttpRequest] Http Request Error, Tr: java.net.SocketTimeoutException: failed to connect to /64:ff9b::771c:6dc1 (port 443) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 49814) after 15000ms
+11.04_08:51:03_419 8446 19058 ERRORjava.net.SocketTimeoutException: failed to connect to /64:ff9b::771c:6dc1 (port 443) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 49814) after 15000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+	at libcore.io.IoBridge.connect(IoBridge.java:179)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:306)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:249)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+	at com.tencent.tpns.baseapi.core.net.a.a(ProGuard:166)
+	at com.tencent.tpns.baseapi.core.b.a.a(ProGuard:300)
+	at com.tencent.tpns.baseapi.core.b.a.a(ProGuard:95)
+	at com.tencent.tpns.baseapi.core.b.a.a(ProGuard:81)
+	at com.tencent.tpns.baseapi.base.device.GuidInfoManager.getFinalGuidInfo(ProGuard:208)
+	at com.tencent.tpns.mqttchannel.core.services.IMqttServiceImpl.d(ProGuard:560)
+	at com.tencent.tpns.mqttchannel.core.services.IMqttServiceImpl.b(ProGuard:79)
+	at com.tencent.tpns.mqttchannel.core.services.IMqttServiceImpl$b.TRun(ProGuard:507)
+	at com.tencent.tpns.baseapi.base.util.TTask.run(ProGuard:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+
+11.04_08:51:03_421 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Get guidServer error, guid == null;
+11.04_08:51:03_455 8446 19058 INFO [Base-TPush - GuidInfoManagerImpl] Get mqttServerIP: ssl://access1.tpns.sgp.tencent.com:1884
+11.04_08:51:03_455 8446 19058 DEBUG [CloudManager] shouldRefuse | isCloudRefuse : false
+11.04_08:51:03_455 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt cloudRefuse: false
+11.04_08:51:03_455 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] update encryptLevel: 0, compressLevel: 1
+11.04_08:51:03_455 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Finally get finalMqttServerAddr = ssl://access1.tpns.sgp.tencent.com:1884
+11.04_08:51:03_456 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> connecting host: ssl://access1.tpns.sgp.tencent.com:1884, state: CONNECTING
+11.04_08:51:03_456 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt clientId: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.04_08:51:03_456 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] stopConnect
+11.04_08:51:03_456 8446 19058 WARN [Mqtt-TPush - IMqttServiceImpl] stopConnect error MqttException 
+11.04_08:51:03_457 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] destroyMqttClient
+11.04_08:51:03_457 8446 19058 DEBUG [MqttAsyncClient] init MqttAsyncClient
+11.04_08:51:03_457 8446 19058 DEBUG [ClientComms] init ClientComms
+11.04_08:51:03_459 8446 19058 INFO [Mqtt-TPush - MqttConfigImpl] isForeignWeakAlarmMode KeepAlive set to : 3600
+11.04_08:51:03_460 8446 19199 DEBUG [ClientComms] ConnectBG mqtt thread
+11.04_08:51:33_749 8446 19199 DEBUG [ClientComms] ConnectBG mqtt thread
+11.04_08:51:33_833 8446 19052 DEBUG [XGVipPushService] --CheckMessage--interval time:120000
+11.04_08:51:33_855 8446 19052 INFO [Mqtt-TPush - MqttConfigImpl] isForeignWeakAlarmMode KeepAlive set to : 3600
+11.04_08:51:33_857 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:51:33_857 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.REGISTER.V4
+11.04_08:51:33_859 8446 19052 DEBUG [TpnsSecurity] apkSignature already cached 
+11.04_08:51:33_860 8446 19052 INFO [NotificationsUtils] OS >= 26, return true
+11.04_08:51:33_871 8446 19052 DEBUG [RegReq] Register get tAd error, tAd not found
+11.04_08:51:33_871 8446 19052 TRACE [RegReq] Register(1520010077,0f993f99f2a6d9a586cf17a73896611f,,-1),payload:  channel id-1
+11.04_08:51:33_875 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:51:33_879 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:51:33_879 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:51:33_880 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446011, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793757093}', retryCount=0}
+11.04_08:52:03_905 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handler cmd: 1010
+11.04_08:52:03_907 8446 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] handleTimeOut 1010 obj : Request{type=6, id=93756793738446011, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793757093}', retryCount=0}
+11.04_08:52:03_908 8446 19058 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:-1103, message:Mqtt is not connected, timeout
+11.04_08:52:03_909 8446 19052 ERROR [PushServiceBroadcastHandler] @@ registetr onMessageSendFailed: -1103, Mqtt is not connected, timeout
+11.04_08:52:04_014 8446 19199 INFO [Mqtt-TPush - IMqttServiceImpl] stopConnect
+11.04_08:52:04_016 8446 19199 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt is not conneted
+11.04_08:52:04_017 8446 19199 ERROR [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> callback onFailure:
+11.04_08:52:04_017 8446 19199 ERROR (0) - java.net.SocketTimeoutException: failed to connect to access1.tpns.sgp.tencent.com/64:ff9b::771c:7b74 (port 1884) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 39612) after 30000ms
+	at com.tencent.android.tpns.mqtt.internal.ExceptionHelper.createMqttException(ExceptionHelper.java:38)
+	at com.tencent.android.tpns.mqtt.internal.ClientComms$ConnectBG.TRun(ClientComms.java:736)
+	at com.tencent.tpns.baseapi.base.util.TTask.run(ProGuard:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:463)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.net.SocketTimeoutException: failed to connect to access1.tpns.sgp.tencent.com/64:ff9b::771c:7b74 (port 1884) from /2401:d800:b2d:4be0:e665:5c49:449d:6960 (port 39612) after 30000ms
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+	at libcore.io.IoBridge.connect(IoBridge.java:179)
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+	at java.net.Socket.connect(Socket.java:646)
+	at com.tencent.android.tpns.mqtt.internal.TCPNetworkModule.start(TCPNetworkModule.java:80)
+	at com.tencent.android.tpns.mqtt.internal.SSLNetworkModule.start(SSLNetworkModule.java:104)
+	at com.tencent.android.tpns.mqtt.internal.ClientComms$ConnectBG.TRun(ClientComms.java:722)
+	... 7 more
+
+11.04_08:52:04_019 8446 19199 INFO [GuidInfoManagerImpl] Force expired guidInfo, let its refreshTime 0
+11.04_08:52:04_028 8446 19199 WARN [Mqtt-TPush - IMqttServiceImpl] Set guid to expired
+11.04_08:52:04_029 8446 19199 DEBUG [Mqtt-TPush - IMqttServiceImpl] tryReConnect too times, give up connect retryCount: 4, sub retryCount: 0
+11.04_08:52:04_033 8446 19199 INFO [Mqtt-TPush - IMqttServiceImpl] can't get any offline msg
+11.04_08:52:04_033 8446 19199 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - callAllConnectBackSuccess
+11.04_08:53:33_930 8446 19052 DEBUG [XGVipPushService] --CheckMessage--interval time:120000
+11.04_08:53:33_961 8446 19052 INFO [Mqtt-TPush - MqttConfigImpl] isForeignWeakAlarmMode KeepAlive set to : 3600
+11.04_08:53:33_964 8446 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.04_08:53:33_965 8446 19052 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.REGISTER.V4
+11.04_08:53:33_967 8446 19052 DEBUG [TpnsSecurity] apkSignature already cached 
+11.04_08:53:33_969 8446 19052 INFO [NotificationsUtils] OS >= 26, return true
+11.04_08:53:33_975 8446 19052 DEBUG [RegReq] Register get tAd error, tAd not found
+11.04_08:53:33_975 8446 19052 TRACE [RegReq] Register(1520010077,0f993f99f2a6d9a586cf17a73896611f,,-1),payload:  channel id-1
+11.04_08:53:33_979 8446 19052 DEBUG [XGMqttChannel] doActionWhenConnected
+11.04_08:53:33_983 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.04_08:53:33_983 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.04_08:53:33_984 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] addCacheMessage Request{type=6, id=93756793738446012, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"v-internet","sdCard":"35052\/115230","sdDouble":"","resolution":"1080*2249","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"vi","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015,438","countryCode":"VN","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793757213}', retryCount=0}
+11.04_08:53:33_984 8446 19052 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - startConnect
+11.04_08:53:33_984 8446 19052 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:53:33_984 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:53:33_985 8446 19058 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTFAIL
+11.04_08:53:33_985 8446 19058 DEBUG [Base-TPush - GuidInfoManagerImpl] getFinalMqttServerAddrAndGuidInfo

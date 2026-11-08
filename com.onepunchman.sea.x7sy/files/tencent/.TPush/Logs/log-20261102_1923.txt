@@ -1,0 +1,1301 @@
+DeviceInfo{buildInfo=BuildInfo{brand='realme', systemVersion='13', sdkVersion=33, language='vi', timezone='Asia/Ho_Chi_Minh'}, screenInfo=ScreenInfo{width=2290, height=1039}}
+11.02_19:21:57_985 12461 13591 INFO [MessageHelper] Action -> showNotification {"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"Live Clash rank match starts. Slug it out!","lights":1,"n_id":46068922,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}
+11.02_19:21:58_030 12461 13591 INFO [XGPushNotificationBuilder] XGPushNotification Build.VERSION.SDK_INT: 33, targetSDK:30
+11.02_19:22:00_137 12461 2 INFO [XGPushManager] >>> onActivityStarted org.cocos2dx.lua.AppActivity@3a55062
+11.02_19:22:00_147 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:05_150 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:10_151 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:10_551 12461 13623 WARN [Base-TPush - XGApiConfigImpl] refresh Token
+11.02_19:22:10_555 12461 2 DEBUG [Sp] main thread, async sp set
+11.02_19:22:10_557 12461 2 DEBUG [Sp] main thread, async sp set
+11.02_19:22:10_557 12461 2 DEBUG [Sp] main thread, async sp set
+11.02_19:22:10_564 12461 2 INFO [XGPushManager] enableService=1
+11.02_19:22:10_565 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:22:10_576 12461 13591 DEBUG [XG_fcm]  GooglePlayServices service resultCode = 0
+11.02_19:22:10_576 12461 13591 DEBUG [XG_fcm] This device is supported, GooglePlayServices service is running
+11.02_19:22:10_665 12461 13591 INFO [SysPush] isUseXgSysDevice: false
+11.02_19:22:10_665 12461 13591 INFO [OtherPushManager] USE oppo
+11.02_19:22:10_666 12461 13591 WARN [Util] unexpected for init oppo
+11.02_19:22:10_667 12461 13591 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.02_19:22:10_667 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:22:10_667 12461 13591 INFO [XGPushManager] start other push channel register !
+11.02_19:22:10_667 12461 13591 INFO [XGPushManager] start other push channel register !
+11.02_19:22:10_667 12461 13591 TRACE [XGPushConfig] isUsedOtherPush:true
+11.02_19:22:10_667 12461 13591 WARN [Util] unexpected for init oppo
+11.02_19:22:10_668 12461 13591 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.02_19:22:10_668 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:22:10_668 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:22:10_668 12461 13591 INFO [XG_fcm] get FCM version lower 22
+11.02_19:22:10_668 12461 13591 TRACE [XGPushConfig] isUsedOtherPush:true
+11.02_19:22:10_668 12461 13591 INFO [XGPushManager] invalid sync wait other channel push time:-1, reset to 4s 
+11.02_19:22:10_668 12461 13591 WARN [Util] unexpected for init oppo
+11.02_19:22:10_668 12461 13591 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.02_19:22:10_669 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:22:10_669 12461 2 DEBUG [XG_fcm]  OtherPushImpl registerFcmPush getToken= fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.02_19:22:10_672 12461 13591 INFO [XGPushManager] get fcmToken is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.02_19:22:10_672 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:22:10_672 12461 13591 WARN [Util] unexpected for init oppo
+11.02_19:22:10_672 12461 13591 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.02_19:22:10_673 12461 13591 DEBUG [XGPushConfig] channelId is not empty
+11.02_19:22:10_673 12461 13591 TRACE [XGPushConfig] isUsedOtherPush:true
+11.02_19:22:10_673 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:22:10_673 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:22:10_674 12461 13591 INFO [XGPushManager] other push token is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI  other push type: fcm
+11.02_19:22:10_674 12461 13591 DEBUG [XGPushManager] url = null payload = null otherPushType 0 otherPushTokenOpType 1
+11.02_19:22:10_674 12461 13591 DEBUG [XGPushConfig] isUsedTpnsChannel: true
+11.02_19:22:10_675 12461 13591 DEBUG [XGPushConfig] isUsedTpnsChannel: true
+11.02_19:22:10_675 12461 13591 DEBUG [Util] action getServiceStatus
+11.02_19:22:10_676 12461 13591 DEBUG [XGPushManager] serviceStatus:1, isHasBinded: true
+11.02_19:22:10_676 12461 13591 DEBUG [XGPushManager] send boardcast to register
+11.02_19:22:10_676 12461 13591 INFO [XGPushManager] Action -> Register to TPNS server
+11.02_19:22:10_772 12461 2 INFO [XGPushManager] Register call back to com.onepunchman.sea.x7sy
+11.02_19:22:10_774 12461 13591 DEBUG [XGPushManager] TYPE_RSP - operation:0, opType:0
+11.02_19:22:10_774 12461 13591 DEBUG [NotificationsUtils] updateLastUploadMd5Str:null,str:d588c180d8915da7128b97a72f628050
+11.02_19:22:10_774 12461 13622 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/heart,match:30
+11.02_19:22:10_774 12461 13591 DEBUG [XGPushManager] TYPE_RSP - has invoked callback
+11.02_19:22:10_775 12461 13591 TRACE [XGPushConfig] isUsedOtherPush:true
+11.02_19:22:10_777 12461 13591 DEBUG [XGPushManager] reportTpnsInfoToBugly | report tpnsInfo to bugly : TPNS INFO 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.02_19:22:10_779 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:22:10_779 12461 13591 WARN [Util] unexpected for init oppo
+11.02_19:22:10_779 12461 13591 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.02_19:22:10_779 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:22:10_780 12461 13591 INFO [OtherPushClient] handleUpdateToken other push token is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI other push type: fcm
+11.02_19:22:10_780 12461 13591 INFO [OtherPushClient] Already bind OtherPush succeed token with accessId = 1520010077  token = 03a8e891e59b2a7a42e2611ce0d69647d34f otherPushType = fcm otherPushToken = fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.02_19:22:12_014 12461 13623 INFO [XGPushManager] Action -> setTags with all tags = dnyonline_regplayer:en_US dnyonline_regplayernew:en_US
+11.02_19:22:15_174 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:15_174 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:22:20_189 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:20_189 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:22:20_782 12461 13623 INFO [XGPushManager] Action -> setTags with all tags = dnyonline_regplayer:en_US dnyonline_regplayernew:en_US
+11.02_19:22:25_189 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:25_190 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:22:30_193 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:30_193 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:22:35_196 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:35_196 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:22:40_197 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:40_198 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:22:45_199 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:45_200 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:22:50_202 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:50_203 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:22:55_204 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:22:55_204 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:00_206 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:00_206 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:05_207 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:05_208 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:10_209 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:10_210 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:15_211 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:15_212 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:20_214 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:20_214 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:20_516 12461 13623 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:23:20_518 12461 13591 DEBUG [XGPushConfig] isUsedTpnsChannel: true
+11.02_19:23:20_518 12461 13623 WARN [Base-TPush - XGApiConfigImpl] refresh Token
+11.02_19:23:20_519 12461 13591 DEBUG [XGPushConfig] accountManagerByHttp from cloud: 2
+11.02_19:23:20_519 12461 13591 DEBUG [XGPushConfig] isUsedHttpAccountOperate: false
+11.02_19:23:20_521 12461 2 INFO [XGPushManager] enableService=1
+11.02_19:23:20_525 12461 13591 INFO [XGPushManager] start other push channel register !
+11.02_19:23:20_525 12461 13591 INFO [XGPushManager] start other push channel register !
+11.02_19:23:20_527 12461 13591 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:23:20_529 12461 13591 TRACE [XGPushConfig] isUsedOtherPush:true
+11.02_19:23:20_529 12461 13591 WARN [Util] unexpected for init oppo
+11.02_19:23:20_529 12461 13591 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.02_19:23:20_529 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:23:20_529 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:23:20_530 12461 13591 TRACE [XGPushConfig] isUsedOtherPush:true
+11.02_19:23:20_530 12461 13591 INFO [XGPushManager] invalid sync wait other channel push time:-1, reset to 4s 
+11.02_19:23:20_530 12461 13591 WARN [Util] unexpected for init oppo
+11.02_19:23:20_530 12461 2 DEBUG [XG_fcm]  OtherPushImpl registerFcmPush getToken= fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.02_19:23:20_530 12461 13591 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.02_19:23:20_531 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:23:20_530 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:23:20_531 12461 13591 INFO [XGPushManager] get fcmToken is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.02_19:23:20_531 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:23:20_532 12461 13591 WARN [Util] unexpected for init oppo
+11.02_19:23:20_532 12461 13591 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.02_19:23:20_532 12461 13591 DEBUG [XGPushConfig] channelId is not empty
+11.02_19:23:20_533 12461 13591 TRACE [XGPushConfig] isUsedOtherPush:true
+11.02_19:23:20_533 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:23:20_533 12461 13591 INFO [XGPushManager] other push token is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI  other push type: fcm
+11.02_19:23:20_534 12461 13591 DEBUG [XGPushManager] url = null payload = null otherPushType 0 otherPushTokenOpType 1
+11.02_19:23:20_534 12461 13591 DEBUG [XGPushConfig] isUsedTpnsChannel: true
+11.02_19:23:20_534 12461 13591 DEBUG [XGPushConfig] isUsedTpnsChannel: true
+11.02_19:23:20_534 12461 13591 DEBUG [Util] action getServiceStatus
+11.02_19:23:20_535 12461 13591 DEBUG [XGPushManager] serviceStatus:1, isHasBinded: true
+11.02_19:23:20_535 12461 13591 DEBUG [XGPushManager] send boardcast to register
+11.02_19:23:20_535 12461 13591 INFO [XGPushManager] Action -> Register to TPNS server
+11.02_19:23:20_594 12461 2 INFO [XGPushManager] Account call back to com.onepunchman.sea.x7sy
+11.02_19:23:20_638 12461 2 INFO [XGPushManager] Register call back to com.onepunchman.sea.x7sy
+11.02_19:23:20_639 12461 13591 DEBUG [XGPushManager] TYPE_RSP - operation:0, opType:0
+11.02_19:23:20_639 12461 13591 DEBUG [NotificationsUtils] updateLastUploadMd5Str:d588c180d8915da7128b97a72f628050,str:d588c180d8915da7128b97a72f628050
+11.02_19:23:20_639 12461 13591 DEBUG [XGPushManager] TYPE_RSP - has invoked callback
+11.02_19:23:20_640 12461 13591 TRACE [XGPushConfig] isUsedOtherPush:true
+11.02_19:23:20_640 12461 13591 DEBUG [XGPushManager] reportTpnsInfoToBugly | report tpnsInfo to bugly : TPNS INFO 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.02_19:23:20_640 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:23:20_641 12461 13591 WARN [Util] unexpected for init oppo
+11.02_19:23:20_641 12461 13591 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.02_19:23:20_641 12461 13591 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.02_19:23:20_641 12461 13611 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/heart,match:30
+11.02_19:23:20_641 12461 13591 INFO [OtherPushClient] handleUpdateToken other push token is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI other push type: fcm
+11.02_19:23:20_642 12461 13591 INFO [OtherPushClient] Already bind OtherPush succeed token with accessId = 1520010077  token = 03a8e891e59b2a7a42e2611ce0d69647d34f otherPushType = fcm otherPushToken = fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.02_19:23:20_807 12461 13623 INFO [XGPushManager] Action -> setTags with all tags = dnyonline_csarena:en_US dnyonline_server7:en_US dnyonline_realpvp:en_US dnyonline_regplayer:en_US dnyonline_union:en_US dnyonline_level90:en_US dnyonline_regplayernew:en_US dnyonline_dayEnergy:en_US dnyonline_vip0:en_US
+11.02_19:23:25_217 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:25_217 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:30_219 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:30_219 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:35_221 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:35_221 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:39_072 12461 13623 INFO [XGPushManager] Action -> setTags with all tags = dnyonline_csarena:en_US dnyonline_server7:en_US dnyonline_realpvp:en_US dnyonline_regplayer:en_US dnyonline_union:en_US dnyonline_level90:en_US dnyonline_regplayernew:en_US dnyonline_dayEnergy:en_US dnyonline_vip0:en_US
+11.02_19:23:40_222 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:40_222 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:45_223 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:45_223 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:50_224 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:50_224 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:55_226 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:23:55_226 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:23:58_085 12461 13621 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:23:58_085 12461 13621 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:23:58_085 12461 13621 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:23:58_088 12461 13621 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:23:58_089 12461 13621 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:23:58_089 12461 13621 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:24:00_227 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:00_227 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:05_229 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:05_231 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:10_234 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:10_235 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:15_238 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:15_238 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:20_240 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:20_240 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:25_240 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:25_241 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:30_242 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:30_242 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:35_243 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:35_243 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:40_244 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:40_244 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:45_245 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:45_245 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:50_246 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:50_246 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:24:55_249 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:24:55_249 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:00_251 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:00_252 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:05_253 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:05_253 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:10_258 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:10_258 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:15_262 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:15_265 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:20_274 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:20_275 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:25_284 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:25_285 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:25_290 12461 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:25:25_292 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:25:30_293 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:30_294 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:35_297 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:35_297 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:40_299 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:40_300 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:45_305 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:45_305 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:50_308 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:50_310 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:55_313 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:25:55_314 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:25:58_120 12461 13566 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:25:58_121 12461 13566 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:25:58_121 12461 13566 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:25:58_126 12461 13566 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:25:58_126 12461 13566 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:25:58_126 12461 13566 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:26:00_320 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:00_320 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:05_330 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:05_330 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:10_334 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:10_336 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:15_340 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:15_341 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:20_345 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:20_345 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:22_513 12461 13591 DEBUG [AppLaunchTask] disabled report launch event
+11.02_19:26:22_513 12461 13591 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:26:22_513 12461 13591 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:26:22_519 12461 13591 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:26:22_519 12461 13591 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:26:22_519 12461 13591 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:26:22_603 12461 2 INFO [XGPushManager] >>> onActivityStarted org.cocos2dx.lua.AppActivity@3a55062
+11.02_19:26:25_347 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:25_348 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:30_349 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:30_350 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:35_353 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:35_354 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:40_357 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:40_358 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:45_360 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:45_361 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:50_363 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:50_363 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:26:55_365 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:26:55_365 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:00_367 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:00_367 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:05_369 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:05_369 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:10_371 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:10_371 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:15_372 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:15_373 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:20_374 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:20_374 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:25_376 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:25_376 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:30_377 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:30_378 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:35_379 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:35_379 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:40_380 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:40_380 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:45_082 12461 13591 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:27:45_083 12461 13591 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:27:45_086 12461 13591 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:27:45_087 12461 13591 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:27:45_087 12461 13591 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:27:45_160 12461 2 INFO [XGPushManager] >>> onActivityStarted org.cocos2dx.lua.AppActivity@3a55062
+11.02_19:27:46_433 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:46_433 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:51_435 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:51_436 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:56_438 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:27:56_438 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:27:58_162 12461 13912 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:27:58_163 12461 13912 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:27:58_163 12461 13912 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:27:58_169 12461 13912 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:27:58_170 12461 13912 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:27:58_170 12461 13912 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:28:01_441 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:01_441 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:06_443 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:06_443 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:11_445 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:11_445 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:16_447 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:16_447 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:21_448 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:21_449 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:26_451 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:26_451 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:31_454 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:31_457 12461 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:28:31_458 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:31_458 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:28:36_459 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:36_460 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:41_462 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:41_462 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:41_846 12461 2 INFO [XGPushManager] >>> onActivityStarted org.cocos2dx.lua.AppActivity@3a55062
+11.02_19:28:46_463 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:46_463 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:51_465 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:51_466 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:28:56_468 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:28:56_468 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:01_470 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:01_470 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:06_472 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:06_472 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:11_473 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:11_473 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:16_475 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:16_476 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:21_477 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:21_477 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:26_478 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:26_479 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:31_479 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:31_480 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:36_482 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:36_482 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:41_482 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:41_483 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:46_487 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:46_488 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:51_488 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:51_489 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:56_490 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:29:56_490 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:29:58_201 12461 13912 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:29:58_201 12461 13912 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:29:58_201 12461 13912 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:29:58_205 12461 13912 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:29:58_206 12461 13912 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:29:58_206 12461 13912 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:30:01_491 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:01_491 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:06_492 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:06_493 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:11_495 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:11_496 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:16_498 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:16_498 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:21_500 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:21_501 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:26_503 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:26_503 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:31_506 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:31_507 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:36_508 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:36_509 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:41_511 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:41_511 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:46_513 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:46_514 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:51_516 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:51_516 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:30:56_518 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:30:56_518 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:01_521 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:01_521 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:06_524 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:06_524 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:11_526 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:11_526 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:16_528 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:16_528 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:21_530 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:21_531 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:26_534 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:26_535 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:31_536 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:31_536 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:36_537 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:36_537 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:41_538 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:41_539 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:46_540 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:46_541 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:51_545 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:51_546 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:56_549 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:31:56_550 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:31:58_322 12461 13798 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:31:58_323 12461 13798 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:31:58_323 12461 13798 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:31:58_326 12461 13798 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:31:58_326 12461 13798 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:31:58_327 12461 13798 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:32:01_552 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:01_553 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:01_560 12461 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:32:01_562 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:32:06_564 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:06_564 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:11_566 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:11_567 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:16_568 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:16_570 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:21_572 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:21_572 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:26_574 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:26_574 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:31_577 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:31_578 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:36_581 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:36_583 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:41_585 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:41_586 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:46_588 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:46_588 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:51_590 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:51_591 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:32:56_593 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:32:56_594 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:33:01_596 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:33:01_597 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:33:06_599 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:33:06_600 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:33:11_602 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:33:11_603 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:33:16_605 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:33:16_606 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:33:21_610 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:33:21_611 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:33:26_616 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:33:26_617 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:33:31_624 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:33:31_625 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:33:36_628 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:33:36_629 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:33:41_640 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:33:41_641 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:33:46_646 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:33:46_646 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:35:27_785 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:35:27_786 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:35:27_796 12461 13591 DEBUG [AppLaunchTask] disabled report launch event
+11.02_19:35:27_797 12461 13591 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:35:27_798 12461 13591 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:35:27_798 12461 14000 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:35:27_800 12461 14000 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:35:27_800 12461 14000 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:35:27_801 12461 13591 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:35:27_801 12461 13591 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:35:27_801 12461 13591 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:35:27_802 12461 14000 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:35:27_802 12461 14000 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:35:27_802 12461 14000 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:35:27_864 12461 2 INFO [XGPushManager] >>> onActivityStarted org.cocos2dx.lua.AppActivity@3a55062
+11.02_19:35:32_786 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:35:32_787 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:35:37_788 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:35:37_789 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:35:42_792 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:35:42_793 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:35:47_798 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:35:47_801 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:35:52_806 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:35:52_807 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:35:57_812 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:35:57_813 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:36:02_818 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:36:02_819 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:36:46_909 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:36:46_910 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:36:46_979 12461 13591 DEBUG [AppLaunchTask] disabled report launch event
+11.02_19:36:46_979 12461 13591 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:36:46_982 12461 13591 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:36:46_986 12461 13591 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:36:46_987 12461 13591 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:36:46_987 12461 13591 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:36:47_047 12461 2 INFO [XGPushManager] >>> onActivityStarted org.cocos2dx.lua.AppActivity@3a55062
+11.02_19:36:51_933 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:36:51_933 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:36:55_469 12461 2 INFO [MessageHelper] onReceive: Notification has canceled! pkg name: com.onepunchman.sea.x7sy
+11.02_19:36:55_474 12461 13591 DEBUG [XgStat] [tpns.baseapi.thread(13591): ProGuard:90] - Change to statSendStrategy: INSTANT
+11.02_19:36:55_474 12461 13591 DEBUG [ServiceStat] register network receiver on ServiceStat.init
+11.02_19:36:55_477 12461 2 TRACE [ServiceStat] NetworkReceiver - Connection state changed to - [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+11.02_19:36:55_477 12461 2 TRACE [ServiceStat] stat network connected and sendLocalMsg on 5s later
+11.02_19:36:55_480 12461 13590 INFO [XgStat] [XgStat(13590): ProGuard:514] - commitEvents, maxNumber=100
+11.02_19:36:55_480 12461 13590 INFO [XgStat] [XgStat(13590): ProGuard:528] - sendLocalMsg, maxNumber=100
+11.02_19:36:55_482 12461 13590 DEBUG [CloudManager] shouldRefuse | isCloudRefuse : false
+11.02_19:36:55_483 12461 13590 DEBUG [XgStat] [XgStat(13590): ProGuard:171] - stat for pushAction
+11.02_19:36:55_484 12461 13590 INFO [XgStat] [XgStat(13590): ProGuard:182] - [https://api.tpns.sgp.tencent.com/log/statistics/push]Send request(343bytes), content:[{"accessId":1520010077,"pushAction":64,"msgId":646068922,"msgType":1,"pushtime":1793620801,"timestamp":1793623015,"templateId":"","traceId":"","token":"03a8e891e59b2a7a42e2611ce0d69647d34f","accessKey":"A3HVGXSNIFB3","appVersion":"1.9.3","sdkVersion":"1.3.5.0","groupId":"00:tpns_20261102","pushChannel":100,"targetType":8,"rpTs":1793623015}]
+11.02_19:36:55_485 12461 13590 DEBUG [XgStat] [XgStat(13590): ProGuard:235] - before Gzip:343 bytes, after Gzip:250 bytes
+11.02_19:36:55_725 12461 13590 INFO [XgStat] [XgStat(13590): ProGuard:270] - http recv response status code:200, responseMsg:OK,contentLength:53,contentEncoding:gzip
+11.02_19:36:55_726 12461 13590 INFO [XgStat] [XgStat(13590): ProGuard:306] - http recv response data: {"ret_code":0,"err_msg":"ok"}
+11.02_19:36:55_726 12461 13590 INFO [XgStat] [XgStat(13590): ProGuard:314] - http data upload ok
+11.02_19:36:55_727 12461 13590 INFO [XgStat] [XgStat(13590): ProGuard:316] - send Event success:[{"accessId":1520010077,"pushAction":64,"msgId":646068922,"msgType":1,"pushtime":1793620801,"timestamp":1793623015,"templateId":"","traceId":"","token":"03a8e891e59b2a7a42e2611ce0d69647d34f","accessKey":"A3HVGXSNIFB3","appVersion":"1.9.3","sdkVersion":"1.3.5.0","groupId":"00:tpns_20261102","pushChannel":100,"targetType":8,"rpTs":1793623015}]
+11.02_19:36:55_727 12461 13590 INFO [XgStat] [XgStat(13590): ProGuard:1006] - sendLocalEvent 0
+11.02_19:36:55_732 12461 13590 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:36:55_732 12461 13590 INFO [XgStat] [XgStat(13590): ProGuard:1006] - sendLocalEvent 0
+11.02_19:36:55_732 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:36:55_732 12461 13590 INFO [XgStat] [XgStat(13590): ProGuard:1006] - sendLocalEvent 0
+11.02_19:36:56_934 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:36:56_934 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:01_937 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:01_938 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:06_941 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:06_941 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:11_943 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:11_943 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:16_944 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:16_945 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:21_947 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:21_947 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:26_949 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:26_949 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:27_824 12461 13611 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:37:27_824 12461 13611 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:37:27_824 12461 13611 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:37:27_826 12461 13611 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:37:27_826 12461 13611 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:37:27_826 12461 13611 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:37:31_950 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:31_950 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:36_951 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:36_951 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:41_954 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:41_954 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:46_956 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:46_957 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:51_958 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:51_960 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:37:56_964 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:37:56_964 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:01_966 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:01_966 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:06_967 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:06_968 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:11_971 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:11_972 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:16_975 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:16_976 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:21_979 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:21_980 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:26_983 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:26_983 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:31_987 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:31_988 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:36_991 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:36_992 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:41_994 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:41_996 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:46_998 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:46_999 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:52_001 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:52_001 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:38:57_004 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:38:57_005 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:02_008 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:02_009 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:07_012 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:07_013 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:12_016 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:12_016 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:17_017 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:17_017 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:22_018 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:22_019 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:27_021 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:27_021 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:27_939 12461 13798 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:39:27_940 12461 13798 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:39:27_940 12461 13798 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:39:27_945 12461 13798 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:39:27_947 12461 13798 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:39:27_947 12461 13798 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:39:32_023 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:32_023 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:37_025 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:37_026 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:42_028 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:42_028 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:47_031 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:47_032 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:52_034 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:52_035 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:39:57_036 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:39:57_037 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:02_040 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:02_041 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:07_043 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:07_044 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:12_047 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:12_048 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:17_051 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:17_051 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:22_053 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:22_054 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:22_059 12461 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:40:22_060 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:40:27_061 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:27_061 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:32_064 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:32_064 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:37_067 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:37_068 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:42_071 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:42_072 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:47_074 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:47_075 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:52_078 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:52_079 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:40:57_081 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:40:57_082 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:02_085 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:02_086 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:07_089 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:07_090 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:12_093 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:12_094 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:17_096 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:17_096 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:22_098 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:22_098 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:27_100 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:27_101 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:28_060 12461 13798 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:41:28_061 12461 13798 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:41:28_061 12461 13798 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:41:28_065 12461 13798 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:41:28_065 12461 13798 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:41:28_065 12461 13798 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:41:32_104 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:32_105 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:37_108 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:37_109 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:42_111 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:42_112 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:47_114 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:47_115 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:52_119 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:52_120 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:41:57_123 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:41:57_124 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:02_126 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:02_128 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:07_130 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:07_132 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:12_134 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:12_134 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:17_136 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:17_137 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:22_140 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:22_141 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:27_142 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:27_143 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:32_145 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:32_146 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:37_149 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:37_150 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:42_152 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:42_153 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:47_155 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:47_156 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:52_159 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:52_159 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:42:57_161 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:42:57_162 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:02_166 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:02_167 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:07_169 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:07_170 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:12_172 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:12_173 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:17_175 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:17_176 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:22_180 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:22_180 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:27_184 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:27_185 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:28_176 12461 13565 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:43:28_177 12461 13565 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:43:28_178 12461 13565 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:43:28_183 12461 13565 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:43:28_184 12461 13565 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:43:28_184 12461 13565 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:43:32_188 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:32_189 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:37_193 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:37_193 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:42_196 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:42_197 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:47_199 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:47_200 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:52_204 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:52_205 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:57_207 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:43:57_208 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:43:57_215 12461 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:43:57_216 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:44:02_217 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:02_218 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:07_220 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:07_221 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:12_224 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:12_224 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:17_226 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:17_227 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:22_229 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:22_230 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:27_233 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:27_234 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:32_236 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:32_237 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:37_242 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:37_242 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:42_244 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:42_245 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:47_246 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:47_247 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:52_248 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:52_249 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:44:57_251 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:44:57_252 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:02_253 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:02_254 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:07_257 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:07_258 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:12_261 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:12_262 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:17_265 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:17_266 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:22_270 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:22_272 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:27_277 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:27_278 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:28_270 12461 14048 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:45:28_270 12461 14048 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:45:28_271 12461 14048 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:45:28_275 12461 14048 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:45:28_276 12461 14048 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:45:28_276 12461 14048 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:45:32_283 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:32_283 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:37_286 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:37_287 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:42_289 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:42_290 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:47_294 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:47_294 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:52_297 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:52_298 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:45:57_301 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:45:57_301 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:02_304 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:02_305 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:07_307 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:07_307 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:12_309 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:12_310 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:17_313 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:17_314 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:22_317 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:22_317 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:27_318 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:27_319 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:32_322 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:32_322 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:37_324 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:37_324 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:42_327 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:42_328 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:47_331 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:47_331 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:52_334 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:52_335 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:46:57_338 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:46:57_338 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:02_341 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:02_342 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:07_345 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:07_346 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:12_350 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:12_350 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:17_354 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:17_355 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:22_357 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:22_358 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:27_362 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:27_362 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:28_315 12461 13912 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:47:28_315 12461 13912 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:47:28_315 12461 13912 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:47:28_318 12461 13912 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:47:28_319 12461 13912 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:47:28_319 12461 13912 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:47:32_365 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:32_365 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:32_369 12461 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:47:32_370 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:47:37_371 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:37_372 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:42_384 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:42_385 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:47_386 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:47_387 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:52_390 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:52_392 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:47:57_395 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:47:57_396 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:02_398 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:02_398 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:07_400 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:07_401 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:12_403 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:12_404 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:17_406 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:17_407 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:22_409 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:22_410 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:27_413 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:27_413 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:32_418 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:32_419 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:37_421 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:37_422 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:42_424 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:42_425 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:47_429 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:47_429 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:52_433 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:52_433 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:48:57_436 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:48:57_436 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:02_439 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:02_440 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:07_443 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:07_443 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:12_447 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:12_448 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:17_451 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:17_452 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:22_454 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:22_456 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:27_458 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:27_458 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:28_348 12461 14000 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:49:28_348 12461 14000 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:49:28_348 12461 14000 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:49:28_353 12461 14000 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:49:28_354 12461 14000 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:49:28_356 12461 14000 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:49:32_461 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:32_462 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:37_466 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:37_466 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:42_468 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:42_469 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:47_472 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:47_473 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:52_477 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:52_477 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:49:57_481 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:49:57_481 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:02_484 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:02_485 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:07_487 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:07_487 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:12_489 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:12_490 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:17_493 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:17_494 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:22_495 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:22_496 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:27_498 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:27_498 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:32_500 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:32_501 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:37_503 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:37_503 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:42_505 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:42_505 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:47_507 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:47_508 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:52_510 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:52_511 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:50:57_513 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:50:57_513 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:02_515 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:02_516 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:07_519 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:07_520 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:12_523 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:12_523 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:17_526 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:17_526 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:22_530 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:22_531 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:22_536 12461 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:51:22_537 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:51:27_538 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:27_539 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:28_468 12461 14000 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:51:28_469 12461 14000 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:51:28_469 12461 14000 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:51:28_475 12461 14000 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:51:28_478 12461 14000 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:51:28_479 12461 14000 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:51:32_542 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:32_542 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:37_544 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:37_545 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:42_547 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:42_547 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:47_550 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:47_551 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:52_552 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:52_553 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:51:57_555 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:51:57_556 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:02_558 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:02_559 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:07_562 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:07_562 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:12_564 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:12_564 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:17_566 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:17_567 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:22_569 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:22_569 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:27_573 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:27_574 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:32_576 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:32_576 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:37_579 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:37_580 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:42_582 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:42_583 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:47_585 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:47_586 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:52_588 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:52_589 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:52:57_592 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:52:57_593 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:02_595 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:02_596 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:07_598 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:07_599 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:12_601 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:12_601 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:17_604 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:17_604 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:22_606 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:22_607 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:27_611 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:27_612 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:28_589 12461 13565 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:53:28_589 12461 13565 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:53:28_589 12461 13565 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:53:28_594 12461 13565 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:53:28_595 12461 13565 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:53:28_595 12461 13565 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:53:32_614 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:32_614 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:37_617 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:37_618 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:42_620 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:42_621 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:47_623 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:47_624 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:52_627 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:52_628 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:53:57_631 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:53:57_632 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:02_635 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:02_636 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:07_637 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:07_638 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:12_641 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:12_642 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:17_645 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:17_645 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:22_647 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:22_647 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:27_648 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:27_649 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:32_651 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:32_652 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:37_653 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:37_654 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:42_658 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:42_659 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:47_661 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:47_662 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:52_664 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:52_665 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:57_668 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:54:57_668 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:54:57_673 12461 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:54:57_675 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:55:02_676 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:02_676 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:07_678 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:07_680 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:12_683 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:12_683 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:17_685 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:17_685 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:22_688 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:22_688 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:27_691 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:27_692 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:28_699 12461 14048 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:55:28_700 12461 14048 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:55:28_700 12461 14048 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:55:28_704 12461 14048 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:55:28_704 12461 14048 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:55:28_704 12461 14048 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:55:32_694 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:32_696 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:37_699 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:37_700 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:42_703 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:42_703 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:47_707 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:47_707 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:52_709 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:52_710 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:55:57_712 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:55:57_713 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:02_715 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:02_715 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:07_717 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:07_717 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:12_720 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:12_721 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:17_724 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:17_725 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:22_728 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:22_729 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:27_731 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:27_732 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:32_735 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:32_736 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:37_740 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:37_741 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:42_744 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:42_744 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:47_748 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:47_748 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:52_752 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:52_752 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:56:57_754 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:56:57_754 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:02_756 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:02_757 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:07_760 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:07_761 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:12_765 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:12_766 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:17_768 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:17_769 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:22_772 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:22_773 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:27_775 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:27_776 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:28_753 12461 13912 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:57:28_754 12461 13912 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:57:28_754 12461 13912 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:57:28_759 12461 13912 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:57:28_760 12461 13912 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:57:28_760 12461 13912 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:57:32_779 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:32_779 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:37_781 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:37_782 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:42_783 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:42_784 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:47_787 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:47_787 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:52_790 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:52_790 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:57:57_797 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:57:57_797 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:02_800 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:02_800 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:07_803 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:07_804 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:12_807 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:12_808 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:17_811 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:17_811 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:22_813 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:22_815 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:27_549 12461 13623 INFO [XGPushManager] Action -> setTags with all tags = dnyonline_csarena:en_US dnyonline_server7:en_US dnyonline_realpvp:en_US dnyonline_regplayer:en_US dnyonline_union:en_US dnyonline_level90:en_US dnyonline_regplayernew:en_US dnyonline_dayEnergy:en_US dnyonline_vip0:en_US
+11.02_19:58:27_817 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:27_817 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:32_819 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:32_824 12461 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_19:58:32_825 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:32_825 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_19:58:37_827 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:37_828 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:42_830 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:42_831 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:47_833 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:47_833 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:52_836 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:52_837 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:58:57_840 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:58:57_841 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:02_845 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:02_845 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:07_848 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:07_849 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:12_852 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:12_853 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:17_855 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:17_856 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:22_858 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:22_859 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:27_862 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:27_864 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:28_802 12461 13798 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_19:59:28_803 12461 13798 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_19:59:28_803 12461 13798 INFO [NotificationsUtils] OS >= 26, return true
+11.02_19:59:28_809 12461 13798 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:59:28_809 12461 13798 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_19:59:28_810 12461 13798 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_19:59:32_867 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:32_868 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:37_871 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:37_872 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:42_874 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:42_875 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:47_878 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:47_879 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:52_882 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:52_883 12461 2 DEBUG [Util] action getServiceStatus
+11.02_19:59:57_885 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_19:59:57_886 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:02_888 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:02_889 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:07_891 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:07_892 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:12_894 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:12_895 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:17_897 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:17_898 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:21_274 12461 14048 INFO [XGPushProvider] insert uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/msg,match:20,values:key=#Intent;action=com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE;package=com.onepunchman.sea.x7sy;l.time_gap=-1793622628375578758;S.svrPkgName=com.onepunchman.sea.x7sy;l.busiMsgId=0;l.extra_push_time=1793624401000000000;S.traceId=;l.source=0;B.svrAck=true;l.server_time=1793624422000000;i.revokeId=0;l.expire_time=1791832591234221242;i.ttl=10800;S.date=20261102;l.type=1;l.accId=1520010077;S.inMsg=;l.msgId=646078698;S.title=;S.groupId=;l.targetType=8;S.group_id=00%3Atpns_20261102;l.multiPkg=1;i.pushChannel=100;S.content=CESvvHx9mBaIdbPaLSVOYUuci7eEX1G320EZFxDmiwPUkTEvK8EIX3%2Bo0N3VuZUuGILmmtVqZnXo%0AKQICPOb7jUELOO3QEQrucIW7OOw%2F3zeoNLIISa0OEFeIr1v33Lep1pZR79jdH5aT14vHeaU0MNOZ%0AKUTol1RKUxO7oyDKXSTrTaqXcL1xbAz9wCyeL%2F2bqXLjoZRzQI2eijiUTFmJ%2BV0k9kdtrHxh6gAG%0AUI5YpTVlrc3qhMtzwzV2W2m0jcQXAzQJG2LbbBz%2Foj06El%2FJFdluwOZPoiNp573PG9pkDaEAYJsz%0A6EI0fOyyRSX88npyA5sp03O8KjLvmgeyIdiQCymOCd5Q0F3iCtiJ8GjjZjt7VHaA4XwmAEW7AG7a%0A5tZlB23Qpm422YlBiLIHheqGaLj7sJMCQWnvZfhakxvvuHtWK5lKDpJptw%3D%3D;S.enKeySet=kmonaaafhfhcaabdflemgkgbhggbcogmgbgoghcofdhehcgjgoghdlknncfgohojbnhlehacaaaahihaaaaaaaacheaaafhegjhegmgfheaaahgdgpgohegfgohe;S.templateId=;l.timestamps=1793624401000;end
+11.02_20:00:21_280 12461 13591 DEBUG [PushMessageHandler] Action -> handleRemotePushMessage
+11.02_20:00:21_282 12461 13591 INFO [PushMessageHandler] >> msg from service,  @msgId=646078698 @accId=1520010077 @timeUs=1793624401000000000 @recTime=1793624421281 @msg.date=20261102 @msg.busiMsgId=0 @msg.timestamp=1793624401000 @msg.type=1 @msg.multiPkg=1 @msg.serverTime=1793624422000000 @msg.ttl=10800 @currentTimeMillis=1793624421281
+11.02_20:00:21_282 12461 13591 INFO [PushMessageHandler] cache msgIds:@646068922com.onepunchman.sea.x7sy@@646048531com.onepunchman.sea.x7sy@@645872985com.onepunchman.sea.x7sy@@645846653com.onepunchman.sea.x7sy@@645863390com.onepunchman.sea.x7sy@@645795699com.onepunchman.sea.x7sy@@645787418com.onepunchman.sea.x7sy@@645685063com.onepunchman.sea.x7sy@@645659717com.onepunchman.sea.x7sy@@645481323com.onepunchman.sea.x7sy@@645471463com.onepunchman.sea.x7sy@@645451482com.onepunchman.sea.x7sy@@645389733com.onepunchman.sea.x7sy@@645251933com.onepunchman.sea.x7sy@@645243272com.onepunchman.sea.x7sy@@645225946com.onepunchman.sea.x7sy@@645175810com.onepunchman.sea.x7sy@@645183009com.onepunchman.sea.x7sy@@645042590com.onepunchman.sea.x7sy@@645032653com.onepunchman.sea.x7sy@@645015822com.onepunchman.sea.x7sy@@644976391com.onepunchman.sea.x7sy@@644982259com.onepunchman.sea.x7sy@@644867333com.onepunchman.sea.x7sy@@644857797com.onepunchman.sea.x7sy@@644841530com.onepunchman.sea.x7sy@@644791285com.onepunchman.sea.x7sy@@644798290com.onepunchman.sea.x7sy@@644686641com.onepunchman.sea.x7sy@@644676903com.onepunchman.sea.x7sy@@644598754com.onepunchman.sea.x7sy@@644608709com.onepunchman.sea.x7sy@@644494423com.onepunchman.sea.x7sy@@644475802com.onepunchman.sea.x7sy@@644487373com.onepunchman.sea.x7sy@@644449353com.onepunchman.sea.x7sy@@644445529com.onepunchman.sea.x7sy@@644357724com.onepunchman.sea.x7sy@@644352902com.onepunchman.sea.x7sy@@644343322com.onepunchman.sea.x7sy@@644312716com.onepunchman.sea.x7sy@@644153677com.onepunchman.sea.x7sy@@644122247com.onepunchman.sea.x7sy@@644142683com.onepunchman.sea.x7sy@@644074360com.onepunchman.sea.x7sy@@644080424com.onepunchman.sea.x7sy@@643951292com.onepunchman.sea.x7sy@@643959901com.onepunchman.sea.x7sy@@643723637com.onepunchman.sea.x7sy@@643712558com.onepunchman.sea.x7sy@@643693421com.onepunchman.sea.x7sy@@643649816com.onepunchman.sea.x7sy@@643641760com.onepunchman.sea.x7sy@@643496302com.onepunchman.sea.x7sy@@643482947com.onepunchman.sea.x7sy@@643457799com.onepunchman.sea.x7sy@@643391478com.onepunchman.sea.x7sy@@643399721com.onepunchman.sea.x7sy@@643253880com.onepunchman.sea.x7sy@@643223998com.onepunchman.sea.x7sy@@643167713com.onepunchman.sea.x7sy@@643157751com.onepunchman.sea.x7sy@@643026720com.onepunchman.sea.x7sy@@643006644com.onepunchman.sea.x7sy@@642967345com.onepunchman.sea.x7sy@@642858602com.onepunchman.sea.x7sy@@642864769com.onepunchman.sea.x7sy@@642801834com.onepunchman.sea.x7sy@@642796818com.onepunchman.sea.x7sy@@642645107com.onepunchman.sea.x7sy@@642655357com.onepunchman.sea.x7sy@@642623272com.onepunchman.sea.x7sy@@642548794com.onepunchman.sea.x7sy@@642559428com.onepunchman.sea.x7sy@@642381656com.onepunchman.sea.x7sy@@642370238com.onepunchman.sea.x7sy@@642347368com.onepunchman.sea.x7sy@@-1792046297224com.onepunchman.sea.x7sy@@642272091com.onepunchman.sea.x7sy@@642283128com.onepunchman.sea.x7sy@@-1792032190675com.onepunchman.sea.x7sy@@642148636com.onepunchman.sea.x7sy@@642140598com.onepunchman.sea.x7sy@@642125972com.onepunchman.sea.x7sy@@642086429com.onepunchman.sea.x7sy@@642077759com.onepunchman.sea.x7sy@@641923137com.onepunchman.sea.x7sy@@641935718com.onepunchman.sea.x7sy@@641899808com.onepunchman.sea.x7sy@@641837916com.onepunchman.sea.x7sy@@641828075com.onepunchman.sea.x7sy@@641692802com.onepunchman.sea.x7sy@@641681251com.onepunchman.sea.x7sy@@641660277com.onepunchman.sea.x7sy@@641607974com.onepunchman.sea.x7sy@@641600086com.onepunchman.sea.x7sy@@641478878com.onepunchman.sea.x7sy@@641486395com.onepunchman.sea.x7sy@@641464725com.onepunchman.sea.x7sy@@641435502com.onepunchman.sea.x7sy@@641338578com.onepunchman.sea.x7sy@@641346553com.onepunchman.sea.x7sy@@641322861com.onepunchman.sea.x7sy@@641286365com.onepunchman.sea.x7sy@@641280796com.onepunchman.sea.x7sy@@641164990com.onepunchman.sea.x7sy@@641154462com.onepunchman.sea.x7sy@@641080789com.onepunchman.sea.x7sy@@641072379com.onepunchman.sea.x7sy@@-1791516197310com.onepunchman.sea.x7sy@@640929800com.onepunchman.sea.x7sy@@640918386com.onepunchman.sea.x7sy@@640895171com.onepunchman.sea.x7sy@@640687485com.onepunchman.sea.x7sy@@640676781com.onepunchman.sea.x7sy@@640654217com.onepunchman.sea.x7sy@@640600491com.onepunchman.sea.x7sy@@640590728com.onepunchman.sea.x7sy@@640465080com.onepunchman.sea.x7sy@@640454983com.onepunchman.sea.x7sy@@640437958com.onepunchman.sea.x7sy@@640382428com.onepunchman.sea.x7sy@@640371368com.onepunchman.sea.x7sy@@640243067com.onepunchman.sea.x7sy@@640232428com.onepunchman.sea.x7sy@@-1791199464633com.onepunchman.sea.x7sy@@640215014com.onepunchman.sea.x7sy@@640161596com.onepunchman.sea.x7sy@@640152621com.onepunchman.sea.x7sy@@640030239com.onepunchman.sea.x7sy@@639992239com.onepunchman.sea.x7sy@@639985978com.onepunchman.sea.x7sy@@639871573com.onepunchman.sea.x7sy@@639863403com.onepunchman.sea.x7sy@@639848965com.onepunchman.sea.x7sy@@639822002com.onepunchman.sea.x7sy@@639816258com.onepunchman.sea.x7sy@@639692452com.onepunchman.sea.x7sy@@639682180com.onepunchman.sea.x7sy@@639660710com.onepunchman.sea.x7sy@@639598286com.onepunchman.sea.x7sy@@639587370com.onepunchman.sea.x7sy@@639459066com.onepunchman.sea.x7sy@@639449182com.onepunchman.sea.x7sy@@639428839com.onepunchman.sea.x7sy@@639375780com.onepunchman.sea.x7sy@@639366065com.onepunchman.sea.x7sy@@639166768com.onepunchman.sea.x7sy@@639099847com.onepunchman.sea.x7sy@@638922066com.onepunchman.sea.x7sy@@638908719com.onepunchman.sea.x7sy@@638884484com.onepunchman.sea.x7sy@@638822727com.onepunchman.sea.x7sy@@638812518com.onepunchman.sea.x7sy@@638652076com.onepunchman.sea.x7sy@@638640539com.onepunchman.sea.x7sy@@638617062com.onepunchman.sea.x7sy@@638428107com.onepunchman.sea.x7sy@@638420004com.onepunchman.sea.x7sy@@638403070com.onepunchman.sea.x7sy@@638353722com.onepunchman.sea.x7sy@@638360433com.onepunchman.sea.x7sy@@638239081com.onepunchman.sea.x7sy@@638247600com.onepunchman.sea.x7sy@@638186185com.onepunchman.sea.x7sy@@-1790380916520com.onepunchman.sea.x7sy@@638030417com.onepunchman.sea.x7sy@@638041658com.onepunchman.sea.x7sy@@638010207com.onepunchman.sea.x7sy@@637961668com.onepunchman.sea.x7sy@@637954233com.onepunchman.sea.x7sy@@637813857com.onepunchman.sea.x7sy@@637800716com.onepunchman.sea.x7sy@@637775092com.onepunchman.sea.x7sy@@637714474com.onepunchman.sea.x7sy@@637706971com.onepunchman.sea.x7sy@@637566200com.onepunchman.sea.x7sy@@637556434com.onepunchman.sea.x7sy@@637536955com.onepunchman.sea.x7sy@@637481925com.onepunchman.sea.x7sy@@637472774com.onepunchman.sea.x7sy@@637298985com.onepunchman.sea.x7sy@@637310972com.onepunchman.sea.x7sy@@637277267com.onepunchman.sea.x7sy@@637219891com.onepunchman.sea.x7sy@@637210197com.onepunchman.sea.x7sy@@637062205com.onepunchman.sea.x7sy@@637051149com.onepunchman.sea.x7sy@@637032350com.onepunchman.sea.x7sy@@636968763com.onepunchman.sea.x7sy@@636978232com.onepunchman.sea.x7sy@@636849936com.onepunchman.sea.x7sy@@636817878com.onepunchman.sea.x7sy@@636839819com.onepunchman.sea.x7sy@@636767147com.onepunchman.sea.x7sy@@636759661com.onepunchman.sea.x7sy@@636625162com.onepunchman.sea.x7sy@@636576453com.onepunchman.sea.x7sy@@636566409com.onepunchman.sea.x7sy@@636417357com.onepunchman.sea.x7sy@@636406776com.onepunchman.sea.x7sy@@636386831com.onepunchman.sea.x7sy@@636339735com.onepunchman.sea.x7sy@@636331904com.onepunchman.sea.x7sy@@636216925com.onepunchman.sea.x7sy@@636194963com.onepunchman.sea.x7sy@@636209351com.onepunchman.sea.x7sy@@636154187com.onepunchman.sea.x7sy@@636145848com.onepunchman.sea.x7sy@@635998579com.onepunchman.sea.x7sy@@635990105com.onepunchman.sea.x7sy@@635973989com.onepunchman.sea.x7sy@@635916012com.onepunchman.sea.x7sy@@635925855com.onepunchman.sea.x7sy@@635758898com.onepunchman.sea.x7sy@@635769328com.onepunchman.sea.x7sy@@-1789463583656com.onepunchman.sea.x7sy@@635651366com.onepunchman.sea.x7sy@@635663292com.onepunchman.sea.x7sy@@-1789436893109com.onepunchman.sea.x7sy@@635487806com.onepunchman.sea.x7sy@@635476000com.onepunchman.sea.x7sy@@635449857com.onepunchman.sea.x7sy@@635378343com.onepunchman.sea.x7sy@@635366285com.onepunchman.sea.x7sy@@-1789344428652com.onepunchman.sea.x7sy@@635223264com.onepunchman.sea.x7sy@@635195945com.onepunchman.sea.x7sy@@635149710com.onepunchman.sea.x7sy@@635143506com.onepunchman.sea.x7sy@@635037857com.onepunchman.sea.x7sy@@635029842com.onepunchman.sea.x7sy@@635012928com.onepunchman.sea.x7sy@@634959238com.onepunchman.sea.x7sy@@634746268com.onepunchman.sea.x7sy@@634761587com.onepunchman.sea.x7sy@@634720513com.onepunchman.sea.x7sy@@634635571com.onepunchman.sea.x7sy@@634620798com.onepunchman.sea.x7sy@@634403734com.onepunchman.sea.x7sy@@634360242com.onepunchman.sea.x7sy@@634386612com.onepunchman.sea.x7sy@@634281443com.onepunchman.sea.x7sy@@634292783com.onepunchman.sea.x7sy@@634131725com.onepunchman.sea.x7sy@@634118651com.onepunchman.sea.x7sy@@634093690com.onepunchman.sea.x7sy@@634037748com.onepunchman.sea.x7sy@@634030413com.onepunchman.sea.x7sy@@633889450com.onepunchman.sea.x7sy@@633850342com.onepunchman.sea.x7sy@@633875642com.onepunchman.sea.x7sy@@633788842com.onepunchman.sea.x7sy@@633778874com.onepunchman.sea.x7sy@@633621224com.onepunchman.sea.x7sy@@633606614com.onepunchman.sea.x7sy@@633578351com.onepunchman.sea.x7sy@@633501808com.onepunchman.sea.x7sy@@633491842com.onepunchman.sea.x7sy@@633362639com.onepunchman.sea.x7sy@@633282087com.onepunchman.sea.x7sy@@633271694com.onepunchman.sea.x7sy@@633144611com.onepunchman.sea.x7sy@@632909592com.onepunchman.sea.x7sy@@632873672com.onepunchman.sea.x7sy@@632896280com.onepunchman.sea.x7sy@@632806015com.onepunchman.sea.x7sy@@632793394com.onepunchman.sea.x7sy@@632626064com.onepunchman.sea.x7sy@@632594415com.onepunchman.sea.x7sy@@632527963com.onepunchman.sea.x7sy@@632514945com.onepunchman.sea.x7sy@@632321761com.onepunchman.sea.x7sy@@632261244com.onepunchman.sea.x7sy@@632251625com.onepunchman.sea.x7sy@@632076588com.onepunchman.sea.x7sy@null, vs current msgIdstr:@646078698com.onepunchman.sea.x7sy@
+11.02_20:00:21_303 12461 13591 DEBUG [PushMessageRunnable] Action -> handlerPushMessage
+11.02_20:00:21_303 12461 13591 DEBUG [PushMessageManager] PushMessageManager content:{"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46078698,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}
+11.02_20:00:21_303 12461 13591 DEBUG [PushMessageManager] PushMessageManager inMsg:
+11.02_20:00:21_303 12461 13591 DEBUG [PushMessageManager] PushMessageManager msgId:646078698
+11.02_20:00:21_303 12461 13591 DEBUG [PushMessageManager] PushMessageManager type:1
+11.02_20:00:21_304 12461 13591 INFO [PushMessageRunnable] Receiver msg from server :PushMessageManager [msgId=646078698, accessId=1520010077, busiMsgId=0, content={"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46078698,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}, timestamps=1793624401000, type=1, intent=Intent { act=com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE cat=[android.intent.category.BROWSABLE] pkg=com.onepunchman.sea.x7sy (has extras) }, messageHolder=BaseMessageHolder [msgJson={"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46078698,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}, msgJsonStr={"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46078698,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}, title=One Punch Man, content=120 Stamina available after supper. Get it NOW, customContent=null, acceptTime=null], appPkgName=null, revokeId=0, templateId=, traceId=]
+11.02_20:00:21_304 12461 13591 TRACE [XGPushManager] Action -> msgAck(com.onepunchman.sea.x7sy,646078698)
+11.02_20:00:21_312 12461 13591 INFO [MessageHelper] Action -> showNotification {"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46078698,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}
+11.02_20:00:21_313 12461 13591 INFO [MessageHelper] PushNotificationBuilder not found :0
+11.02_20:00:21_313 12461 13591 INFO [MessageHelper] PushNotificationBuilder not found :0
+11.02_20:00:21_314 12461 13591 DEBUG [MessageHelper] no valid custom layout type
+11.02_20:00:21_314 12461 13591 DEBUG [MessageHelper] no xg_notification layout
+11.02_20:00:21_315 12461 13591 INFO [XGPushNotificationBuilder] XGPushNotification Build.VERSION.SDK_INT: 33, targetSDK:30
+11.02_20:00:21_315 12461 13591 INFO [XGPushNotificationBuilder] XGPushNotification create notificationChannle, channelId:xg-channle-id, channelName:message
+11.02_20:00:21_316 12461 13591 DEBUG [Base-TPush - Util] getCurrentActivity: org.cocos2dx.lua.AppActivity
+11.02_20:00:21_316 12461 13591 DEBUG [MessageHelper] is_show_type:2, OnForeground:true
+11.02_20:00:21_316 12461 13591 DEBUG [XGPushNotificationBuilder] createNotificationChannel
+11.02_20:00:22_902 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:22_903 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:27_905 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:27_905 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:32_907 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:32_908 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:37_911 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:37_911 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:42_913 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:42_913 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:47_916 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:47_916 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:52_919 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:52_920 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:00:57_923 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:00:57_924 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:02_926 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:02_927 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:07_929 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:07_930 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:12_933 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:12_934 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:17_936 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:17_936 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:22_937 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:22_938 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:27_940 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:27_940 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:27_944 12461 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.02_20:01:27_946 12461 13907 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261102_1923.txt
+11.02_20:01:28_891 12461 14000 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_20:01:28_891 12461 14000 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_20:01:28_892 12461 14000 INFO [NotificationsUtils] OS >= 26, return true
+11.02_20:01:28_896 12461 14000 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_20:01:28_897 12461 14000 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_20:01:28_897 12461 14000 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_20:01:32_946 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:32_947 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:37_949 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:37_950 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:42_953 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:42_954 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:47_956 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:47_957 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:52_960 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:52_960 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:01:57_962 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:01:57_963 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:02_966 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:02_967 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:07_970 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:07_971 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:12_973 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:12_974 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:17_977 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:17_977 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:22_980 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:22_981 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:27_983 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:27_984 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:32_987 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:32_988 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:37_990 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:37_991 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:42_993 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:42_994 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:47_997 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:47_997 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:52_999 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:53_000 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:02:58_001 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:02:58_001 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:03_003 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:03_004 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:08_006 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:08_006 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:13_008 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:13_009 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:18_012 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:18_012 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:23_015 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:23_016 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:28_021 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:28_026 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:29_024 12461 13566 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.02_20:03:29_025 12461 13566 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.02_20:03:29_025 12461 13566 INFO [NotificationsUtils] OS >= 26, return true
+11.02_20:03:29_028 12461 13566 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.02_20:03:29_028 12461 13566 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.02_20:03:29_028 12461 13566 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.02_20:03:33_032 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:33_032 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:38_034 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:38_034 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:43_039 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:43_039 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:48_042 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:48_043 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:53_045 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:53_046 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:03:58_050 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:03:58_050 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:03_053 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:03_054 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:08_055 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:08_056 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:13_057 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:13_058 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:18_061 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:18_062 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:23_063 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:23_063 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:28_066 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:28_067 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:33_069 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:33_069 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:38_071 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:38_072 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:43_073 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:43_073 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:48_077 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:48_078 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:53_080 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:53_081 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:04:58_082 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:04:58_083 12461 2 DEBUG [Util] action getServiceStatus
+11.02_20:05:03_087 12461 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.02_20:05:03_088 12461 2 DEBUG [Util] action getServiceStatus

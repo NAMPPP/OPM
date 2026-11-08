@@ -1,0 +1,602 @@
+DeviceInfo{buildInfo=BuildInfo{brand='realme', systemVersion='13', sdkVersion=33, language='en', timezone='Asia/Ho_Chi_Minh'}, screenInfo=ScreenInfo{width=2290, height=1039}}
+11.06_20:00:00_065 10701 2 INFO [Mqtt-TPush - IMqttServiceImpl] init IMqttServiceImpl encryptLevel: 0, compressLevel: 0
+11.06_20:00:00_093 10701 2 INFO [XGVipPushService] Service onCreate() : com.onepunchman.sea.x7sy
+11.06_20:00:00_108 10701 2 INFO [XGPushProvider] name:com.tencent.android.tpush.XGPushProvider, authority:com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH, AUTH_PRIX:.XGVIP_PUSH_AUTH
+11.06_20:00:00_111 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:100] - NETWORK name:WIFI
+11.06_20:00:00_119 10701 2 DEBUG [Base-TPush - Util] It is release
+11.06_20:00:00_120 10701 2 DEBUG [XGVipPushService] action - initCheckMessageHandler, on 60s later
+11.06_20:00:00_120 10701 2 INFO [XGVipPushService] Service onBind()
+11.06_20:00:00_120 10701 2 DEBUG [XGVipPushService] initServiceHandler with method : onBind
+11.06_20:00:00_120 10701 2 DEBUG [PushServiceManager] send WHAT_SERVICE_START msg at 100ms later on serviceStartHandler
+11.06_20:00:00_121 10701 2 INFO [XGVipPushService] Service onStartCommand() : com.onepunchman.sea.x7sy
+11.06_20:00:00_121 10701 2 INFO [XGVipPushService] Service onStart() : com.onepunchman.sea.x7sy
+11.06_20:00:00_121 10701 2 DEBUG [XGVipPushService] initServiceHandler with method : onStartCommand
+11.06_20:00:00_121 10701 2 DEBUG [PushServiceManager] send WHAT_SERVICE_START msg at 100ms later on serviceStartHandler
+11.06_20:00:00_123 10701 25894 DEBUG [XgStat] [XgStat(25894): ProGuard:189] - Init MTA StatService success.
+11.06_20:00:00_128 10701 2 TRACE [ServiceStat] NetworkReceiver - Connection state changed to - [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+11.06_20:00:00_129 10701 2 TRACE [ServiceStat] stat network connected and sendLocalMsg on 5s later
+11.06_20:00:00_129 10701 2 TRACE [PushServiceBroadcastHandler] Connection state changed to - [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+11.06_20:00:00_129 10701 2 TRACE [PushServiceBroadcastHandler] Internl network connected and call MqttChannel.startConnect on 5s later
+11.06_20:00:00_147 10701 25891 DEBUG [Util] load sdk config data
+11.06_20:00:00_156 10701 25897 INFO [Base-TPush - GuidInfoManagerImpl] GuidInfo gapSeconds = 1793970000, compare to 21600
+11.06_20:00:00_159 10701 25897 INFO [Base-TPush - GuidInfoManagerImpl] Guid expired, request for new one.
+11.06_20:00:00_166 10701 25897 DEBUG [Base-TPush - GuidInfoManagerImpl] action - refreshConnectInfoSynchronized
+11.06_20:00:00_166 10701 25897 INFO [Base-TPush - GuidInfoManagerImpl] RefreshTime: 1793970000166
+11.06_20:00:00_168 10701 25891 INFO [filter components] deviceType: realme
+11.06_20:00:00_173 10701 25891 INFO [filter components] disable device huawei
+11.06_20:00:00_193 10701 25897 INFO [GuidInfoManagerImpl] Send request to GuidServer with token: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:00:00_193 10701 25897 INFO [GuidInfoManagerImpl] Send request to GuidServer: {"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceType":0,"sdkVersion":"1.3.5.0","seq":1793970000166,"cloudVersion":3,"appVersion":"1.9.3","appPkgName":"com.onepunchman.sea.x7sy","deviceInfo":{"appDeviceInfo":{"appVersion":"1.9.3","os":"android","packageName":"com.onepunchman.sea.x7sy","sdkVersionName":"13"}},"protocolVersion":2,"timestamp":1793970000191,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","tokenList":["03a8e891e59b2a7a42e2611ce0d69647d34f"]}
+11.06_20:00:00_222 10701 2 DEBUG [PushServiceManager] initHandler, cmd:1
+11.06_20:00:00_223 10701 2 DEBUG [PushServiceManager] Service's running at com.onepunchman.sea.x7sy,version : 1.3.5.0
+11.06_20:00:00_224 10701 2 INFO [PushServiceBroadcastHandler] handleServiceInited, beforeInitedIntents size:0
+11.06_20:00:00_227 10701 2 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - startConnect
+11.06_20:00:00_228 10701 2 DEBUG [PushServiceManager] pull up xg services on 8s later
+11.06_20:00:00_250 10701 25897 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | XGConfig guidServerHostAddr : https://api.tpns.sgp.tencent.com/guid/v4/register_device
+11.06_20:00:00_368 10701 25897 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | update lastResolvedGuidServerIP , guidServerIPAddr : ; guidServerIp : 119.28.109.193
+11.06_20:00:00_368 10701 25897 INFO [Base-TPush - GuidInfoManagerImpl] setLastResolvedGuidServerIP | lastGuidServerIp : null; newGuidServerIp : 119.28.109.193
+11.06_20:00:00_378 10701 25897 DEBUG [Base-TPush - GuidInfoManagerImpl] replaceHostWithIp | host : api.tpns.sgp.tencent.com; ipAddr : https://119.28.109.193/guid/v4/register_device
+11.06_20:00:00_378 10701 25897 DEBUG [Base-TPush - GuidInfoManagerImpl] getGuidServerIPAddress | result guidServerIPAddress : https://119.28.109.193/guid/v4/register_device
+11.06_20:00:00_378 10701 25897 INFO [Base-TPush - GuidInfoManagerImpl] Send to GuidServerIpAddr: https://119.28.109.193/guid/v4/register_device
+11.06_20:00:00_378 10701 25897 DEBUG [Base-TPush - HttpRequest] [https://119.28.109.193/guid/v4/register_device]Send request(464bytes), content:{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceType":0,"sdkVersion":"1.3.5.0","seq":1793970000166,"cloudVersion":3,"appVersion":"1.9.3","appPkgName":"com.onepunchman.sea.x7sy","deviceInfo":{"appDeviceInfo":{"appVersion":"1.9.3","os":"android","packageName":"com.onepunchman.sea.x7sy","sdkVersionName":"13"}},"protocolVersion":2,"timestamp":1793970000191,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","tokenList":["03a8e891e59b2a7a42e2611ce0d69647d34f"]}
+11.06_20:00:00_379 10701 25897 DEBUG [Base-TPush - HttpRequest] sendHttpPost | url: https://119.28.109.193/guid/v4/register_device hostName: api.tpns.sgp.tencent.com
+11.06_20:00:00_485 10701 25897 DEBUG [Base-TPush - HttpRequest] HostnameVerifier : hostName 119.28.109.193
+11.06_20:00:00_544 10701 25891 INFO [RomVersionHelper] get ro.build.version.opporom version is:
+11.06_20:00:00_551 10701 25891 INFO [NotificationsUtils] OS >= 26, return true
+11.06_20:00:00_560 10701 25897 DEBUG [Base-TPush - HttpRequest] http recv response status code:200, responseMsg:OK,contentLength:490
+11.06_20:00:00_560 10701 25897 DEBUG [Base-TPush - HttpRequest] http get response data:{"retCode":0,"msg":"success","token":"03a8e891e59b2a7a42e2611ce0d69647d34f","data":"xjh0Wz/mmJ9Fyjm9gVX2kxkPvz4/GFOvgdzD1NCsyVLgJJ71j5+x/FuOBuKa3Ow4v8LzfcWVwFN67mowV1Y0sDHTIJSuImkW5cQaaErMkhOUTxFZzPWXI/2nEafMS+eWLhPIYQBigwjYrh0NRijsCgyRszEyyAy4vaEYWn3wGESMq3lwLWN5kyxh1CaSJe1yAGmyqGOLCdIDr0GOZIMBisUd6yXynOS/RMmSphxQ5bZfrEKtrSd9BcG1hdX6f4gNbjhJL/1Hwk5rvJEnfCDOgjvNeY5iIxt0RaKWwREmkiYu3UwnX2v6o/+Q87KO1r8jonI0ntP6W1W3yg77UqjY+m0291RXi53e5RxZB1z2yLJjBEWxUgEqKfl7ptJnAow=","seq":1793970000166}
+11.06_20:00:00_560 10701 25897 INFO [GuidInfoManagerImpl] Get response from GuidServer: {"retCode":0,"msg":"success","token":"03a8e891e59b2a7a42e2611ce0d69647d34f","data":"xjh0Wz/mmJ9Fyjm9gVX2kxkPvz4/GFOvgdzD1NCsyVLgJJ71j5+x/FuOBuKa3Ow4v8LzfcWVwFN67mowV1Y0sDHTIJSuImkW5cQaaErMkhOUTxFZzPWXI/2nEafMS+eWLhPIYQBigwjYrh0NRijsCgyRszEyyAy4vaEYWn3wGESMq3lwLWN5kyxh1CaSJe1yAGmyqGOLCdIDr0GOZIMBisUd6yXynOS/RMmSphxQ5bZfrEKtrSd9BcG1hdX6f4gNbjhJL/1Hwk5rvJEnfCDOgjvNeY5iIxt0RaKWwREmkiYu3UwnX2v6o/+Q87KO1r8jonI0ntP6W1W3yg77UqjY+m0291RXi53e5RxZB1z2yLJjBEWxUgEqKfl7ptJnAow=","seq":1793970000166}
+11.06_20:00:00_561 10701 25897 DEBUG [GuidInfoManagerImpl] decode response:{"retCode":0,"guid":26885145,"mqttServer":"tcp://119.28.123.116:1883","expiredSeconds":21600,"mqttPortList":["1883"],"httpMessage":3600,"mqttKey":"4b623a118f7ea9cc02127b975737631a","mqttSecret":"cfb2fa8190d853307ab1b4b645358aa6","sslMqttServer":"ssl://access1.tpns.sgp.tencent.com:1884"}
+11.06_20:00:00_563 10701 25897 DEBUG [GuidInfoManagerImpl] Get response from GuidServer: {"retCode":0,"guid":26885145,"mqttServer":"tcp://119.28.123.116:1883","expiredSeconds":21600,"mqttPortList":["1883"],"httpMessage":3600,"mqttKey":"4b623a118f7ea9cc02127b975737631a","mqttSecret":"cfb2fa8190d853307ab1b4b645358aa6","sslMqttServer":"ssl://access1.tpns.sgp.tencent.com:1884"}
+11.06_20:00:00_563 10701 25897 INFO [Base-TPush - GuidInfoManagerImpl] Update tokenList: ["03a8e891e59b2a7a42e2611ce0d69647d34f"]
+11.06_20:00:00_563 10701 25897 DEBUG [Base-TPush - GuidInfoManagerImpl] GUID -> write token: {"retCode":0,"guid":26885145,"mqttServer":"tcp://119.28.123.116:1883","expiredSeconds":21600,"mqttPortList":["1883"],"httpMessage":3600,"mqttKey":"4b623a118f7ea9cc02127b975737631a","mqttSecret":"cfb2fa8190d853307ab1b4b645358aa6","sslMqttServer":"ssl://access1.tpns.sgp.tencent.com:1884"}
+11.06_20:00:00_569 10701 25897 INFO [Base-TPush - DNSResolver] Get MqttServer address: ssl://access1.tpns.sgp.tencent.com:1884, portList:["1883"]
+11.06_20:00:00_569 10701 25897 INFO [Base-TPush - DNSResolver] Get MqttServer random port: 1883
+11.06_20:00:00_570 10701 25897 INFO [Base-TPush - GuidInfoManagerImpl] Get MqttServer: ssl://access1.tpns.sgp.tencent.com:1884, save address: ssl://access1.tpns.sgp.tencent.com:1884
+11.06_20:00:00_570 10701 25897 INFO [Base-TPush - GuidInfoManagerImpl] Save mqttServerIP: ssl://access1.tpns.sgp.tencent.com:1884
+11.06_20:00:00_582 10701 25897 INFO [Base-TPush - GuidInfoManagerImpl] Last time: 0, this time: 1793970000582
+11.06_20:00:00_583 10701 25897 INFO [Base-TPush - GuidInfoManagerImpl] Save mqttServerLastRefreshTime: 1793970000582
+11.06_20:00:00_601 10701 25891 INFO [XgStat] [tpns.baseapi.thread(25891): ProGuard:100] - NETWORK name:WIFI
+11.06_20:00:00_602 10701 25891 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> try connect, state: CONNECTING
+11.06_20:00:00_602 10701 25891 WARN [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> Mqtt is connecting, give up
+11.06_20:00:00_609 10701 25897 DEBUG [CloudManager] shouldRefuse | isCloudRefuse : false
+11.06_20:00:00_609 10701 25897 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt cloudRefuse: false
+11.06_20:00:00_613 10701 25897 INFO [Mqtt-TPush - IMqttServiceImpl] update encryptLevel: 0, compressLevel: 1
+11.06_20:00:00_613 10701 25897 INFO [Mqtt-TPush - IMqttServiceImpl] Finally get finalMqttServerAddr = ssl://access1.tpns.sgp.tencent.com:1884
+11.06_20:00:00_619 10701 25897 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> connecting host: ssl://access1.tpns.sgp.tencent.com:1884, state: CONNECTING
+11.06_20:00:00_619 10701 25897 INFO [Mqtt-TPush - IMqttServiceImpl] Mqtt clientId: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:00:00_620 10701 25897 DEBUG [MqttAsyncClient] init MqttAsyncClient
+11.06_20:00:00_620 10701 25897 DEBUG [ClientComms] init ClientComms
+11.06_20:00:00_622 10701 25897 INFO [Mqtt-TPush - MqttConfigImpl] isForeignWeakAlarmMode KeepAlive set to : 3600
+11.06_20:00:00_624 10701 25939 DEBUG [ClientComms] ConnectBG mqtt thread
+11.06_20:00:00_875 10701 25939 DEBUG [CommsReceiver] init CommsReceiver
+11.06_20:00:00_879 10701 25939 DEBUG [CommsSender] init CommsSender
+11.06_20:00:00_879 10701 25939 DEBUG [ClientComms] action - internalSend
+11.06_20:00:00_880 10701 25942 DEBUG [CommsReceiver] Run loop to receive messages from the server, threadName:MQTT Rec: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:00:00_880 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:00_880 10701 25939 DEBUG [CommsCallback] run loop callback thread:MQTT Call: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:00:00_880 10701 25941 DEBUG [CommsSender] Run loop sender messages to the server, threadName:MQTT Snd: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:00:00_881 10701 25941 INFO [CommsSender] message:CONNECT clientId 03a8e891e59b2a7a42e2611ce0d69647d34f keepAliveInterval 3600
+11.06_20:00:00_881 10701 25941 DEBUG [ClientState] action - notifySent
+11.06_20:00:00_910 10701 25942 INFO [CommsReceiver] CONNACK msgId 0 session present:true return code: 0
+11.06_20:00:00_910 10701 25942 DEBUG [ClientState] action:notifyResult
+11.06_20:00:00_910 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:00_910 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] doMqttConnect -> callback onSuccess
+11.06_20:00:00_910 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - initAfterConnected, encryptLevel:0
+11.06_20:00:00_910 10701 25939 DEBUG [MqttAsyncClient] action - subscribe
+11.06_20:00:00_911 10701 25939 DEBUG [ClientComms] action - internalSend
+11.06_20:00:00_911 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - callAllConnectBackSuccess
+11.06_20:00:00_911 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] connectComplete: ssl://access1.tpns.sgp.tencent.com:1884, reconnect:false
+11.06_20:00:00_911 10701 25941 INFO [CommsSender] message:SUBSCRIBE names:["/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f", "/_xg/push/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f"] qos:[1, 1]
+11.06_20:00:00_911 10701 25939 INFO [XGVipPushService] onConnectComplete isReconnect:false
+11.06_20:00:00_911 10701 25941 DEBUG [ClientState] action - notifySent
+11.06_20:00:00_940 10701 25942 INFO [CommsReceiver] SUBACK msgId 1 granted Qos 1 1
+11.06_20:00:00_941 10701 25942 DEBUG [ClientState] action:notifyResult
+11.06_20:00:00_941 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:00_941 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] subscribe INIT TOPIC success
+11.06_20:00:00_941 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] Action : sendCachedMessage
+11.06_20:00:00_941 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] Cache message length: 0
+11.06_20:00:00_952 10701 25942 INFO [CommsReceiver] PUBLISH qos:1 msgId:1 retained:false dup:false topic:"/_xg/push/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffff4cffffff91ffffffcd6effffffdb3010ffffff845f45 utf8:"�      �L��n�0�_E" length:359]
+11.06_20:00:00_953 10701 25942 DEBUG [ClientState] action - notifyReceivedMsg:PUBLISH qos:1 msgId:1 retained:false dup:false topic:"/_xg/push/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffff4cffffff91ffffffcd6effffffdb3010ffffff845f45 utf8:"�      �L��n�0�_E" length:359]
+11.06_20:00:00_953 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] MessageArrived, topic :/_xg/push/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f, payload:{"msgId":646870277,"accessId":1520010077,"content":{"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"Live Clash rank match starts. Slug it out!","lights":1,"n_id":46870277,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}},"type":1,"appPkgName":"com.onepunchman.ggplay.sea","timestamp":1793966401,"multiPkg":1,"date":"20261106","serverTime":1793970002,"ttl":10800,"groupId":"00:tpns_20261106","targetType":8}
+11.06_20:00:00_953 10701 25939 INFO [XGVipPushService] onMessageArrived: topic:/_xg/push/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f, message:{"msgId":646870277,"accessId":1520010077,"content":{"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"Live Clash rank match starts. Slug it out!","lights":1,"n_id":46870277,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}},"type":1,"appPkgName":"com.onepunchman.ggplay.sea","timestamp":1793966401,"multiPkg":1,"date":"20261106","serverTime":1793970002,"ttl":10800,"groupId":"00:tpns_20261106","targetType":8}
+11.06_20:00:00_953 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:00_955 10701 25939 TRACE [TBase - TPush] have writable external storage, write log file!
+11.06_20:00:00_955 10701 25939 WARN [PushMessage] parse mqtt msg not contain key "xg"
+11.06_20:00:00_958 10701 25939 INFO [SrvMessageManager] receive msg from service msgId = 646870277 pkg = com.onepunchman.ggplay.sea type = 1
+11.06_20:00:00_958 10701 25939 DEBUG [SrvMessageManager] distributeFromServer : accid=1520010077 ,channelId=0,busiId=0,pkg=com.onepunchman.ggplay.sea,msgId=646870277,type=1,ts=1793966401000,multi=1,date=20261106,serverTime=1793970002000000,ttl=10800, size = 1, groupId=00:tpns_20261106, mgroupId=, revokeId=0
+11.06_20:00:00_958 10701 25939 DEBUG [SrvMessageManager] distributeFromServer content:{"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"Live Clash rank match starts. Slug it out!","lights":1,"n_id":46870277,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}
+11.06_20:00:00_958 10701 25939 DEBUG [SrvMessageManager] distribute2SDK: com.tencent.android.tpush.service.protocol.j@443124b
+11.06_20:00:00_959 10701 25939 DEBUG [SysPush] Run in normal app
+11.06_20:00:00_962 10701 25943 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261106_2000.txt
+11.06_20:00:00_966 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:514] - commitEvents, maxNumber=100
+11.06_20:00:00_966 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:528] - sendLocalMsg, maxNumber=100
+11.06_20:00:00_967 10701 25894 DEBUG [CloudManager] shouldRefuse | isCloudRefuse : false
+11.06_20:00:00_970 10701 25894 DEBUG [XgStat] [XgStat(25894): ProGuard:171] - stat for pushAction
+11.06_20:00:00_970 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:182] - [https://api.tpns.sgp.tencent.com/log/statistics/push]Send request(342bytes), content:[{"accessId":1520010077,"pushAction":4,"msgId":646870277,"msgType":1,"pushtime":1793966401,"timestamp":1793970000,"templateId":"","traceId":"","token":"03a8e891e59b2a7a42e2611ce0d69647d34f","accessKey":"A3HVGXSNIFB3","appVersion":"1.9.3","sdkVersion":"1.3.5.0","groupId":"00:tpns_20261106","pushChannel":100,"targetType":8,"rpTs":1793970000}]
+11.06_20:00:00_972 10701 25894 DEBUG [XgStat] [XgStat(25894): ProGuard:235] - before Gzip:342 bytes, after Gzip:249 bytes
+11.06_20:00:00_975 10701 25939 INFO [SrvMessageManager] distribute2SDK appPkgName: com.onepunchman.sea.x7sy
+11.06_20:00:00_975 10701 25939 INFO [SrvMessageManager] distribute2SDK pkgs msgid 646870277  pkg com.onepunchman.ggplay.sea
+11.06_20:00:00_976 10701 25939 DEBUG [IPCManager] wakeCtr:xiaomi,mf:realme
+11.06_20:00:01_005 10701 25939 DEBUG [ClientComms] action - internalSend
+11.06_20:00:01_005 10701 25941 INFO [CommsSender] message:PUBACK msgId 1
+11.06_20:00:01_011 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:00:01_011 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.MSG_ACK.V4
+11.06_20:00:01_013 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:00:01_013 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ack.sdk2srv.V4
+11.06_20:00:01_098 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:270] - http recv response status code:200, responseMsg:OK,contentLength:53,contentEncoding:gzip
+11.06_20:00:01_098 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:306] - http recv response data: {"ret_code":0,"err_msg":"ok"}
+11.06_20:00:01_099 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:314] - http data upload ok
+11.06_20:00:01_099 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:316] - send Event success:[{"accessId":1520010077,"pushAction":4,"msgId":646870277,"msgType":1,"pushtime":1793966401,"timestamp":1793970000,"templateId":"","traceId":"","token":"03a8e891e59b2a7a42e2611ce0d69647d34f","accessKey":"A3HVGXSNIFB3","appVersion":"1.9.3","sdkVersion":"1.3.5.0","groupId":"00:tpns_20261106","pushChannel":100,"targetType":8,"rpTs":1793970000}]
+11.06_20:00:01_099 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:1006] - sendLocalEvent 0
+11.06_20:00:01_100 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:1006] - sendLocalEvent 0
+11.06_20:00:01_100 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:1006] - sendLocalEvent 0
+11.06_20:00:05_134 10701 25891 DEBUG [PushServiceBroadcastHandler] Internl network connected, restart
+11.06_20:00:05_134 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - startConnect
+11.06_20:00:05_134 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] Action:restartConnectThread - CONNECTED
+11.06_20:00:08_231 10701 25891 DEBUG [PushServiceManager] 8s time's over, now pull up xg services
+11.06_20:00:08_247 10701 25891 DEBUG [ServiceUtil]  Not pull up other XGService with cloud
+11.06_20:00:13_589 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:00:13_593 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ENABLE_DEBUG.V4
+11.06_20:00:13_726 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:00:13_727 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.REGISTER.V4
+11.06_20:00:13_731 10701 25891 DEBUG [TpnsSecurity] apkSignature already cached 
+11.06_20:00:13_734 10701 25891 INFO [NotificationsUtils] OS >= 26, return true
+11.06_20:00:13_743 10701 25891 DEBUG [RegReq] Register get tAd error, tAd not found
+11.06_20:00:13_743 10701 25891 TRACE [RegReq] Register(1520010077,0f993f99f2a6d9a586cf17a73896611f,,-1),payload:  channel id-1
+11.06_20:00:13_752 10701 25891 DEBUG [XGMqttChannel] doActionWhenConnected
+11.06_20:00:13_756 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.06_20:00:13_756 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.06_20:00:13_757 10701 25891 INFO [Mqtt-TPush - Request] Update token to: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:00:13_758 10701 25891 INFO [Mqtt-TPush - IMqttServiceImpl] sendRequest Request{type=6, id=93970000069701001, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"WIFI","sdCard":"34225\/115230","sdDouble":"","resolution":"2290*1039","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"en","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015.438","countryCode":"GB","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793970013,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f"}', retryCount=0}
+11.06_20:00:13_760 10701 25891 WARN [Mqtt-TPush - IMqttServiceImpl] gzip mqtt request size before: 1748, after: 964
+11.06_20:00:13_760 10701 25891 DEBUG [MqttAsyncClient] action - publish, message is MqttPublish
+11.06_20:00:13_760 10701 25891 DEBUG [ClientComms] action - internalSend
+11.06_20:00:13_761 10701 25941 INFO [CommsSender] message:PUBLISH qos:1 msgId:2 retained:false dup:false topic:"_xg/rpc/send/gzip" payload:[hex:1fffffff8b0800000000000000ffffff9555ffffffdb6effffffdb4610fffffffd15ffffff81 utf8:"�       �U�n�F��" length:964]
+11.06_20:00:13_762 10701 25941 DEBUG [ClientState] action - notifySent
+11.06_20:00:13_794 10701 25942 INFO [CommsReceiver] PUBACK msgId 2
+11.06_20:00:13_794 10701 25942 DEBUG [ClientState] action:notifyResult
+11.06_20:00:13_795 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:13_795 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - deliveryComplete
+11.06_20:00:13_796 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] removeCacheMessages error id 93970000069701001
+11.06_20:00:13_796 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] sendRequest onSuccess topic:_xg/rpc/send/gzip body: {"id":93970000069701001,"cmd":"register","paramsMd5":"8263aa737220890ddf5715875ee0c55b","params":{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"WIFI","sdCard":"34225\/115230","sdDouble":"","resolution":"2290*1039","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"en","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015.438","countryCode":"GB","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793970013,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f"}}
+11.06_20:00:13_798 10701 25942 INFO [CommsReceiver] PUBLISH qos:0 retained:false dup:false topic:"/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffff6cffffff8e3d6affffffc43010ffffff85ffffffeffffffff2 utf8:"�      �l�=j�0���" length:178]
+11.06_20:00:13_799 10701 25942 DEBUG [ClientState] action - notifyReceivedMsg:PUBLISH qos:0 retained:false dup:false topic:"/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffff6cffffff8e3d6affffffc43010ffffff85ffffffeffffffff2 utf8:"�      �l�=j�0���" length:178]
+11.06_20:00:13_799 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:13_799 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] MessageArrived, rpc topic :/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f, payload:{"id":93970000069701001,"cmd":"register","ret":0,"errMsg":"success","result":{"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","guid":0,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"ticket":"","ticketType":-1}}
+11.06_20:00:13_800 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:0, message:{"token":"03a8e891e59b2a7a42e2611ce0d69647d34f","guid":0,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"ticket":"","ticketType":-1}
+11.06_20:00:13_805 10701 25891 DEBUG [PushServiceBroadcastHandler] >> Register onResponse [accId = 1520010077, token:03a8e891e59b2a7a42e2611ce0d69647d34f, otherPushType:0, otherToken: , packName = com.onepunchman.sea.x7sy]
+11.06_20:00:13_824 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:00:13_830 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.UPDATE_OTHER_PUSH_TOKEN.V4
+11.06_20:00:13_831 10701 25891 INFO [PushServiceBroadcastHandler] binding OtherPush token with accessId = 1520010077  token = 03a8e891e59b2a7a42e2611ce0d69647d34f otherPushType = fcm otherPushToken = fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.06_20:00:13_832 10701 25891 DEBUG [XGMqttChannel] doActionWhenConnected
+11.06_20:00:13_833 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.06_20:00:13_833 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.06_20:00:13_833 10701 25891 INFO [Mqtt-TPush - Request] Update token to: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:00:13_834 10701 25891 INFO [Mqtt-TPush - IMqttServiceImpl] sendRequest Request{type=6, id=93970000069701002, topic='update_channel_token', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","channelType":"fcm","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","timestamp":1793970013,"sdkVersion":"1.3.5.0","token":"03a8e891e59b2a7a42e2611ce0d69647d34f"}', retryCount=0}
+11.06_20:00:13_837 10701 25891 WARN [Mqtt-TPush - IMqttServiceImpl] gzip mqtt request size before: 422, after: 339
+11.06_20:00:13_837 10701 25891 DEBUG [MqttAsyncClient] action - publish, message is MqttPublish
+11.06_20:00:13_837 10701 25891 DEBUG [ClientComms] action - internalSend
+11.06_20:00:13_841 10701 25941 INFO [CommsSender] message:PUBLISH qos:1 msgId:3 retained:false dup:false topic:"_xg/rpc/send/gzip" payload:[hex:1fffffff8b08000000000000004d50ffffffcb6effffffc23010fffffffc17ffffff9f utf8:"�       MP�n�0��" length:339]
+11.06_20:00:13_842 10701 25941 DEBUG [ClientState] action - notifySent
+11.06_20:00:13_872 10701 25942 INFO [CommsReceiver] PUBACK msgId 3
+11.06_20:00:13_873 10701 25942 DEBUG [ClientState] action:notifyResult
+11.06_20:00:13_873 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:13_873 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - deliveryComplete
+11.06_20:00:13_873 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] removeCacheMessages error id 93970000069701002
+11.06_20:00:13_874 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] sendRequest onSuccess topic:_xg/rpc/send/gzip body: {"id":93970000069701002,"cmd":"update_channel_token","paramsMd5":"3bb7e22d55c2564f3917c01d9ba34456","params":{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","channelType":"fcm","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","timestamp":1793970013,"sdkVersion":"1.3.5.0","token":"03a8e891e59b2a7a42e2611ce0d69647d34f"}}
+11.06_20:00:13_876 10701 25942 INFO [CommsReceiver] PUBLISH qos:0 retained:false dup:false topic:"/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffff14ffffffc0410affffff85201006ffffffe0ffffffbb utf8:"�      ��A
+11.06_20:00:13_876 10701 25942 INFO [CommsReceiver] � �" length:99]
+11.06_20:00:13_876 10701 25942 DEBUG [ClientState] action - notifyReceivedMsg:PUBLISH qos:0 retained:false dup:false topic:"/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffff14ffffffc0410affffff85201006ffffffe0ffffffbb utf8:"�      ��A
+11.06_20:00:13_876 10701 25942 DEBUG [ClientState] � �" length:99]
+11.06_20:00:13_876 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:13_877 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] MessageArrived, rpc topic :/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f, payload:{"id":93970000069701002,"cmd":"update_channel_token","ret":0,"errMsg":"success"}
+11.06_20:00:13_877 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:0, message:
+11.06_20:00:13_878 10701 25891 INFO [PushServiceBroadcastHandler] >> bind OtherPushToken success ack with [accessId = 1520010077  , rsp = 0]  token = 03a8e891e59b2a7a42e2611ce0d69647d34f otherPushType = fcm otherPushToken = fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.06_20:00:15_089 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:00:15_089 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.TAG.V4
+11.06_20:00:15_090 10701 25891 DEBUG [PushServiceNetworkHandler] Action -> sendTag to server (1520010077,com.onepunchman.sea.x7sy)
+11.06_20:00:15_091 10701 25891 DEBUG [XGMqttChannel] doActionWhenConnected
+11.06_20:00:15_091 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.06_20:00:15_091 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.06_20:00:15_092 10701 25891 INFO [Mqtt-TPush - Request] Update token to: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:00:15_092 10701 25891 INFO [Mqtt-TPush - IMqttServiceImpl] sendRequest Request{type=6, id=93970000069701003, topic='tag', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","tag":"dnyonline_regplayer:en_US dnyonline_regplayernew:en_US","flag":6,"timestamp":1793970015,"sdkVersion":"1.3.5.0","token":"03a8e891e59b2a7a42e2611ce0d69647d34f"}', retryCount=0}
+11.06_20:00:01_017 5979 25846 INFO [MessageHelper] Action -> showNotification {"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"Live Clash rank match starts. Slug it out!","lights":1,"n_id":46870277,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}
+11.06_20:00:01_021 5979 25846 INFO [XGPushNotificationBuilder] XGPushNotification Build.VERSION.SDK_INT: 33, targetSDK:30
+11.06_20:00:02_033 5979 2 INFO [XGPushManager] >>> onActivityStarted org.cocos2dx.lua.AppActivity@f5a3014
+11.06_20:00:02_063 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:07_073 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:12_074 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:13_581 5979 25875 WARN [Base-TPush - XGApiConfigImpl] refresh Token
+11.06_20:00:13_586 5979 2 DEBUG [Sp] main thread, async sp set
+11.06_20:00:13_588 5979 2 DEBUG [Sp] main thread, async sp set
+11.06_20:00:13_588 5979 2 DEBUG [Sp] main thread, async sp set
+11.06_20:00:13_593 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:00:13_593 5979 2 INFO [XGPushManager] enableService=1
+11.06_20:00:13_606 5979 25846 DEBUG [XG_fcm]  GooglePlayServices service resultCode = 0
+11.06_20:00:13_606 5979 25846 DEBUG [XG_fcm] This device is supported, GooglePlayServices service is running
+11.06_20:00:13_707 5979 25846 INFO [SysPush] isUseXgSysDevice: false
+11.06_20:00:13_708 5979 25846 INFO [OtherPushManager] USE oppo
+11.06_20:00:13_708 5979 25846 WARN [Util] unexpected for init oppo
+11.06_20:00:13_709 5979 25846 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.06_20:00:13_709 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:00:13_709 5979 25846 INFO [XGPushManager] start other push channel register !
+11.06_20:00:13_709 5979 25846 INFO [XGPushManager] start other push channel register !
+11.06_20:00:13_709 5979 25846 TRACE [XGPushConfig] isUsedOtherPush:true
+11.06_20:00:13_709 5979 25846 WARN [Util] unexpected for init oppo
+11.06_20:00:13_709 5979 25846 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.06_20:00:13_709 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:00:13_709 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:00:13_709 5979 25846 INFO [XG_fcm] get FCM version lower 22
+11.06_20:00:13_710 5979 25846 TRACE [XGPushConfig] isUsedOtherPush:true
+11.06_20:00:13_710 5979 25846 INFO [XGPushManager] invalid sync wait other channel push time:-1, reset to 4s 
+11.06_20:00:13_710 5979 25846 WARN [Util] unexpected for init oppo
+11.06_20:00:13_711 5979 25846 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.06_20:00:13_711 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:00:13_711 5979 2 DEBUG [XG_fcm]  OtherPushImpl registerFcmPush getToken= fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.06_20:00:13_719 5979 25846 INFO [XGPushManager] get fcmToken is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.06_20:00:13_719 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:00:13_719 5979 25846 WARN [Util] unexpected for init oppo
+11.06_20:00:13_719 5979 25846 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.06_20:00:13_719 5979 25846 DEBUG [XGPushConfig] channelId is not empty
+11.06_20:00:13_720 5979 25846 TRACE [XGPushConfig] isUsedOtherPush:true
+11.06_20:00:13_720 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:00:13_720 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:00:13_720 5979 25846 INFO [XGPushManager] other push token is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI  other push type: fcm
+11.06_20:00:13_721 5979 25846 DEBUG [XGPushManager] url = null payload = null otherPushType 0 otherPushTokenOpType 1
+11.06_20:00:13_721 5979 25846 DEBUG [XGPushConfig] isUsedTpnsChannel: true
+11.06_20:00:13_722 5979 25846 DEBUG [XGPushConfig] isUsedTpnsChannel: true
+11.06_20:00:13_723 5979 25846 DEBUG [Util] action getServiceStatus
+11.06_20:00:13_723 5979 25846 DEBUG [XGPushManager] serviceStatus:1, isHasBinded: true
+11.06_20:00:13_723 5979 25846 DEBUG [XGPushManager] send boardcast to register
+11.06_20:00:13_723 5979 25846 INFO [XGPushManager] Action -> Register to TPNS server
+11.06_20:00:13_812 5979 2 INFO [XGPushManager] Register call back to com.onepunchman.sea.x7sy
+11.06_20:00:13_814 5979 25846 DEBUG [XGPushManager] TYPE_RSP - operation:0, opType:0
+11.06_20:00:13_814 5979 25846 DEBUG [NotificationsUtils] updateLastUploadMd5Str:null,str:d588c180d8915da7128b97a72f628050
+11.06_20:00:13_815 5979 25846 DEBUG [XGPushManager] TYPE_RSP - has invoked callback
+11.06_20:00:13_816 5979 25846 TRACE [XGPushConfig] isUsedOtherPush:true
+11.06_20:00:13_816 5979 25892 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/heart,match:30
+11.06_20:00:13_817 5979 25846 DEBUG [XGPushManager] reportTpnsInfoToBugly | report tpnsInfo to bugly : TPNS INFO 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:00:13_819 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:00:13_819 5979 25846 WARN [Util] unexpected for init oppo
+11.06_20:00:13_820 5979 25846 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.06_20:00:13_820 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:00:13_820 5979 25846 INFO [OtherPushClient] handleUpdateToken other push token is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI other push type: fcm
+11.06_20:00:13_820 5979 25846 INFO [OtherPushClient] OtherToken or Mid changed , go on bind
+11.06_20:00:13_883 5979 25846 INFO [OtherPushClient] handleUpdateOtherPushToken call back to com.onepunchman.sea.x7sy
+11.06_20:00:15_087 5979 25875 INFO [XGPushManager] Action -> setTags with all tags = dnyonline_regplayer:en_US dnyonline_regplayernew:en_US
+11.06_20:00:17_076 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:17_076 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:00:20_688 5979 25894 INFO [XGPushProvider] insert uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/msg,match:20,values:key=#Intent;action=com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE;package=com.onepunchman.sea.x7sy;l.time_gap=-1793968227029979327;S.svrPkgName=com.onepunchman.sea.x7sy;l.busiMsgId=0;l.extra_push_time=1793970001000000000;S.traceId=;l.source=0;B.svrAck=true;l.server_time=1793970021000000;i.revokeId=0;l.expire_time=1792177844979820673;i.ttl=10800;S.date=20261106;l.type=1;l.accId=1520010077;S.inMsg=;l.msgId=646876997;S.title=;S.groupId=;l.targetType=8;S.group_id=00%3Atpns_20261106;l.multiPkg=1;i.pushChannel=100;S.content=RpJfeGePjQOl3RZb0pXzSbajSFShmK9lt9wQmCKBD2bWx4nC2jXQSnQNOR75t8x%2BzKFv6LDjxgwL%0AQQyyrt2fxRuo%2BHhs%2Fs%2Fvc3o3uvPEGuor9LhhAoaYz3clS9ngWzfe6ECI9B73JsQ%2BSbRUrvvkePXX%0Aedvp3yeek9qW%2FtmLpElwI532fOkE2zqOBVJpJOBaD4eM0olSBVdkbA6jgNPS6VgBnenvq6VicCC9%0AtoZCZHJBWuPHSORk8NIbFxKnyx%2FDa0AU%2FmQszNeYH4QmItxFWhOBeDxHot4QmCAFwtD8hbEDnxh6%0A1EfFVgOzXxij5zLa4E8jLRb3QQMA8ZT2naK76UoXn8UKd5We1x62KCNwuCrOPUL5aqfUmpU6u%2Ftt%0A0DU8arc904iyzsW69hr78vDUHSqfr%2BIp2CXIzk3%2B4AMq1H7QGQIr0fXbKw%3D%3D;S.enKeySet=kmonaaafhfhcaabdflemgkgbhggbcogmgbgoghcofdhehcgjgoghdlknncfgohojbnhlehacaaaahihaaaaaaaacheaaafhegjhegmgfheaaahgdgpgohegfgohe;S.templateId=;l.timestamps=1793970001000;end
+11.06_20:00:20_692 5979 25846 DEBUG [PushMessageHandler] Action -> handleRemotePushMessage
+11.06_20:00:20_694 5979 25846 INFO [PushMessageHandler] >> msg from service,  @msgId=646876997 @accId=1520010077 @timeUs=1793970001000000000 @recTime=1793970020693 @msg.date=20261106 @msg.busiMsgId=0 @msg.timestamp=1793970001000 @msg.type=1 @msg.multiPkg=1 @msg.serverTime=1793970021000000 @msg.ttl=10800 @currentTimeMillis=1793970020693
+11.06_20:00:20_694 5979 25846 INFO [PushMessageHandler] cache msgIds:@646870277com.onepunchman.sea.x7sy@@646822175com.onepunchman.sea.x7sy@@646816800com.onepunchman.sea.x7sy@@646713582com.onepunchman.sea.x7sy@@646689414com.onepunchman.sea.x7sy@@646705895com.onepunchman.sea.x7sy@@646628889com.onepunchman.sea.x7sy@@646637830com.onepunchman.sea.x7sy@@646483838com.onepunchman.sea.x7sy@@646456917com.onepunchman.sea.x7sy@@646474974com.onepunchman.sea.x7sy@@-1793780015461com.onepunchman.sea.x7sy@@646405023com.onepunchman.sea.x7sy@@646410647com.onepunchman.sea.x7sy@@646276654com.onepunchman.sea.x7sy@@646251538com.onepunchman.sea.x7sy@@646268845com.onepunchman.sea.x7sy@@646196098com.onepunchman.sea.x7sy@@646203934com.onepunchman.sea.x7sy@@646078698com.onepunchman.sea.x7sy@@646068922com.onepunchman.sea.x7sy@@646048531com.onepunchman.sea.x7sy@@645872985com.onepunchman.sea.x7sy@@645846653com.onepunchman.sea.x7sy@@645863390com.onepunchman.sea.x7sy@@645795699com.onepunchman.sea.x7sy@@645787418com.onepunchman.sea.x7sy@@645685063com.onepunchman.sea.x7sy@@645659717com.onepunchman.sea.x7sy@@645481323com.onepunchman.sea.x7sy@@645471463com.onepunchman.sea.x7sy@@645451482com.onepunchman.sea.x7sy@@645389733com.onepunchman.sea.x7sy@@645251933com.onepunchman.sea.x7sy@@645243272com.onepunchman.sea.x7sy@@645225946com.onepunchman.sea.x7sy@@645175810com.onepunchman.sea.x7sy@@645183009com.onepunchman.sea.x7sy@@645042590com.onepunchman.sea.x7sy@@645032653com.onepunchman.sea.x7sy@@645015822com.onepunchman.sea.x7sy@@644976391com.onepunchman.sea.x7sy@@644982259com.onepunchman.sea.x7sy@@644867333com.onepunchman.sea.x7sy@@644857797com.onepunchman.sea.x7sy@@644841530com.onepunchman.sea.x7sy@@644791285com.onepunchman.sea.x7sy@@644798290com.onepunchman.sea.x7sy@@644686641com.onepunchman.sea.x7sy@@644676903com.onepunchman.sea.x7sy@@644598754com.onepunchman.sea.x7sy@@644608709com.onepunchman.sea.x7sy@@644494423com.onepunchman.sea.x7sy@@644475802com.onepunchman.sea.x7sy@@644487373com.onepunchman.sea.x7sy@@644449353com.onepunchman.sea.x7sy@@644445529com.onepunchman.sea.x7sy@@644357724com.onepunchman.sea.x7sy@@644352902com.onepunchman.sea.x7sy@@644343322com.onepunchman.sea.x7sy@@644312716com.onepunchman.sea.x7sy@@644153677com.onepunchman.sea.x7sy@@644122247com.onepunchman.sea.x7sy@@644142683com.onepunchman.sea.x7sy@@644074360com.onepunchman.sea.x7sy@@644080424com.onepunchman.sea.x7sy@@643951292com.onepunchman.sea.x7sy@@643959901com.onepunchman.sea.x7sy@@643723637com.onepunchman.sea.x7sy@@643712558com.onepunchman.sea.x7sy@@643693421com.onepunchman.sea.x7sy@@643649816com.onepunchman.sea.x7sy@@643641760com.onepunchman.sea.x7sy@@643496302com.onepunchman.sea.x7sy@@643482947com.onepunchman.sea.x7sy@@643457799com.onepunchman.sea.x7sy@@643391478com.onepunchman.sea.x7sy@@643399721com.onepunchman.sea.x7sy@@643253880com.onepunchman.sea.x7sy@@643223998com.onepunchman.sea.x7sy@@643167713com.onepunchman.sea.x7sy@@643157751com.onepunchman.sea.x7sy@@643026720com.onepunchman.sea.x7sy@@643006644com.onepunchman.sea.x7sy@@642967345com.onepunchman.sea.x7sy@@642858602com.onepunchman.sea.x7sy@@642864769com.onepunchman.sea.x7sy@@642801834com.onepunchman.sea.x7sy@@642796818com.onepunchman.sea.x7sy@@642645107com.onepunchman.sea.x7sy@@642655357com.onepunchman.sea.x7sy@@642623272com.onepunchman.sea.x7sy@@642548794com.onepunchman.sea.x7sy@@642559428com.onepunchman.sea.x7sy@@642381656com.onepunchman.sea.x7sy@@642370238com.onepunchman.sea.x7sy@@642347368com.onepunchman.sea.x7sy@@-1792046297224com.onepunchman.sea.x7sy@@642272091com.onepunchman.sea.x7sy@@642283128com.onepunchman.sea.x7sy@@-1792032190675com.onepunchman.sea.x7sy@@642148636com.onepunchman.sea.x7sy@@642140598com.onepunchman.sea.x7sy@@642125972com.onepunchman.sea.x7sy@@642086429com.onepunchman.sea.x7sy@@642077759com.onepunchman.sea.x7sy@@641923137com.onepunchman.sea.x7sy@@641935718com.onepunchman.sea.x7sy@@641899808com.onepunchman.sea.x7sy@@641837916com.onepunchman.sea.x7sy@@641828075com.onepunchman.sea.x7sy@@641692802com.onepunchman.sea.x7sy@@641681251com.onepunchman.sea.x7sy@@641660277com.onepunchman.sea.x7sy@@641607974com.onepunchman.sea.x7sy@@641600086com.onepunchman.sea.x7sy@@641478878com.onepunchman.sea.x7sy@@641486395com.onepunchman.sea.x7sy@@641464725com.onepunchman.sea.x7sy@@641435502com.onepunchman.sea.x7sy@@641338578com.onepunchman.sea.x7sy@@641346553com.onepunchman.sea.x7sy@@641322861com.onepunchman.sea.x7sy@@641286365com.onepunchman.sea.x7sy@@641280796com.onepunchman.sea.x7sy@@641164990com.onepunchman.sea.x7sy@@641154462com.onepunchman.sea.x7sy@@641080789com.onepunchman.sea.x7sy@@641072379com.onepunchman.sea.x7sy@@-1791516197310com.onepunchman.sea.x7sy@@640929800com.onepunchman.sea.x7sy@@640918386com.onepunchman.sea.x7sy@@640895171com.onepunchman.sea.x7sy@@640687485com.onepunchman.sea.x7sy@@640676781com.onepunchman.sea.x7sy@@640654217com.onepunchman.sea.x7sy@@640600491com.onepunchman.sea.x7sy@@640590728com.onepunchman.sea.x7sy@@640465080com.onepunchman.sea.x7sy@@640454983com.onepunchman.sea.x7sy@@640437958com.onepunchman.sea.x7sy@@640382428com.onepunchman.sea.x7sy@@640371368com.onepunchman.sea.x7sy@@640243067com.onepunchman.sea.x7sy@@640232428com.onepunchman.sea.x7sy@@-1791199464633com.onepunchman.sea.x7sy@@640215014com.onepunchman.sea.x7sy@@640161596com.onepunchman.sea.x7sy@@640152621com.onepunchman.sea.x7sy@@640030239com.onepunchman.sea.x7sy@@639992239com.onepunchman.sea.x7sy@@639985978com.onepunchman.sea.x7sy@@639871573com.onepunchman.sea.x7sy@@639863403com.onepunchman.sea.x7sy@@639848965com.onepunchman.sea.x7sy@@639822002com.onepunchman.sea.x7sy@@639816258com.onepunchman.sea.x7sy@@639692452com.onepunchman.sea.x7sy@@639682180com.onepunchman.sea.x7sy@@639660710com.onepunchman.sea.x7sy@@639598286com.onepunchman.sea.x7sy@@639587370com.onepunchman.sea.x7sy@@639459066com.onepunchman.sea.x7sy@@639449182com.onepunchman.sea.x7sy@@639428839com.onepunchman.sea.x7sy@@639375780com.onepunchman.sea.x7sy@@639366065com.onepunchman.sea.x7sy@@639166768com.onepunchman.sea.x7sy@@639099847com.onepunchman.sea.x7sy@@638922066com.onepunchman.sea.x7sy@@638908719com.onepunchman.sea.x7sy@@638884484com.onepunchman.sea.x7sy@@638822727com.onepunchman.sea.x7sy@@638812518com.onepunchman.sea.x7sy@@638652076com.onepunchman.sea.x7sy@@638640539com.onepunchman.sea.x7sy@@638617062com.onepunchman.sea.x7sy@@638428107com.onepunchman.sea.x7sy@@638420004com.onepunchman.sea.x7sy@@638403070com.onepunchman.sea.x7sy@@638353722com.onepunchman.sea.x7sy@@638360433com.onepunchman.sea.x7sy@@638239081com.onepunchman.sea.x7sy@@638247600com.onepunchman.sea.x7sy@@638186185com.onepunchman.sea.x7sy@@-1790380916520com.onepunchman.sea.x7sy@@638030417com.onepunchman.sea.x7sy@@638041658com.onepunchman.sea.x7sy@@638010207com.onepunchman.sea.x7sy@@637961668com.onepunchman.sea.x7sy@@637954233com.onepunchman.sea.x7sy@@637813857com.onepunchman.sea.x7sy@@637800716com.onepunchman.sea.x7sy@@637775092com.onepunchman.sea.x7sy@@637714474com.onepunchman.sea.x7sy@@637706971com.onepunchman.sea.x7sy@@637566200com.onepunchman.sea.x7sy@@637556434com.onepunchman.sea.x7sy@@637536955com.onepunchman.sea.x7sy@@637481925com.onepunchman.sea.x7sy@@637472774com.onepunchman.sea.x7sy@@637298985com.onepunchman.sea.x7sy@@637310972com.onepunchman.sea.x7sy@@637277267com.onepunchman.sea.x7sy@@637219891com.onepunchman.sea.x7sy@@637210197com.onepunchman.sea.x7sy@@637062205com.onepunchman.sea.x7sy@@637051149com.onepunchman.sea.x7sy@@637032350com.onepunchman.sea.x7sy@@636968763com.onepunchman.sea.x7sy@@636978232com.onepunchman.sea.x7sy@@636849936com.onepunchman.sea.x7sy@@636817878com.onepunchman.sea.x7sy@@636839819com.onepunchman.sea.x7sy@@636767147com.onepunchman.sea.x7sy@@636759661com.onepunchman.sea.x7sy@@636625162com.onepunchman.sea.x7sy@@636576453com.onepunchman.sea.x7sy@@636566409com.onepunchman.sea.x7sy@@636417357com.onepunchman.sea.x7sy@@636406776com.onepunchman.sea.x7sy@@636386831com.onepunchman.sea.x7sy@@636339735com.onepunchman.sea.x7sy@@636331904com.onepunchman.sea.x7sy@@636216925com.onepunchman.sea.x7sy@@636194963com.onepunchman.sea.x7sy@@636209351com.onepunchman.sea.x7sy@@636154187com.onepunchman.sea.x7sy@@636145848com.onepunchman.sea.x7sy@@635998579com.onepunchman.sea.x7sy@@635990105com.onepunchman.sea.x7sy@@635973989com.onepunchman.sea.x7sy@@635916012com.onepunchman.sea.x7sy@@635925855com.onepunchman.sea.x7sy@@635758898com.onepunchman.sea.x7sy@@635769328com.onepunchman.sea.x7sy@@-1789463583656com.onepunchman.sea.x7sy@@635651366com.onepunchman.sea.x7sy@@635663292com.onepunchman.sea.x7sy@@-1789436893109com.onepunchman.sea.x7sy@@635487806com.onepunchman.sea.x7sy@@635476000com.onepunchman.sea.x7sy@@635449857com.onepunchman.sea.x7sy@@635378343com.onepunchman.sea.x7sy@@635366285com.onepunchman.sea.x7sy@@-1789344428652com.onepunchman.sea.x7sy@@635223264com.onepunchman.sea.x7sy@@635195945com.onepunchman.sea.x7sy@@635149710com.onepunchman.sea.x7sy@@635143506com.onepunchman.sea.x7sy@@635037857com.onepunchman.sea.x7sy@@635029842com.onepunchman.sea.x7sy@@635012928com.onepunchman.sea.x7sy@@634959238com.onepunchman.sea.x7sy@@634746268com.onepunchman.sea.x7sy@@634761587com.onepunchman.sea.x7sy@@634720513com.onepunchman.sea.x7sy@@634635571com.onepunchman.sea.x7sy@@634620798com.onepunchman.sea.x7sy@@634403734com.onepunchman.sea.x7sy@@634360242com.onepunchman.sea.x7sy@@634386612com.onepunchman.sea.x7sy@@634281443com.onepunchman.sea.x7sy@@634292783com.onepunchman.sea.x7sy@@634131725com.onepunchman.sea.x7sy@@634118651com.onepunchman.sea.x7sy@@634093690com.onepunchman.sea.x7sy@@634037748com.onepunchman.sea.x7sy@@634030413com.onepunchman.sea.x7sy@@633889450com.onepunchman.sea.x7sy@@633850342com.onepunchman.sea.x7sy@@633875642com.onepunchman.sea.x7sy@@633788842com.onepunchman.sea.x7sy@@633778874com.onepunchman.sea.x7sy@@633621224com.onepunchman.sea.x7sy@@633606614com.onepunchman.sea.x7sy@@633578351com.onepunchman.sea.x7sy@@633501808com.onepunchman.sea.x7sy@@633491842com.onepunchman.sea.x7sy@@633362639com.onepunchman.sea.x7sy@@633282087com.onepunchman.sea.x7sy@@633271694com.onepunchman.sea.x7sy@@633144611com.onepunchman.sea.x7sy@@632909592com.onepunchman.sea.x7sy@@632873672com.onepunchman.sea.x7sy@@632896280com.onepunchman.sea.x7sy@@632806015com.onepunchman.sea.x7sy@@632793394com.onepunchman.sea.x7sy@@632626064com.onepunchman.sea.x7sy@@632594415com.onepunchman.sea.x7sy@@632527963com.onepunchman.sea.x7sy@@632514945com.onepunchman.sea.x7sy@@632321761com.onepunchman.sea.x7sy@@632261244com.onepunchman.sea.x7sy@@632251625com.onepunchman.sea.x7sy@@632076588com.onepunchman.sea.x7sy@null, vs current msgIdstr:@646876997com.onepunchman.sea.x7sy@
+11.06_20:00:20_719 5979 25846 DEBUG [PushMessageRunnable] Action -> handlerPushMessage
+11.06_20:00:20_719 5979 25846 DEBUG [PushMessageManager] PushMessageManager content:{"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46876997,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}
+11.06_20:00:20_719 5979 25846 DEBUG [PushMessageManager] PushMessageManager inMsg:
+11.06_20:00:20_719 5979 25846 DEBUG [PushMessageManager] PushMessageManager msgId:646876997
+11.06_20:00:20_719 5979 25846 DEBUG [PushMessageManager] PushMessageManager type:1
+11.06_20:00:20_720 5979 25846 INFO [PushMessageRunnable] Receiver msg from server :PushMessageManager [msgId=646876997, accessId=1520010077, busiMsgId=0, content={"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46876997,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}, timestamps=1793970001000, type=1, intent=Intent { act=com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE cat=[android.intent.category.BROWSABLE] pkg=com.onepunchman.sea.x7sy (has extras) }, messageHolder=BaseMessageHolder [msgJson={"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46876997,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}, msgJsonStr={"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46876997,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}, title=One Punch Man, content=120 Stamina available after supper. Get it NOW, customContent=null, acceptTime=null], appPkgName=null, revokeId=0, templateId=, traceId=]
+11.06_20:00:20_720 5979 25846 TRACE [XGPushManager] Action -> msgAck(com.onepunchman.sea.x7sy,646876997)
+11.06_20:00:20_726 5979 25846 INFO [MessageHelper] Action -> showNotification {"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46876997,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}
+11.06_20:00:20_726 5979 25846 INFO [MessageHelper] PushNotificationBuilder not found :0
+11.06_20:00:20_726 5979 25846 INFO [MessageHelper] PushNotificationBuilder not found :0
+11.06_20:00:20_728 5979 25846 DEBUG [MessageHelper] no valid custom layout type
+11.06_20:00:20_728 5979 25846 DEBUG [MessageHelper] no xg_notification layout
+11.06_20:00:20_728 5979 25846 INFO [XGPushNotificationBuilder] XGPushNotification Build.VERSION.SDK_INT: 33, targetSDK:30
+11.06_20:00:20_729 5979 25846 INFO [XGPushNotificationBuilder] XGPushNotification create notificationChannle, channelId:xg-channle-id, channelName:message
+11.06_20:00:20_729 5979 25846 DEBUG [Base-TPush - Util] getCurrentActivity: org.cocos2dx.lua.AppActivity
+11.06_20:00:20_729 5979 25846 DEBUG [MessageHelper] is_show_type:2, OnForeground:true
+11.06_20:00:20_729 5979 25846 DEBUG [XGPushNotificationBuilder] createNotificationChannel
+11.06_20:00:22_079 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:22_079 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:00:23_427 5979 25875 INFO [XGPushManager] Action -> setTags with all tags = dnyonline_regplayer:en_US dnyonline_regplayernew:en_US
+11.06_20:00:27_080 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:27_080 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:00:32_082 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:32_082 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:00:37_085 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:37_085 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:00:42_088 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:42_089 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:00:47_091 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:47_092 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:00:15_095 10701 25891 TRACE [TBase - TPush] have writable external storage, write log file!
+11.06_20:00:15_096 10701 25943 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261106_2000.txt
+11.06_20:00:15_096 10701 25891 WARN [Mqtt-TPush - IMqttServiceImpl] gzip mqtt request size before: 308, after: 238
+11.06_20:00:15_097 10701 25891 DEBUG [MqttAsyncClient] action - publish, message is MqttPublish
+11.06_20:00:15_097 10701 25891 DEBUG [ClientComms] action - internalSend
+11.06_20:00:15_097 10701 25941 INFO [CommsSender] message:PUBLISH qos:1 msgId:4 retained:false dup:false topic:"_xg/rpc/send/gzip" payload:[hex:1fffffff8b08000000000000006dffffff8fffffffcd6affffffc33010ffffff845fffffffa5 utf8:"�       m��j�0�_�" length:238]
+11.06_20:00:15_099 10701 25941 DEBUG [ClientState] action - notifySent
+11.06_20:00:15_129 10701 25942 INFO [CommsReceiver] PUBACK msgId 4
+11.06_20:00:15_129 10701 25942 DEBUG [ClientState] action:notifyResult
+11.06_20:00:15_129 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:15_130 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - deliveryComplete
+11.06_20:00:15_130 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] removeCacheMessages error id 93970000069701003
+11.06_20:00:15_130 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] sendRequest onSuccess topic:_xg/rpc/send/gzip body: {"id":93970000069701003,"cmd":"tag","paramsMd5":"6514c9e89934c8e170df6494c98ca486","params":{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","tag":"dnyonline_regplayer:en_US dnyonline_regplayernew:en_US","flag":6,"timestamp":1793970015,"sdkVersion":"1.3.5.0","token":"03a8e891e59b2a7a42e2611ce0d69647d34f"}}
+11.06_20:00:15_130 10701 25942 INFO [CommsReceiver] PUBLISH qos:0 retained:false dup:false topic:"/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffffffffffaa56ffffffca4c51ffffffb2ffffffb234ffffffb634 utf8:"�      ��V�LQ��4�4" length:85]
+11.06_20:00:15_131 10701 25942 DEBUG [ClientState] action - notifyReceivedMsg:PUBLISH qos:0 retained:false dup:false topic:"/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffffffffffaa56ffffffca4c51ffffffb2ffffffb234ffffffb634 utf8:"�      ��V�LQ��4�4" length:85]
+11.06_20:00:15_131 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:15_131 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] MessageArrived, rpc topic :/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f, payload:{"id":93970000069701003,"cmd":"tag","ret":0,"errMsg":"success"}
+11.06_20:00:15_132 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:0, message:
+11.06_20:00:15_132 10701 25891 INFO [PushServiceBroadcastHandler] Set tag ack success  [accId = 1520010077 , tagtype = 6 , tagName = dnyonline_regplayer:en_US dnyonline_regplayernew:en_US, packName = com.onepunchman.sea.x7sy]
+11.06_20:00:20_669 10701 25942 INFO [CommsReceiver] PUBLISH qos:1 msgId:1 retained:false dup:false topic:"/_xg/push/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffff4cffffff91ffffffdd6effffffdb300cffffff855f45 utf8:"�      �L��n�0�_E" length:361]
+11.06_20:00:20_670 10701 25942 DEBUG [ClientState] action - notifyReceivedMsg:PUBLISH qos:1 msgId:1 retained:false dup:false topic:"/_xg/push/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffff4cffffff91ffffffdd6effffffdb300cffffff855f45 utf8:"�      �L��n�0�_E" length:361]
+11.06_20:00:20_671 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] MessageArrived, topic :/_xg/push/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f, payload:{"msgId":646876997,"accessId":1520010077,"content":{"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46876997,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}},"type":1,"appPkgName":"com.onepunchman.ggplay.sea","timestamp":1793970001,"multiPkg":1,"date":"20261106","serverTime":1793970021,"ttl":10800,"groupId":"00:tpns_20261106","targetType":8}
+11.06_20:00:20_671 10701 25939 INFO [XGVipPushService] onMessageArrived: topic:/_xg/push/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f, message:{"msgId":646876997,"accessId":1520010077,"content":{"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46876997,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}},"type":1,"appPkgName":"com.onepunchman.ggplay.sea","timestamp":1793970001,"multiPkg":1,"date":"20261106","serverTime":1793970021,"ttl":10800,"groupId":"00:tpns_20261106","targetType":8}
+11.06_20:00:20_670 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:20_671 10701 25939 WARN [PushMessage] parse mqtt msg not contain key "xg"
+11.06_20:00:20_672 10701 25939 INFO [SrvMessageManager] receive msg from service msgId = 646876997 pkg = com.onepunchman.ggplay.sea type = 1
+11.06_20:00:20_672 10701 25939 DEBUG [SrvMessageManager] distributeFromServer : accid=1520010077 ,channelId=0,busiId=0,pkg=com.onepunchman.ggplay.sea,msgId=646876997,type=1,ts=1793970001000,multi=1,date=20261106,serverTime=1793970021000000,ttl=10800, size = 1, groupId=00:tpns_20261106, mgroupId=, revokeId=0
+11.06_20:00:20_672 10701 25939 DEBUG [SrvMessageManager] distributeFromServer content:{"clearable":1,"ring":1,"vibrate":1,"action":{"action_type":1,"browser":{}},"title":"One Punch Man","style_id":1,"content":"120 Stamina available after supper. Get it NOW","lights":1,"n_id":46876997,"icon_type":0,"is_show_type":2,"badge_type":-1,"harmony_message":{"actionType":0,"action":"","uri":"","slot_type":0}}
+11.06_20:00:20_672 10701 25939 DEBUG [SrvMessageManager] distribute2SDK: com.tencent.android.tpush.service.protocol.j@c83422
+11.06_20:00:20_673 10701 25894 DEBUG [CloudManager] shouldRefuse | isCloudRefuse : false
+11.06_20:00:20_674 10701 25894 DEBUG [XgStat] [XgStat(25894): ProGuard:171] - stat for pushAction
+11.06_20:00:20_674 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:182] - [https://api.tpns.sgp.tencent.com/log/statistics/push]Send request(342bytes), content:[{"accessId":1520010077,"pushAction":4,"msgId":646876997,"msgType":1,"pushtime":1793970001,"timestamp":1793970020,"templateId":"","traceId":"","token":"03a8e891e59b2a7a42e2611ce0d69647d34f","accessKey":"A3HVGXSNIFB3","appVersion":"1.9.3","sdkVersion":"1.3.5.0","groupId":"00:tpns_20261106","pushChannel":100,"targetType":8,"rpTs":1793970020}]
+11.06_20:00:20_676 10701 25894 DEBUG [XgStat] [XgStat(25894): ProGuard:235] - before Gzip:342 bytes, after Gzip:248 bytes
+11.06_20:00:20_678 10701 25939 INFO [SrvMessageManager] distribute2SDK appPkgName: com.onepunchman.sea.x7sy
+11.06_20:00:20_681 10701 25939 INFO [SrvMessageManager] distribute2SDK pkgs msgid 646876997  pkg com.onepunchman.ggplay.sea
+11.06_20:00:20_681 10701 25939 DEBUG [IPCManager] wakeCtr:xiaomi,mf:realme
+11.06_20:00:20_707 10701 25939 DEBUG [ClientComms] action - internalSend
+11.06_20:00:20_708 10701 25941 INFO [CommsSender] message:PUBACK msgId 1
+11.06_20:00:20_714 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:270] - http recv response status code:200, responseMsg:OK,contentLength:53,contentEncoding:gzip
+11.06_20:00:20_715 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:306] - http recv response data: {"ret_code":0,"err_msg":"ok"}
+11.06_20:00:20_715 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:314] - http data upload ok
+11.06_20:00:20_715 10701 25894 INFO [XgStat] [XgStat(25894): ProGuard:316] - send Event success:[{"accessId":1520010077,"pushAction":4,"msgId":646876997,"msgType":1,"pushtime":1793970001,"timestamp":1793970020,"templateId":"","traceId":"","token":"03a8e891e59b2a7a42e2611ce0d69647d34f","accessKey":"A3HVGXSNIFB3","appVersion":"1.9.3","sdkVersion":"1.3.5.0","groupId":"00:tpns_20261106","pushChannel":100,"targetType":8,"rpTs":1793970020}]
+11.06_20:00:20_723 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:00:20_724 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.MSG_ACK.V4
+11.06_20:00:20_725 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:00:20_725 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ack.sdk2srv.V4
+11.06_20:00:23_430 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:00:23_431 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.TAG.V4
+11.06_20:00:23_431 10701 25891 DEBUG [PushServiceNetworkHandler] Action -> sendTag to server (1520010077,com.onepunchman.sea.x7sy)
+11.06_20:00:23_431 10701 25891 DEBUG [XGMqttChannel] doActionWhenConnected
+11.06_20:00:23_432 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.06_20:00:23_432 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.06_20:00:23_432 10701 25891 INFO [Mqtt-TPush - Request] Update token to: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:00:23_432 10701 25891 INFO [Mqtt-TPush - IMqttServiceImpl] sendRequest Request{type=6, id=93970000069701004, topic='tag', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","tag":"dnyonline_regplayer:en_US dnyonline_regplayernew:en_US","flag":6,"timestamp":1793970023,"sdkVersion":"1.3.5.0","token":"03a8e891e59b2a7a42e2611ce0d69647d34f"}', retryCount=0}
+11.06_20:00:23_433 10701 25891 WARN [Mqtt-TPush - IMqttServiceImpl] gzip mqtt request size before: 308, after: 240
+11.06_20:00:23_433 10701 25891 DEBUG [MqttAsyncClient] action - publish, message is MqttPublish
+11.06_20:00:23_433 10701 25891 DEBUG [ClientComms] action - internalSend
+11.06_20:00:23_434 10701 25941 INFO [CommsSender] message:PUBLISH qos:1 msgId:5 retained:false dup:false topic:"_xg/rpc/send/gzip" payload:[hex:1fffffff8b08000000000000006dffffff8fffffffcd6affffffc33010ffffff845fffffffa5 utf8:"�       m��j�0�_�" length:240]
+11.06_20:00:23_435 10701 25941 DEBUG [ClientState] action - notifySent
+11.06_20:00:23_541 10701 25942 INFO [CommsReceiver] PUBACK msgId 5
+11.06_20:00:23_541 10701 25942 DEBUG [ClientState] action:notifyResult
+11.06_20:00:23_542 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:23_543 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - deliveryComplete
+11.06_20:00:23_544 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] removeCacheMessages error id 93970000069701004
+11.06_20:00:23_544 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] sendRequest onSuccess topic:_xg/rpc/send/gzip body: {"id":93970000069701004,"cmd":"tag","paramsMd5":"8370336150644605bee76fbf36eacd34","params":{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","tag":"dnyonline_regplayer:en_US dnyonline_regplayernew:en_US","flag":6,"timestamp":1793970023,"sdkVersion":"1.3.5.0","token":"03a8e891e59b2a7a42e2611ce0d69647d34f"}}
+11.06_20:00:23_544 10701 25942 INFO [CommsReceiver] PUBLISH qos:0 retained:false dup:false topic:"/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffffffffffaa56ffffffca4c51ffffffb2ffffffb234ffffffb634 utf8:"�      ��V�LQ��4�4" length:85]
+11.06_20:00:23_545 10701 25942 DEBUG [ClientState] action - notifyReceivedMsg:PUBLISH qos:0 retained:false dup:false topic:"/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f" payload:[hex:1fffffff8b08000000000000ffffffffffffffaa56ffffffca4c51ffffffb2ffffffb234ffffffb634 utf8:"�      ��V�LQ��4�4" length:85]
+11.06_20:00:23_547 10701 25942 DEBUG [MqttInputStream] action - readMqttWireMessage
+11.06_20:00:23_548 10701 25939 INFO [Mqtt-TPush - IMqttServiceImpl] MessageArrived, rpc topic :/_xg/rpc/recv/gzip/1520010077/03a8e891e59b2a7a42e2611ce0d69647d34f, payload:{"id":93970000069701004,"cmd":"tag","ret":0,"errMsg":"success"}
+11.06_20:00:23_548 10701 25939 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - doCallback, code:0, message:
+11.06_20:00:23_549 10701 25891 INFO [PushServiceBroadcastHandler] Set tag ack success  [accId = 1520010077 , tagtype = 6 , tagName = dnyonline_regplayer:en_US dnyonline_regplayernew:en_US, packName = com.onepunchman.sea.x7sy]
+11.06_20:01:00_127 10701 25891 DEBUG [XGVipPushService] --CheckMessage--interval time:270000
+11.06_20:01:00_151 10701 25891 INFO [Mqtt-TPush - MqttConfigImpl] isForeignWeakAlarmMode KeepAlive set to : 3600
+11.06_20:02:38_235 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:02:38_236 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ACCOUNT.V4
+11.06_20:02:38_237 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:02:38_240 10701 25891 TRACE [PushServiceNetworkHandler] setAccount(1520010077,[{"account_type":0,"account":"15603071_310794"}])
+11.06_20:02:38_240 10701 25891 DEBUG [XGMqttChannel] doActionWhenConnected
+11.06_20:02:38_241 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.06_20:02:38_241 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.06_20:02:38_242 10701 25891 INFO [Mqtt-TPush - Request] Update token to: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:02:38_245 10701 25891 INFO [Mqtt-TPush - IMqttServiceImpl] sendRequest Request{type=6, id=93970000069701005, topic='account', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","operateType":0,"timestamp":1793970158,"sdkVersion":"1.3.5.0","typeAccounts":[{"accountType":0,"account":"15603071_310794"}],"token":"03a8e891e59b2a7a42e2611ce0d69647d34f"}', retryCount=0}
+11.06_20:02:38_247 10701 2 DEBUG [PushServiceBroadcastHandler] TPushAppReceiver - onReceiver
+11.06_20:02:38_247 10701 25891 WARN [Mqtt-TPush - IMqttServiceImpl] gzip mqtt request size before: 319, after: 244
+11.06_20:02:38_247 10701 25891 DEBUG [MqttAsyncClient] action - publish, message is MqttPublish
+11.06_20:02:38_248 10701 25891 DEBUG [ClientComms] action - internalSend
+11.06_20:02:38_248 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.ENABLE_DEBUG.V4
+11.06_20:02:38_249 10701 25941 INFO [CommsSender] message:PUBLISH qos:1 msgId:6 retained:false dup:false topic:"_xg/rpc/send/gzip" payload:[hex:1fffffff8b08000000000000003dffffff8f4d4bffffffc4400cffffff86ffffffff4b utf8:"�       =�MK�@��K" length:244]
+11.06_20:02:38_251 10701 25941 DEBUG [ClientState] action - notifySent
+11.06_20:02:38_252 10701 25891 DEBUG [PushServiceBroadcastHandler] PushServiceRannable, intent action:com.tencent.android.xg.vip.action.REGISTER.V4
+11.06_20:02:38_255 10701 25891 DEBUG [TpnsSecurity] apkSignature already cached 
+11.06_20:02:38_258 10701 25891 INFO [NotificationsUtils] OS >= 26, return true
+11.06_20:02:38_266 10701 25891 DEBUG [RegReq] Register get tAd error, tAd not found
+11.06_20:02:38_266 10701 25891 TRACE [RegReq] Register(1520010077,0f993f99f2a6d9a586cf17a73896611f,,-1),payload:  channel id-1
+11.06_20:02:38_269 10701 25891 DEBUG [XGMqttChannel] doActionWhenConnected
+11.06_20:02:38_274 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRequest
+11.06_20:02:38_274 10701 25891 DEBUG [Mqtt-TPush - IMqttServiceImpl] action - sendRealRequest
+11.06_20:02:38_275 10701 25891 INFO [Mqtt-TPush - Request] Update token to: 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:02:38_276 10701 25891 INFO [Mqtt-TPush - IMqttServiceImpl] sendRequest Request{type=6, id=93970000069701006, topic='register', content='{"accessId":1520010077,"accessKey":"A3HVGXSNIFB3","deviceId":"0f993f99f2a6d9a586cf17a73896611f","appCert":"404bd22cb83b9efa52c6fc936069f151","ticket":"","ticketType":-1,"deviceType":0,"deviceInfo":{"imei":"","model":"RMX3370","os":"android","network":"WIFI","sdCard":"34225\/115230","sdDouble":"","resolution":"2290*1039","manu":"realme","apiLevel":"33","sdkVersionName":"13","isRooted":0,"appList":"","cpuInfo":"","language":"en","timezone":"Asia\/Ho_Chi_Minh","launcherName":"com.android.launcher","xgAppList":"","ntfBar":2,"tUinInfo":{"bootTime":"1793343015.438","countryCode":"GB","deviceName":"真我GT Neo2","carrierInfo":"45204","memorySize":"7863783424","diskSize":"115230060544","sysFileTime":""},"osVersion":"","channels":[{"state":3,"id":"nim_message_channel_001","name":"Instant messages channel"},{"state":2,"id":"nim_message_channel_002","name":"No disturbing instant messages channel"},{"state":3,"id":"nim_message_channel_003","name":"Just ring  channel"},{"state":3,"id":"nim_message_channel_004","name":"Just vibrate  channel"},{"state":4,"id":"xg-channle-id","name":"message"}]},"version":4,"keyEncrypted":0,"updateAutoTag":0,"appVersion":"1.9.3","clientid":"","connVersion":0,"channelId":-1,"otherPushTokenOpType":1,"otherPushTokenType":0,"otherPushTokenCrc32":0,"tokenCrc32":0,"otherPushData":"","sdkVersion":"1.3.5.0","channelToken":"fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI","channelType":"fcm","appPkgName":"com.onepunchman.sea.x7sy","tAd":0,"hwSdk":0,"cloudVersion":3,"timestamp":1793970158,"token":"03a8e891e59b2a7a42e2611ce0d69647d34f"}', retryCount=0}
+11.06_20:02:38_277 10701 25891 WARN [Mqtt-TPush - IMqttServiceImpl] gzip mqtt request size before: 1748, after: 965
+11.06_20:00:47_095 5979 2 TRACE [TBase - TPush] have writable external storage, write log file!
+11.06_20:00:47_099 5979 26153 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261106_2000.txt
+11.06_20:00:52_098 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:52_099 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:00:57_101 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:00:57_101 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:00_132 5979 25894 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.06_20:01:00_132 5979 25894 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.06_20:01:00_133 5979 25894 INFO [NotificationsUtils] OS >= 26, return true
+11.06_20:01:00_135 5979 25894 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.06_20:01:00_136 5979 25894 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.06_20:01:00_136 5979 25894 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.06_20:01:02_103 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:02_103 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:07_105 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:07_106 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:12_107 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:12_107 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:17_109 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:17_109 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:22_110 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:22_111 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:27_114 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:27_115 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:32_117 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:32_118 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:37_120 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:37_121 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:42_124 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:42_124 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:47_125 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:47_126 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:52_129 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:52_130 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:01:57_131 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:01:57_131 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:02_132 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:02_133 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:07_133 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:07_133 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:12_134 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:12_135 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:17_136 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:17_136 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:22_137 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:22_137 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:27_138 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:27_138 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:32_139 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:32_139 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:37_141 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:37_141 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:38_225 5979 25875 INFO [NotificationsUtils] OS >= 26, return true
+11.06_20:02:38_228 5979 25875 WARN [Base-TPush - XGApiConfigImpl] refresh Token
+11.06_20:02:38_228 5979 25846 DEBUG [XGPushConfig] isUsedTpnsChannel: true
+11.06_20:02:38_229 5979 25846 DEBUG [XGPushConfig] accountManagerByHttp from cloud: 2
+11.06_20:02:38_229 5979 25846 DEBUG [XGPushConfig] isUsedHttpAccountOperate: false
+11.06_20:02:38_230 5979 2 INFO [XGPushManager] enableService=1
+11.06_20:02:38_237 5979 25846 INFO [XGPushManager] start other push channel register !
+11.06_20:02:38_237 5979 25846 INFO [XGPushManager] start other push channel register !
+11.06_20:02:38_237 5979 25846 TRACE [XGPushConfig] isUsedOtherPush:true
+11.06_20:02:38_237 5979 25846 WARN [Util] unexpected for init oppo
+11.06_20:02:38_237 5979 25846 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.06_20:02:38_237 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:02:38_238 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:02:38_238 5979 25846 TRACE [XGPushConfig] isUsedOtherPush:true
+11.06_20:02:38_238 5979 25846 INFO [XGPushManager] invalid sync wait other channel push time:-1, reset to 4s 
+11.06_20:02:38_238 5979 2 DEBUG [XG_fcm]  OtherPushImpl registerFcmPush getToken= fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.06_20:02:38_238 5979 25846 WARN [Util] unexpected for init oppo
+11.06_20:02:38_239 5979 25846 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.06_20:02:38_239 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:02:38_239 5979 25846 INFO [XGPushManager] get fcmToken is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.06_20:02:38_239 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:02:38_239 5979 25846 WARN [Util] unexpected for init oppo
+11.06_20:02:38_239 5979 25846 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.06_20:02:38_240 5979 25846 DEBUG [XGPushConfig] channelId is not empty
+11.06_20:02:38_241 5979 25846 TRACE [XGPushConfig] isUsedOtherPush:true
+11.06_20:02:38_241 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:02:38_241 5979 25846 INFO [XGPushManager] other push token is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI  other push type: fcm
+11.06_20:02:38_242 5979 25846 DEBUG [XGPushManager] url = null payload = null otherPushType 0 otherPushTokenOpType 1
+11.06_20:02:38_242 5979 25846 DEBUG [XGPushConfig] isUsedTpnsChannel: true
+11.06_20:02:38_242 5979 25846 DEBUG [XGPushConfig] isUsedTpnsChannel: true
+11.06_20:02:38_242 5979 25846 DEBUG [Util] action getServiceStatus
+11.06_20:02:38_243 5979 25846 DEBUG [XGPushManager] serviceStatus:1, isHasBinded: true
+11.06_20:02:38_243 5979 25846 DEBUG [XGPushManager] send boardcast to register
+11.06_20:02:38_243 5979 25846 INFO [XGPushManager] Action -> Register to TPNS server
+11.06_20:02:38_315 5979 2 INFO [XGPushManager] Account call back to com.onepunchman.sea.x7sy
+11.06_20:02:38_345 5979 2 INFO [XGPushManager] Register call back to com.onepunchman.sea.x7sy
+11.06_20:02:38_345 5979 25846 DEBUG [XGPushManager] TYPE_RSP - operation:0, opType:0
+11.06_20:02:38_345 5979 25846 DEBUG [NotificationsUtils] updateLastUploadMd5Str:d588c180d8915da7128b97a72f628050,str:d588c180d8915da7128b97a72f628050
+11.06_20:02:38_345 5979 25846 DEBUG [XGPushManager] TYPE_RSP - has invoked callback
+11.06_20:02:38_346 5979 25846 TRACE [XGPushConfig] isUsedOtherPush:true
+11.06_20:02:38_346 5979 25846 DEBUG [XGPushManager] reportTpnsInfoToBugly | report tpnsInfo to bugly : TPNS INFO 03a8e891e59b2a7a42e2611ce0d69647d34f
+11.06_20:02:38_346 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:02:38_347 5979 25846 WARN [Util] unexpected for init oppo
+11.06_20:02:38_347 5979 25846 ERROR [OtherPushOppoImpl] registerPush Error for oppo null appid
+11.06_20:02:38_347 5979 25846 INFO [OtherPush] checkDevice pushClassNamecom.tencent.android.tpush.otherpush.fcm.impl.OtherPushImpl
+11.06_20:02:38_347 5979 25846 INFO [OtherPushClient] handleUpdateToken other push token is : fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI other push type: fcm
+11.06_20:02:38_347 5979 25846 INFO [OtherPushClient] Already bind OtherPush succeed token with accessId = 1520010077  token = 03a8e891e59b2a7a42e2611ce0d69647d34f otherPushType = fcm otherPushToken = fcTrSRx5FtY:APA91bFneuQrpOQ2srAU3JmUUNEt3xFblGA0Kdk6OtF8SGGjDnu__7QAl01gaDGXNZAuhDAikPTtLY1BvEVmMnpQcbPn2TMeTpsENSTdUm1GDP4y0B0ACgI
+11.06_20:02:38_348 5979 25925 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/heart,match:30
+11.06_20:02:38_349 5979 25925 TRACE [TBase - TPush] have writable external storage, write log file!
+11.06_20:02:38_350 5979 26153 TRACE [TBase - TPush] Write log file: /storage/emulated/0/Android/data/com.onepunchman.sea.x7sy/files/tencent/.TPush/Logs/log-20261106_2000.txt
+11.06_20:02:38_526 5979 25875 INFO [XGPushManager] Action -> setTags with all tags = dnyonline_csarena:en_US dnyonline_server7:en_US dnyonline_realpvp:en_US dnyonline_regplayer:en_US dnyonline_union:en_US dnyonline_regplayernew:en_US dnyonline_dayEnergy:en_US dnyonline_vip0:en_US dnyonline_level91:en_US
+11.06_20:02:42_141 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:42_141 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:47_142 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:47_142 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:52_145 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:52_145 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:02:57_147 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:02:57_147 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:00_174 5979 25925 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.06_20:03:00_174 5979 25925 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.06_20:03:00_174 5979 25925 INFO [NotificationsUtils] OS >= 26, return true
+11.06_20:03:00_177 5979 25925 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.06_20:03:00_177 5979 25925 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.06_20:03:00_177 5979 25925 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.06_20:03:02_148 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:02_149 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:07_151 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:07_151 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:12_154 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:12_154 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:17_156 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:17_157 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:22_158 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:22_159 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:27_161 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:27_161 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:32_162 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:32_162 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:37_163 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:37_163 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:42_165 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:42_165 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:47_167 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:47_167 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:52_167 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:52_167 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:03:57_168 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:03:57_168 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:02_171 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:02_171 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:07_173 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:07_173 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:12_174 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:12_175 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:17_176 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:17_176 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:22_177 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:22_178 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:27_179 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:27_180 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:32_182 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:32_182 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:37_183 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:37_184 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:42_185 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:42_185 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:47_187 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:47_188 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:52_190 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:52_191 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:04:57_193 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:04:57_193 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:00_295 5979 25867 INFO [XGPushProvider] getType uri:content://com.onepunchman.sea.x7sy.XGVIP_PUSH_AUTH/hbcyheck,match:82
+11.06_20:05:00_295 5979 25867 DEBUG [NotificationsUtils] onCheckNotification registerStatus: 1
+11.06_20:05:00_296 5979 25867 INFO [NotificationsUtils] OS >= 26, return true
+11.06_20:05:00_301 5979 25867 DEBUG [NotificationsUtils] lastNtfStr:d588c180d8915da7128b97a72f628050
+11.06_20:05:00_302 5979 25867 DEBUG [NotificationsUtils] currentNtfStr:d588c180d8915da7128b97a72f628050
+11.06_20:05:00_302 5979 25867 DEBUG [NotificationsUtils] notification not changed, or unRegistered
+11.06_20:05:02_195 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:02_196 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:07_197 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:07_198 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:12_199 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:12_199 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:17_201 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:17_201 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:22_202 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:22_203 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:27_204 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:27_204 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:32_206 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:32_206 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:37_208 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:37_209 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:42_210 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:42_211 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:47_212 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:47_213 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:52_214 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:52_215 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:05:57_216 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:05:57_217 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:06:02_218 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:06:02_219 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:06:07_221 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service
+11.06_20:06:07_222 5979 2 DEBUG [Util] action getServiceStatus
+11.06_20:06:12_224 5979 2 INFO [XGPushManager] com.onepunchman.sea.x7sycall start Push Service

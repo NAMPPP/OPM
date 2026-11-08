@@ -1,0 +1,318 @@
+11-01 10:02:25.846: [ui]DeviceIdStore: get file succeed, path=/data/user/0/com.onepunchman.sea.x7sy/ShadowPlugin_appPlugin/a8280e1da13e8e05b6d954054d60eb96/nim_device2
+11-01 10:02:25.846: [ui]DeviceIdStore: get file succeed, path=/data/user/0/com.onepunchman.sea.x7sy/ShadowPlugin_appPlugin/a8280e1da13e8e05b6d954054d60eb96/nim_device2
+11-01 10:02:25.846: [ui]DeviceIdStore: generate new device id: 3ea3e4e1-ce09-4e5a-b224-ba056aae3b97
+11-01 10:02:25.847: [ui]db: open plain database: event.db
+11-01 10:02:25.848: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:02:25.848: [ui]ui: ********** SDK UI Process Start **** Version: 8.9.122/2322/1/e934e185 **** APPKEY: a8280e1da13e8e05b6d954054d60eb96/null **** BUILD Version:33/30/realme/RMX3370 **** reduced IM:false **********
+11-01 10:02:25.849: [ui]PluginLoader: plugin [com.qiyukf.nimlib.mixpush.plugin.Plugin] found
+11-01 10:02:25.849: [ui]PluginLoader: plugin [com.qiyukf.nimlib.ysf.plugin.Plugin] found
+11-01 10:02:25.850: [ui]db: event db currentEventCount = 2
+11-01 10:02:25.852: [ui]framework: PluginInteractManager add MixPushInteract
+11-01 10:02:25.884: [ui]TransExec: register service completed, total size=16
+11-01 10:02:25.891: [ui]NetworkUtil: getNetWorkState result = WIFI
+11-01 10:02:25.893: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:02:25.894: [ui]ui: checkAndStartup main = null,aux = null
+11-01 10:02:25.896: [ui]core: start NimService from 1
+11-01 10:02:25.917: Log: shrink log success
+11-01 10:02:25.918: [push]core: ********** SDK Push Process Start **** sessionId:99cf9126-c36d-465d-8578-9b34469b5f72 **** reduced IM:false **** from:NimService ************
+11-01 10:02:25.919: [push]PluginLoader: plugin [com.qiyukf.nimlib.mixpush.plugin.Plugin] found
+11-01 10:02:25.922: [push]framework: PluginInteractManager add MixPushInteract
+11-01 10:02:25.922: [push]mix_push: mix push init config = null
+11-01 10:02:25.922: [push]core: fetch LBS on SDK init...
+11-01 10:02:25.932: [push]LBS: load cached LBS link address, links count=0, def links count=1
+11-01 10:02:25.932: [push]LBS: load cached nosdl address, links count=0
+11-01 10:02:25.932: [push]LBS: fetch LBS in background (sync)
+11-01 10:02:25.942: [push]LBS: initHighAvailable (sync), null
+11-01 10:02:25.944: [push]LBSIPVHelper: choose ip protocol version: IPV4
+11-01 10:02:25.945: [push]highAvailable: 11-01 10:02:25.945 1070-1070 [LV_APP][NE_HAV][unknown] 
+------------------- start -------------------
+
+11-01 10:02:25.948: [push]highAvailable: 11-01 10:02:25.948 1070-2541 [LV_APP][NE_HAV][http dns manager] [http dns][init] expired_time - time_now <= 2000ms update now
+
+11-01 10:02:25.948: [push]highAvailable: 11-01 10:02:25.948 1070-2541 [LV_APP][NE_HAV][http dns manager] [http dns] Begin update service
+
+11-01 10:02:25.948: [push]highAvailable_java: high_available: startHighAvailableEnvironment true
+11-01 10:02:25.948: [push]highAvailable: 11-01 10:02:25.948 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple]Invoke send multiple_time_out:2000 time_out:7000 use http dns:false
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.948 1070-1070 [LV_APP][NE_HAV][unknown] [lbs]SetAccIDGetter
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.948 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple]Invoke send multiple url
+-----------------------
+url list:
+host:httpdns.yunxindns.com url:https://httpdns.yunxindns.com/httpdns/v2/s
+host:httpdns.yunxindns.com url:https://59.111.211.9:443/httpdns/v2/s
+host:httpdns.yunxindns.com url:https://[2407:ae80:600:1004::163]:443/httpdns/v2/s
+host:httpdns.yunxindns.com url:https://59.111.211.10:443/httpdns/v2/s
+host:httpdns.yunxindns.com url:https://59.111.211.11:443/httpdns/v2/s
+host:httpdns.yunxindns.com url:https://59.111.211.12:443/httpdns/v2/s
+host:httpdns.yunxindns.com url:https://59.111.211.13:443/httpdns/v2/s
+host:httpdns.yunxindns.com url:https://59.111.211.14:443/httpdns/v2/s
+-----------------------
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.949 1070-1070 [LV_APP][NE_HAV][unknown] [lbs]SetRequestErrorCollector
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.949 1070-2542 [LV_PRO][NE_HAV][http_agent_work] [http tool]Post request to http lib info:
+url:https://httpdns.yunxindns.com/httpdns/v2/s
+type:GET
+time_out:7000
+host_from h_av:httpdns.yunxindns.com
+host_is_ip:false
+is_https_url:true
+Heads:
+    X-YUNXIN-BUSINESS:im_g1
+    X-YUNXIN-SDKVER:8.9.122_1_2322
+    X-YUNXIN-APPKEY:a8280e1da13e8e05b6d954054d60eb96
+    Host:httpdns.yunxindns.com
+
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.949 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple]Send sub url request:https://httpdns.yunxindns.com/httpdns/v2/s
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.949 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple]Start timer index:0
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.949 1070-1070 [LV_APP][NE_HAV][unknown] [lbs]ParseLBSResponse rsp:
+--------------------------
+{"common": {"lbs": "https://lbs-qiyu.netease.im/lbs/conf.jsp?devflag=qyonline", "lbs.backup": ["https://lbs-qiyu.netease.im/lbs/conf.jsp?devflag=qyonline"], "link": ["link.chatnos.com:8080"], "link.default": ["link.chatnos.com:8080"], "msg.stat.enable": false, "nos": ["http://45.127.128.24", "http://45.127.128.25"], "nosdl": "http://nos.netease.com", "nosdls": ["http://nos.netease.com"]}}
+--------------------------
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.949 1070-1070 [LV_PRO][NE_HAV][unknown] Reset Hosts size :1current index :0
+link.chatnos.com:8080
+----------------------------------
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.949 1070-1070 [LV_PRO][NE_HAV][unknown] Reset Hosts size :1current index :0
+link.chatnos.com:8080
+----------------------------------
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.949 1070-1070 [LV_PRO][NE_HAV][unknown] GetHost Hosts size :1 current index :0
+link.chatnos.com:8080
+----------------------------------
+
+11-01 10:02:25.949: [push]highAvailable: 11-01 10:02:25.949 1070-1070 [LV_APP][NE_HAV][unknown] [lbs]ParseLBSResponse parsel result = true,update active lbs
+
+11-01 10:02:25.951: [push]highAvailable_java: high_available: init true
+11-01 10:02:25.951: [push]LBS: create HighAvailable: com.qiyukf.nim.highavailable.HighAvailable@ec950ca
+11-01 10:02:25.951: [push]highAvailable: 11-01 10:02:25.951 1070-2543 [LV_APP][NE_HAV][lbs service] [count timer invoker] Invoke immediately
+
+11-01 10:02:25.951: [push]highAvailable: 11-01 10:02:25.951 1070-2543 [LV_APP][NE_HAV][lbs service] [lbs]UpdateLBS force = false AddressFamily:1
+
+11-01 10:02:25.951: [push]highAvailable: 11-01 10:02:25.951 1070-2543 [LV_APP][NE_HAV][lbs service] [lbs]UpdateLBS set updatting = true
+
+11-01 10:02:25.952: [push]highAvailable: 11-01 10:02:25.951 1070-2543 [LV_APP][NE_HAV][lbs service] [lbs]GetAccID accid : 
+
+11-01 10:02:25.952: [push]highAvailable: 11-01 10:02:25.952 1070-2543 [LV_APP][NE_HAV][lbs service] [lbs]Make param id : 
+
+11-01 10:02:25.952: [push]highAvailable: 11-01 10:02:25.952 1070-2543 [LV_APP][NE_HAV][lbs service] [lbs] Begin update LBS
+
+11-01 10:02:25.957: [push]highAvailable: 11-01 10:02:25.956 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple]Invoke send multiple_time_out:2000 time_out:7000 use http dns:true
+
+11-01 10:02:25.957: [push]highAvailable: 11-01 10:02:25.957 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple]Invoke send multiple url
+-----------------------
+url list:
+host:lbs-qiyu.netease.im url:https://lbs-qiyu.netease.im/lbs/conf.jsp?devflag=qyonline&k=a8280e1da13e8e05b6d954054d60eb96&sv=2322&pv=1&tp=1&networkType=0
+host:lbs-qiyu.netease.im url:https://lbs-qiyu.netease.im/lbs/conf.jsp?devflag=qyonline&k=a8280e1da13e8e05b6d954054d60eb96&sv=2322&pv=1&tp=1&networkType=0
+-----------------------
+
+11-01 10:02:25.957: [push]highAvailable: 11-01 10:02:25.957 1070-2542 [LV_PRO][NE_HAV][http_agent_work] [http tool]Post request to http lib info:
+url:https://lbs-qiyu.netease.im/lbs/conf.jsp?devflag=qyonline&k=a8280e1da13e8e05b6d954054d60eb96&sv=2322&pv=1&tp=1&networkType=0
+type:GET
+time_out:7000
+host_from h_av:lbs-qiyu.netease.im
+host_is_ip:false
+is_https_url:true
+Heads:
+    Host:lbs-qiyu.netease.im
+
+
+11-01 10:02:25.957: [push]highAvailable: 11-01 10:02:25.957 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple]Send sub url request:https://lbs-qiyu.netease.im/lbs/conf.jsp?devflag=qyonline&k=a8280e1da13e8e05b6d954054d60eb96&sv=2322&pv=1&tp=1&networkType=0
+
+11-01 10:02:25.957: [push]highAvailable: 11-01 10:02:25.957 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple]Start timer index:0
+
+11-01 10:02:25.969: [push]core: push client startup
+11-01 10:02:25.975: [push]core: nim service startup
+11-01 10:02:25.975: [push]core: start NimService onStartForeground false
+11-01 10:02:25.975: [push]core: NimService onStartCommand from#1 flags#0 startId#5
+11-01 10:02:25.976: [ui]main_conn: doConnect: tag#main_conn count#0
+11-01 10:02:25.976: [push]remote: UI process bound! service=NimService
+11-01 10:02:25.976: [ui]main_conn: doConnect: start & bind service#Intent { cmp=com.onepunchman.sea.x7sy/com.qiyukf.nimlib.service.NimService (has extras) }
+11-01 10:02:25.977: [push]core: start NimService onStartForeground false
+11-01 10:02:25.977: [push]core: NimService onStartCommand from#0 flags#0 startId#6
+11-01 10:02:26.003: [ui]mix_push: mix push init config = null
+11-01 10:02:26.009: [ui]InvocationMgr: on notify: Transaction: [id: 1, sync: false, priority: 0,   method: SdkLifecycleObserver/observeMainProcessInitCompleteResult]
+11-01 10:02:26.010: [ui]ui: main process init done!
+11-01 10:02:26.011: [ui]ui: SDK check PreferenceContentProvider
+11-01 10:02:26.011: [ui]ui: ComponentName = ComponentInfo{com.onepunchman.sea.x7sy/com.qiyukf.nimlib.ipc.cp.provider.PreferenceContentProvider}
+11-01 10:02:26.011: [ui]ui: class com.qiyukf.nimlib.ipc.cp.provider.PreferenceContentProvider is ContentProvider
+11-01 10:02:26.018: [ui]ui: ComponentInfo = ContentProviderInfo{name=com.smwl.smsdk.plugin.qiyukf.ipc.provider.preference className=com.qiyukf.nimlib.ipc.cp.provider.PreferenceContentProvider}
+11-01 10:02:26.018: [ui]SDKManifestCheck: PreferenceContentProvider config of authority in AndroidManifest.xml is invalid, please check it !
+11-01 10:02:26.018: [ui]SDKManifestCheck: PreferenceContentProvider config of authority in AndroidManifest.xml is invalid, please check it !
+11-01 10:02:26.018: [ui]SDKManifestCheck: PreferenceContentProvider config of authority in AndroidManifest.xml is invalid, please check it !
+11-01 10:02:26.018: [ui]SDKManifestCheck: PreferenceContentProvider config of processName in AndroidManifest.xml should be empty, please check it !
+11-01 10:02:26.018: [ui]SDKManifestCheck: PreferenceContentProvider config of processName in AndroidManifest.xml should be empty, please check it !
+11-01 10:02:26.018: [ui]SDKManifestCheck: PreferenceContentProvider config of processName in AndroidManifest.xml should be empty, please check it !
+11-01 10:02:26.018: [ui]ui: SDK AndroidManifest.xml mustCheck success !
+11-01 10:02:26.022: [ui]ui: ResponseFactoryUI register handlers done
+11-01 10:02:26.057: [ui]ui: ObserverManager add MsgServiceObserve/observeRecentContact
+11-01 10:02:26.057: [ui]ui: ObserverManager add MsgServiceObserve/observeRecentContactDeleted
+11-01 10:02:26.081: [ui]ui: ObserverManager add MsgServiceObserve/observeCustomNotification
+11-01 10:02:26.082: [ui]ui: ObserverManager add MsgServiceObserve/observeMsgStatus
+11-01 10:02:26.082: [ui]ui: ObserverManager add MsgServiceObserve/observeReceiveMessage
+11-01 10:02:26.082: [ui]ui: ObserverManager add AuthServiceObserver/observeOnlineStatus
+11-01 10:02:26.083: [ui]ui: ObserverManager add AuthServiceObserver/observeOnlineStatus
+11-01 10:02:26.083: [ui]ui: ObserverManager add MsgServiceObserve/observeCustomNotification
+11-01 10:02:26.087: [ui]main_conn: onServiceConnected: binder#android.os.BinderProxy@3824cfd
+11-01 10:02:26.087: [ui]main_conn: onConnected
+11-01 10:02:26.088: [push]remote: IPC duplex channel established
+11-01 10:02:26.091: [push]sdk_config_push: read sdk config from SP, sdk config=[1,1,1,1]
+11-01 10:02:26.093: [ui]sdk_config_ui: read sdk config from push, sdk config=[1,1,1,1]
+11-01 10:02:26.096: [ui]SDKCache: set login info, null
+11-01 10:02:26.096: [ui]ui: status not change，status =UNLOGIN
+11-01 10:02:26.096: [ui]InvocationMgr: on notify: Transaction: [id: 10, sync: false, priority: 0,   method: AuthServiceObserver/observeOtherClients]
+11-01 10:02:26.403: [push]highAvailable: 11-01 10:02:26.403 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple][rsp]Index:0 code :200
+
+11-01 10:02:26.403: [push]highAvailable: 11-01 10:02:26.403 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple][rsp]All url requested :false
+
+11-01 10:02:26.403: [push]highAvailable: 11-01 10:02:26.403 1070-2542 [LV_APP][NE_HAV][http_agent_work] [http dns] Check response index:0 code:200
+
+11-01 10:02:26.403: [push]highAvailable: 11-01 10:02:26.403 1070-2542 [LV_APP][NE_HAV][http_agent_work] [http dns] Check response res = true
+
+11-01 10:02:26.403: [push]highAvailable: 11-01 10:02:26.403 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple][rsp]Business check response true,index :0
+
+11-01 10:02:26.403: [push]highAvailable: 11-01 10:02:26.403 1070-2542 [LV_PRO][NE_HAV][http_agent_work] [multiple][rsp]Business check response url:https://httpdns.yunxindns.com/httpdns/v2/s
+
+11-01 10:02:26.404: [push]highAvailable: 11-01 10:02:26.404 1070-2542 [LV_APP][NE_HAV][http_agent_work] [http dns] Service update complete success = true
+
+11-01 10:02:26.404: [push]highAvailable: 11-01 10:02:26.404 1070-2542 [LV_PRO][NE_HAV][http_agent_work] [http dns] Service update complete 
+-----------------------
+{"ipv4":[{"port":443,"host":"34.49.191.111","https":true},{"port":443,"host":"20.247.241.248","https":true}],"updated_at":1670329867777,"host":"httpdns.yunxindns.com","ttl":86400}
+-----------------------
+
+11-01 10:02:26.404: [push]highAvailable: 11-01 10:02:26.404 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple]Request return,release request object
+
+11-01 10:02:26.406: [push]highAvailable: 11-01 10:02:26.406 1070-2541 [LV_APP][NE_HAV][http dns manager] [http dns] Update success ttl : 86400000 ms
+
+11-01 10:02:26.508: [ui]NOS_LBS: load cached nos upload server addresses from SP, ip count=0, default ip count=1
+11-01 10:02:26.509: [ui]NOS_LBS: fetch NOS LBS on SDK init...,thread = Thread[NIM-HT-DEFAULT,5,main]
+11-01 10:02:26.509: [ui]NOS_LBS: fetch nos upload server addresses from lbs on background
+11-01 10:02:26.509: [ui]NOS_LBS: fetch nos lbs, url=https://wanproxy-hz.127.net/lbs?version=1.0&bucketname=nim
+11-01 10:02:26.730: [push]highAvailable: 11-01 10:02:26.730 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple][rsp]Index:0 code :200
+
+11-01 10:02:26.730: [push]highAvailable: 11-01 10:02:26.730 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple][rsp]All url requested :false
+
+11-01 10:02:26.730: [push]highAvailable: 11-01 10:02:26.730 1070-2542 [LV_APP][NE_HAV][http_agent_work] [lbs] Check response current business token :a8280e1da13e8e05b6d954054d60eb96 request business token:a8280e1da13e8e05b6d954054d60eb96
+
+11-01 10:02:26.730: [push]highAvailable: 11-01 10:02:26.730 1070-2542 [LV_APP][NE_HAV][http_agent_work] [lbs] Check response index:0 code:200
+
+11-01 10:02:26.737: [push]highAvailable: 11-01 10:02:26.737 1070-2542 [LV_APP][NE_HAV][http_agent_work] [lbs] Check response res = true
+
+11-01 10:02:26.738: [push]highAvailable: 11-01 10:02:26.738 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple][rsp]Business check response true,index :0
+
+11-01 10:02:26.738: [push]highAvailable: 11-01 10:02:26.738 1070-2542 [LV_PRO][NE_HAV][http_agent_work] [multiple][rsp]Business check response url:https://lbs-qiyu.netease.im/lbs/conf.jsp?devflag=qyonline&k=a8280e1da13e8e05b6d954054d60eb96&sv=2322&pv=1&tp=1&networkType=0
+
+11-01 10:02:26.738: [push]highAvailable: 11-01 10:02:26.738 1070-2542 [LV_APP][NE_HAV][http_agent_work] [lbs] Update LBS complete current business token :a8280e1da13e8e05b6d954054d60eb96 request business token:a8280e1da13e8e05b6d954054d60eb96
+
+11-01 10:02:26.738: [push]highAvailable: 11-01 10:02:26.738 1070-2542 [LV_APP][NE_HAV][http_agent_work] [lbs] Update LBS success = true
+
+11-01 10:02:26.738: [push]highAvailable: 11-01 10:02:26.738 1070-2542 [LV_PRO][NE_HAV][http_agent_work] [lbs] Update LBS 
+-----------------------
+{"common":{"nos":["http://45.127.128.24","http://45.127.128.25"],"link":["link103-bgp.yunxinfw.com:443","link2-08.yunxinfw.com:8080","link2-09.yunxinfw.com:443","link2-09-bgp.yunxinfw.com:8080","link2-09.yunxinfw.com:9092","link2-08-bgp.yunxinfw.com:8080","link05-bgp.yunxinfw.com:443","link2-08.yunxinfw.com:80","link05-bgp.yunxinfw.com:80"],"nosdl":"http://nos.netease.com","weblink":[],"lbs":"https://lbs.netease.im/lbs/conf.jsp","link.default":["link-qiyu.netease.im:8080"],"region":"CN","nosdls":["http://nos.netease.com"],"desc":"qyonline"}}
+-----------------------
+
+11-01 10:02:26.738: [push]highAvailable: 11-01 10:02:26.738 1070-2542 [LV_APP][NE_HAV][http_agent_work] [lbs]ParseLBSResponse rsp:
+--------------------------
+{"common":{"nos":["http://45.127.128.24","http://45.127.128.25"],"link":["link103-bgp.yunxinfw.com:443","link2-08.yunxinfw.com:8080","link2-09.yunxinfw.com:443","link2-09-bgp.yunxinfw.com:8080","link2-09.yunxinfw.com:9092","link2-08-bgp.yunxinfw.com:8080","link05-bgp.yunxinfw.com:443","link2-08.yunxinfw.com:80","link05-bgp.yunxinfw.com:80"],"nosdl":"http://nos.netease.com","weblink":[],"lbs":"https://lbs.netease.im/lbs/conf.jsp","link.default":["link-qiyu.netease.im:8080"],"region":"CN","nosdls":["http://nos.netease.com"],"desc":"qyonline"}}
+--------------------------
+
+11-01 10:02:26.738: [push]highAvailable: 11-01 10:02:26.738 1070-2542 [LV_PRO][NE_HAV][http_agent_work] Reset Hosts size :9current index :0
+link103-bgp.yunxinfw.com:443
+link2-08.yunxinfw.com:8080
+link2-09.yunxinfw.com:443
+link2-09-bgp.yunxinfw.com:8080
+link2-09.yunxinfw.com:9092
+link2-08-bgp.yunxinfw.com:8080
+link05-bgp.yunxinfw.com:443
+link2-08.yunxinfw.com:80
+link05-bgp.yunxinfw.com:80
+----------------------------------
+
+11-01 10:02:26.738: [push]highAvailable: 11-01 10:02:26.738 1070-2542 [LV_PRO][NE_HAV][http_agent_work] Reset Hosts size :1current index :0
+link-qiyu.netease.im:8080
+----------------------------------
+
+11-01 10:02:26.739: [push]highAvailable: 11-01 10:02:26.738 1070-2542 [LV_PRO][NE_HAV][http_agent_work] GetHost Hosts size :1 current index :0
+link-qiyu.netease.im:8080
+----------------------------------
+
+11-01 10:02:26.739: [push]highAvailable: 11-01 10:02:26.739 1070-2542 [LV_APP][NE_HAV][http_agent_work] [lbs]ParseLBSResponse parsel result = true,update active lbs
+
+11-01 10:02:26.739: [push]highAvailable: 11-01 10:02:26.739 1070-2542 [LV_APP][NE_HAV][http_agent_work] [lbs]UpdateLBS set updatting = false
+
+11-01 10:02:26.739: [push]highAvailable: 11-01 10:02:26.739 1070-2542 [LV_APP][NE_HAV][http_agent_work] [multiple]Request return,release request object
+
+11-01 10:02:26.748: [push]LBS: update server address from LBS, links count=9, def links count=1, nosdl count=1
+11-01 10:02:26.748: [push]LBS: parse LBS json, origin content:{"common":{"nos":["http://45.127.128.24","http://45.127.128.25"],"link":["link103-bgp.yunxinfw.com:443","link2-08.yunxinfw.com:8080","link2-09.yunxinfw.com:443","link2-09-bgp.yunxinfw.com:8080","link2-09.yunxinfw.com:9092","link2-08-bgp.yunxinfw.com:8080","link05-bgp.yunxinfw.com:443","link2-08.yunxinfw.com:80","link05-bgp.yunxinfw.com:80"],"nosdl":"http://nos.netease.com","weblink":[],"lbs":"https://lbs.netease.im/lbs/conf.jsp","link.default":["link-qiyu.netease.im:8080"],"region":"CN","nosdls":["http://nos.netease.com"],"desc":"qyonline"}}
+11-01 10:02:26.976: [ui]NOS_LBS: fetch nos lbs result: {"lbs":"https:\/\/wanproxy.127.net\/lbs","upload":["http:\/\/nosup-hz1.127.net"]}
+11-01 10:02:26.979: [ui]NOS_LBS: save http upload server ip: http://nosup-hz1.127.net
+11-01 10:02:26.979: [ui]NOS_LBS: update nos upload server addresses from lbs, ip count=2, default ip count=1
+11-01 10:03:37.395: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:08:34.090: [ui]NetworkUtil: getNetWorkState result = NONE
+11-01 10:08:34.090: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:08:34.215: [ui]NetworkUtil: getNetWorkState result = MOBILE
+11-01 10:08:34.215: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:08:34.337: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:08:34.804: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:08:35.283: [ui]NetworkUtil: getNetWorkState result = WIFI
+11-01 10:08:35.612: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:08:37.544: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:25:42.289: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:25:45.343: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:26:18.687: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:26:21.731: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:26:30.842: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:26:33.878: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:27:31.526: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:27:34.571: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:27:40.642: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:27:46.728: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:27:55.846: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:27:58.875: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:28:11.011: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:28:14.045: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:30:09.261: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:30:21.401: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:30:30.520: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:30:36.575: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:30:57.759: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:31:03.820: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:31:31.145: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:31:34.176: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:31:58.468: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:32:07.579: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:32:13.662: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:32:19.724: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:32:22.747: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:33:47.667: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:33:50.689: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:34:24.036: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:34:42.277: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:34:45.308: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:35:03.533: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:35:06.572: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:35:21.783: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:36:46.639: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:36:55.708: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:37:07.811: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:37:13.889: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:37:32.070: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:37:41.201: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:38:20.632: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:38:23.688: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:38:57.066: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:52:56.917: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:52:59.978: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:53:15.150: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:53:21.215: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:56:23.215: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:56:35.325: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:57:02.594: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:57:05.607: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:57:11.684: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
+11-01 10:57:14.731: [ui]NetworkUtil: getNetworkOperatorName without permission to READ_PHONE_STATE
